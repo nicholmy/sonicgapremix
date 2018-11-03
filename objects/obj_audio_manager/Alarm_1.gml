@@ -1,0 +1,32 @@
+/// @description Play Act Music
+// Stop whatever is playing
+	StopSound(ZoneBGM);
+
+// Normal Zone Music
+	if (global.ZoneAct == 1) {
+		ZoneSetTheme(rm_zone, Test_Theme2, 0, -1, -1);
+		ZoneSetTheme(rm_gapZone, Test_Theme2, 0, -1, -1);
+		ZoneSetTheme(rm_TutorialZone, Test_Theme2, 0, -1, -1);
+		   
+		ZoneSetTheme(rm_test_zone, Test_Theme2, 0, -1, -1);
+		ZoneSetTheme(rm_test_zone2, Test_Theme2, 0, -1, -1);
+		ZoneSetTheme(rm_test_gapZone, Test_Theme, 0, -1, -1);
+	} else if (global.ZoneAct == 2) {
+		ZoneSetTheme(rm_zone, Test_Theme2, 0, -1, -1);
+		ZoneSetTheme(rm_gapZone, Test_Theme2, 0, -1, -1);
+		ZoneSetTheme(rm_TutorialZone, Test_Theme3, 0, -1, -1);
+		   
+		ZoneSetTheme(rm_test_zone2, Test_Theme3, 0, -1, -1);
+	}
+
+// Bonus Stages:
+	// Gumball:
+	    ZoneSetTheme(rm_bonus_gumball, Gumball_Theme, 0, -1, -1);
+
+/// Start Credits Theme.
+    ZoneSetTheme(rm_flicky_credits, Credits_Theme, 0, -1, -1);
+	
+/// Reset.
+    DeadFade = false;
+    global.BGMVolume = global.MaxBGMV;
+    global.SFXVolume = global.MaxSFXV;

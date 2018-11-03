@@ -1,0 +1,40 @@
+/// @description  Create parts of the Level.
+
+    // Camera:
+       instance_create(0, 0, obj_camera);       
+      
+    // Titel Card:
+       instance_create(0, 0, obj_title_card_controller);
+
+    // Character specific:
+       CharID   = 0;
+       alarm[0] = 5;
+    
+    // Cheat Input
+       CheatCode    = "";
+       CheatTime    = 30;
+       KonamiCode   = 0;
+       KonamiLoaded = noone;
+       KonamiSprite = noone;
+
+    // Reset Values:
+       if(global.BonusStage = false){
+          global.Rings        = 0;
+          global.Time         = 0;
+          global.GameTime     = 0;
+          global.DoTime       = 0;       
+          global.ObjectTime   = 0;
+          global.CharControl  = 0;
+          if(global.Ring100Check_Deactivate == false){
+             global.Ring100Check = 1;
+          }
+          FrameRate           = 60;
+          obj_audio_manager.DeadFade = false;
+       }
+
+
+/// Pause screen variables.
+    GamePaused = false;
+    GamePBG    = noone;
+
+

@@ -1,0 +1,30 @@
+{
+    "id": "cea528e7-1251-4da9-9e10-ba22986a503b",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "cea528e7-1251-4da9-9e10-ba22986a503b",
+    "children": [
+        "5aaf402f-d121-422f-875a-df4f7313529f",
+        "bbe89e1f-d8da-4cbc-b164-553c37f42e14",
+        "d3b48ec3-697b-4d50-b454-b550aa842ec0",
+        "537f710f-e3d8-4309-a438-3060771a1308",
+        "7f16c4bd-8c15-40f0-ba65-50f805a171e3",
+        "07dbf40e-2fef-4297-98ef-e95b583dcfa7",
+        "266520bf-35b6-44ef-88c9-95214e0c2ae0",
+        "79fd066c-99cc-412a-b78a-4d3ae3027c8b",
+        "57094d8f-e91e-4eb7-9355-c8c73d115f2d",
+        "3e7eebba-68f6-407d-9f3e-9d6e7b37a577",
+        "e33fa31a-1a13-4761-b374-465e3b714588",
+        "74a64ce6-3a37-4cd2-8f42-2164b0afe1c9",
+        "1a713cdd-f93b-4858-8e31-599a64f286e8",
+        "9c3848ac-bd32-43ab-a699-aaefd77efc51",
+        "50eed39b-16b3-435f-b088-f1a5c68aff3d",
+        "d05b72bb-bc9d-4d43-9d0d-11410fe2f460",
+        "2faf8ed9-71d0-4b5c-8117-93e2c792e9e5",
+        "3ab26411-6437-4181-b766-ebb73a8fb82f"
+    ],
+    "filterType": "GMSprite",
+    "folderName": "Amy Rose",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}
