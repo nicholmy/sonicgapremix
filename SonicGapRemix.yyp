@@ -8602,7 +8602,7 @@
             "Key": "b4123ce0-34f1-4662-89ff-247cfa519df6",
             "Value": {
                 "id": "6b6f5285-23f1-4e79-8652-965ee6bcbcd8",
-                "resourcePath": "objects\\par_character_act2spawn\\par_character_act2spawn.yy",
+                "resourcePath": "objects\\par_character_mightyspawn\\par_character_mightyspawn.yy",
                 "resourceType": "GMObject"
             }
         },

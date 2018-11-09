@@ -266,7 +266,10 @@ with (other) {
              obj_camera.y      = y;     
              obj_camera.Cam_XX = x;
              obj_camera.Cam_XX = y;                              
-       }
+       } else if (instance_exists(par_character_mightyspawn) && CharacterID == CharacterMighty) {
+		   x = par_character_mightyspawn.x;
+		   y = par_character_mightyspawn.y;
+	   }
     }
 
 

@@ -2,7 +2,7 @@
     "id": "b4123ce0-34f1-4662-89ff-247cfa519df6",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "par_character_act2spawn",
+    "name": "par_character_mightyspawn",
     "eventList": [
         
     ],
@@ -25,5 +25,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "9c6520f6-2f89-4a3e-9d76-d51aa97973ea",
-    "visible": true
+    "visible": false
 }
