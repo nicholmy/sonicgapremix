@@ -37,3 +37,4 @@
 	MajorBossFade = false;
 	UpdateActMusic = false;
 
+	alarm[1] = 1;

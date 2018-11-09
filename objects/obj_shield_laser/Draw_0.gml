@@ -22,7 +22,7 @@ for(var i = 0; i < max_length; i++){
 			PlaySound(shield_sound, global.SFXVolume, 1, 0);
 		}
 		
-		par_character.Shield_Usable = true;
+		par_character.ShieldUsable = true;
 		
 			   
 		break;

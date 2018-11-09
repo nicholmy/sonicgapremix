@@ -15,7 +15,10 @@
         "6341f41e-a1f0-47c4-a2b8-56af3cee94ac",
         "bb4fc48f-2ab0-4670-80bc-663b789295fb",
         "2b5919ee-f936-4f15-b980-680cacc25b42",
-        "13e18171-3002-4551-ac56-e230493ab9fe"
+        "13e18171-3002-4551-ac56-e230493ab9fe",
+        "2b695ecb-560a-4a8d-823c-e0393f45cab1",
+        "919e3130-7ae6-4887-a975-13b636047201",
+        "11a4072b-3216-4159-a226-cfb9bbff34f8"
     ],
     "filterType": "GMSprite",
     "folderName": "Storm Station",

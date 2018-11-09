@@ -1,6 +1,6 @@
 // Set Zone Informations:
    global.ZoneName = "TUTORIAL";
-   global.ZoneAct  = 1;
+   if (global.ZoneAct != 2) global.ZoneAct  = 1;
 
 // Set the Water Height:
    global.WaterSurfacePosition = -1;
