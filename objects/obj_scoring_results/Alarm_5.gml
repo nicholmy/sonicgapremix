@@ -23,6 +23,8 @@
 		  
           Act2Disappear = true;          
           global.ZoneAct++;
+		  global.CheckpointX = x;
+		  global.CheckpointY = y;
           
 		  TCard = instance_create(0, 0, obj_title_card_controller)
           TCard.SpecialFlag        = true;  

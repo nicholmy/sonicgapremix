@@ -266,9 +266,21 @@ with (other) {
              obj_camera.y      = y;     
              obj_camera.Cam_XX = x;
              obj_camera.Cam_XX = y;                              
-       } else if (instance_exists(par_character_mightyspawn) && CharacterID == CharacterMighty) {
-		   x = par_character_mightyspawn.x;
-		   y = par_character_mightyspawn.y;
+       } else if (global.ZoneAct == 1) {
+		   if (instance_exists(par_character_mightyspawn) && CharacterID == CharacterMighty) {
+			   x = par_character_mightyspawn.x;
+			   y = par_character_mightyspawn.y;
+		   } else if (instance_exists(par_character_rayspawn) && CharacterID == CharacterRay) {
+			   x = par_character_rayspawn.x;
+			   y = par_character_rayspawn.y;
+		   }
+	   } else if (global.ZoneAct == 2) {
+		   if (instance_exists(par_character_rayspawn2) && CharacterID == CharacterRay) {
+			   x = par_character_rayspawn2.x;
+			   y = par_character_rayspawn2.y;
+			   
+			   //obj_camera.Cam_LeftLimit  = x - 512; 
+		   }
 	   }
     }
 

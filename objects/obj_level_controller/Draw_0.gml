@@ -87,11 +87,19 @@
 			draw_set_font(global.Font_Letters){
 				draw_set_color(c_yellow){
 					draw_set_halign(fa_left);          
-					draw_text(screenX + screenWidth-128, screenY + screenHeight-76, "SHIELDU");    
+					draw_text(screenX + screenWidth-128, screenY + screenHeight-96, "SHIELDU");    
 					draw_set_halign(-1);
 					
 					draw_set_halign(fa_left);          
-					draw_text(screenX + screenWidth-128, screenY + screenHeight-66, "ACTION");    
+					draw_text(screenX + screenWidth-128, screenY + screenHeight-86, "ACTION");    
+					draw_set_halign(-1);
+					
+					draw_set_halign(fa_left);          
+					draw_text(screenX + screenWidth-128, screenY + screenHeight-76, "ANGLE");    
+					draw_set_halign(-1);
+					
+					draw_set_halign(fa_left);          
+					draw_text(screenX + screenWidth-128, screenY + screenHeight-66, "ANIMANG");    
 					draw_set_halign(-1);
 					
 					draw_set_halign(fa_left);          
@@ -105,11 +113,19 @@
 				
 				draw_set_color(c_white){
 						draw_set_halign(fa_right);          
-						draw_text(screenX + screenWidth-14, screenY + screenHeight-76, string(floor(par_character.ShieldUsable)));    
+						draw_text(screenX + screenWidth-14, screenY + screenHeight-96, string(floor(par_character.ShieldUsable)));    
 						draw_set_halign(-1);
 					
 						draw_set_halign(fa_right);          
-						draw_text(screenX + screenWidth-14, screenY + screenHeight-66, string(floor(par_character.Action)));    
+						draw_text(screenX + screenWidth-14, screenY + screenHeight-86, string(floor(par_character.Action)));    
+						draw_set_halign(-1);
+						
+						draw_set_halign(fa_right);          
+						draw_text(screenX + screenWidth-14, screenY + screenHeight-76, string(floor(par_character.Angle)));    
+						draw_set_halign(-1);
+						
+						draw_set_halign(fa_right);          
+						draw_text(screenX + screenWidth-14, screenY + screenHeight-66, string(floor(par_character.AnimationAngle)));    
 						draw_set_halign(-1);
 					
 						draw_set_halign(fa_right);          

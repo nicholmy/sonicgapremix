@@ -1,4 +1,4 @@
-/// @description  Keep the character within the level's boundaries.
+/// @description  Keep character in camera boundaries + Animation
 
    // Create the Sprite offset:
       var _SOffset = sprite_get_width(spr_mask_main) div 2;
@@ -310,8 +310,8 @@
    
    // Only run this if we're using the 360 rotation.
       if(global.AngleMode == 360){
-         if(!scr_character_collision_bottom_object(x,y, Angle, spr_mask_main, par_collision_solid_no_angle) && !scr_character_collision_bottom_object(x, y, Angle, spr_mask_main, par_collision_platform_no_angle)){
-            if(Ground && (AnimationDirection == 1 && Angle >= 45 && Angle <= 300) or (AnimationDirection == -1 && Angle >= 45 && Angle <= 310)){            
+         /*if(!scr_character_collision_bottom_object(x,y, Angle, spr_mask_main, par_collision_solid_no_angle) && !scr_character_collision_bottom_object(x, y, Angle, spr_mask_main, par_collision_platform_no_angle)){
+            if(Ground && (AnimationDirection == 1 && Angle >= 20 && Angle <= 340) or (AnimationDirection == -1 && Angle >= 20 && Angle <= 340)){            
                AnimationAngle = RelativeAngle; 
                TailAngle      = Angle;
             }else{
@@ -321,6 +321,15 @@
          }else{
                AnimationAngle = 0;
                TailAngle      = 0;         
+         }*/
+		 if(!scr_character_collision_bottom_object(x,y, Angle, spr_mask_main, par_collision_solid_no_angle) && !scr_character_collision_bottom_object(x, y, Angle, spr_mask_main, par_collision_platform_no_angle)){
+            if(Ground && (AnimationDirection == 1 && Angle >= 10 && Angle <= 350) or (AnimationDirection == -1 && Angle >= 10 && Angle <= 350)){            
+               AnimationAngle = RelativeAngle; 
+               TailAngle      = Angle;
+            }else{
+               AnimationAngle = scr_character_rotate_towards(0, AnimationAngle, 6);
+               TailAngle      = scr_character_rotate_towards(0, TailAngle, 6);  
+            }
          }
        }
           

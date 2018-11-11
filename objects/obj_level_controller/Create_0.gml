@@ -1,8 +1,13 @@
 /// @description  Create parts of the Level.
+	// Flag to start in Act 2 if needed
+	   if (Act2StartFlag) { 
+		   global.ZoneAct = 2;
+		   Act2StartFlag = false;
+	   }
 
     // Camera:
        instance_create(0, 0, obj_camera);       
-      
+	   
     // Titel Card:
        instance_create(0, 0, obj_title_card_controller);
 

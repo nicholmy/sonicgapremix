@@ -11,6 +11,10 @@
     YSpeed         = 0;                  // Vertical speed of the sign post.
     Finished       = 0;                  // Used when special flag is set to 1. Checks if this signpost is useless.
     image_speed    = 0;                  // You know what this does.
+	
+	if (global.ZoneAct == 2 && SpecialFlag) {
+		instance_destroy();
+	}
 
 
 

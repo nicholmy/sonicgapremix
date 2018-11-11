@@ -54,5 +54,17 @@
       if(Action = ActionSpindash or (Action = ActionPeelout && Animation = "PEELOUT")){
          draw_sprite_ext(spr_spindash_dust, current_time div 40, floor(x-AnimationDirection*7), floor(y+13), AnimationDirection, 1, 0, c_white, 1);         
       }
+	  
+	  if (debugFlag) {
+		  draw_sprite_ext(spr_mask_big, 0, floor(x), floor(y), 1, 1, 0, -1, 1);
+		  //Top
+		  draw_sprite_ext(spr_mask_big, 0, floor(x - sin(degtorad(Angle)) * 11), floor(y - cos(degtorad(Angle)) * 11), 1, 1, 0, -1, 1);
+		  // Bottom
+		  draw_sprite_ext(spr_mask_big, 0, floor(x + sin(degtorad(Angle)) * 11), floor(y + cos(degtorad(Angle)) * 11), 1, 1, 0, -1, 1);
+		  // Right
+		  draw_sprite_ext(spr_mask_big, 0, floor(x + cos(degtorad(Angle)) * 11), floor(y - sin(degtorad(Angle)) * 11), 1, 1, 0, -1, 1);
+		  // Left
+		  draw_sprite_ext(spr_mask_big, 0, floor(x - cos(degtorad(Angle)) * 11), floor(y + sin(degtorad(Angle)) * 11), 1, 1, 0, -1, 1);
+	  }
 
 
