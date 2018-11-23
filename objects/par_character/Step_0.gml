@@ -125,7 +125,7 @@
         scr_character_handle_platforms();
         scr_character_handle_launch_sensor();   
         scr_character_handle_bonus_objects();
-		scr_character_handle_hammerables(); 
+		scr_character_handle_breakables(); 
 		scr_character_handle_walltreadmill();
 		scr_character_handle_gaps();
 		scr_character_handle_hanging();
@@ -210,7 +210,7 @@ if (Allow_YMovement) {
             scr_character_handle_enemies()        
             scr_character_handle_monitors("Top");            
             scr_character_handle_bonus_objects();
-			scr_character_handle_hammerables(); 
+			scr_character_handle_breakables(); 
 			scr_character_handle_walltreadmill();
 			scr_character_handle_gaps();
 			scr_character_handle_hanging();

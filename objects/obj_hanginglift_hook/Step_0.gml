@@ -1,8 +1,9 @@
-/// @description Stuff
+/// @description Handle moving and stop sounds
 depth = 5;
 
 if (isTriggered) {
 	alarm[0] = 10;
+	isTriggered = false;
 }
 
 if (isMoving && inUse && y > originY - liftDistance) {

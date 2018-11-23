@@ -3,7 +3,7 @@
    global.ZoneAct  = 1;
 
 // Set the Water Height:
-   global.WaterSurfacePosition = -1;
+   global.WaterSurfacePosition = 2600;
   
 // Death Height: 
    global.DeathHeight   = noone;

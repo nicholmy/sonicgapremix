@@ -279,7 +279,7 @@ with (other) {
 			   x = par_character_rayspawn2.x;
 			   y = par_character_rayspawn2.y;
 			   
-			   //obj_camera.Cam_LeftLimit  = x - 512; 
+			   
 		   }
 	   }
     }

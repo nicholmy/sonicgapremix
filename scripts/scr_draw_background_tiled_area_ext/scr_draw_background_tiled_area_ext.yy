@@ -1,8 +1,8 @@
 {
-    "id": "c8a485d8-a85f-4bef-b33b-84a2c5492f0d",
+    "id": "b525a8dc-855f-4c50-bf2d-e949a0fa7370",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_character_handle_hammerables",
+    "name": "scr_draw_background_tiled_area_ext",
     "IsCompatibility": false,
     "IsDnD": false
 }

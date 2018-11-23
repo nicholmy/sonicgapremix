@@ -171,13 +171,13 @@
   
   // Spring Animation            
      if(Animation = "SPRING"){
-        AnimationSprite      = spr_mighty_spring;         
+        AnimationSprite      = spr_ray_spring;         
         AnimationStart       = 0;
-        AnimationEnd         = 0;
+        AnimationEnd         = 1;
         AnimationLoop        = 0;
-        AnimationSpeed       = 0;
-        AnimationRepeat      = 0;
-        AnimationRepeatTimes = 0;
+        AnimationSpeed       = 0.5;
+        AnimationRepeat      = 1;
+        AnimationRepeatTimes = -1;
         AnimationLinkedTo    = "NONE";
      }
            

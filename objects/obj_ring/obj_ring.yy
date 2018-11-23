@@ -73,7 +73,22 @@
         
     ],
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "4f66e632-8fd1-43d6-a7fd-f4c3847c54e9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "isMagnetic",
+            "varType": 3
+        }
+    ],
     "solid": false,
     "spriteId": "d740f22d-ab3d-45a7-a76b-d0c2a5575811",
     "visible": true

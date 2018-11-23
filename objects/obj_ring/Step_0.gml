@@ -24,6 +24,8 @@
           }else{
                 IsAttracted = 0;
           }
+		  
+		  if (!isMagnetic) IsAttracted = 0;
           
              // While Attracted, move towards the character:
                 if(IsAttracted == 1){

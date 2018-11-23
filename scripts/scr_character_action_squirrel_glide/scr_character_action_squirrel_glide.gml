@@ -42,13 +42,16 @@ if(Action = ActionJump && !Ground && ShieldUsable == true && KeyAction_Pressed){
         // Create Electric Sparks:
 		ShieldChild.Shield_State = "spark";
 		
-		GlideSpeed += 5;
+		GlideSpeed += 6;
 		GlideAngleDirection = -1;
 		GlideAngle = 45;
 	} else if (Shield == ShieldFlames) {
 		// Set the Shield to Dashing:
 		ShieldChild.Shield_State = "dash";
-		ShieldChild.image_xscale = 0;
+		
+		//if (InvTime > 0) {
+			//ShieldChild.image_xscale = 0;
+		//}
                   
 		// Play Shield sound:  
 		PlaySound(snd_shield_use_flame, global.SFXVolume, -1, true);
@@ -68,7 +71,8 @@ if(Action = ActionSquirrelGlide){
 	if (GlideAngle == 0) {
 		GlideSpeed -= 0.125;
 	}
-	GlideSpeed = max(GlideSpeed, 1);
+	// Cap your glide speed because otherwise this gets ridiculous
+	GlideSpeed = min(max(GlideSpeed, 1), 16);
 	
 	XSpeed = GlideSpeed * dcos(GlideAngle) * AnimationDirection;
 	
@@ -97,7 +101,7 @@ if(Action = ActionSquirrelGlide){
 	// Change your gliding direction depending on where you're facing
 	if ((XSpeed > 0 && KeyLeft_Pressed) || (XSpeed < 0 && KeyRight_Pressed) ) {
 		// If you're actually heading downwards, get a speed boost
-		if (GlideAngle <= -45) {
+		if (GlideAngle < -22.5) {
 			GlideSpeed += GlideBoost;
 			PlaySound(snd_character_spindash_release, global.SFXVolume, 1, 1);
 		}

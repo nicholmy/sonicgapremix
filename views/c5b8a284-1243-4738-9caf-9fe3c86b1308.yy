@@ -8,7 +8,8 @@
         "d02e9e4b-6078-419b-b225-f00938123323",
         "f65e4a1a-eb0b-4118-b206-95a946a2964d",
         "2320159f-8c44-463e-8eed-fe5ca3da7d47",
-        "5e82b3ce-5111-4631-846e-952f80b2ee06"
+        "5e82b3ce-5111-4631-846e-952f80b2ee06",
+        "0f71b19f-55df-470e-9ebb-60eb9ccb041c"
     ],
     "filterType": "GMSprite",
     "folderName": "Aquatic Ruin Zone",

@@ -1,12 +1,15 @@
 /// @description  Create parts of the Level.
-	// Flag to start in Act 2 if needed
-	   if (Act2StartFlag) { 
-		   global.ZoneAct = 2;
-		   Act2StartFlag = false;
-	   }
+	
 
     // Camera:
        instance_create(0, 0, obj_camera);       
+	   
+	   // Flag to start in Act 2 if needed
+	   if (Act2StartFlag) { 
+		   global.ZoneAct = 2;
+		   Act2StartFlag = false;
+		   obj_camera.Cam_LeftLimit  = __view_get( e__VW.XView, 0 ); 
+	   }
 	   
     // Titel Card:
        instance_create(0, 0, obj_title_card_controller);

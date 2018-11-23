@@ -13,4 +13,3 @@
  // Draw the Surface:
     scr_draw_sprite_tiled_horizontal(spr_water_surface, current_time div 80, __view_get( e__VW.XView, 0 ), global.WaterSurfacePosition);
 
-

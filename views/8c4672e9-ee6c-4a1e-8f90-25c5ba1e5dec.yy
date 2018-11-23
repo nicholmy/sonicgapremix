@@ -17,7 +17,11 @@
         "b2af98a3-5538-41f0-a4e9-fdb792cc7363",
         "713fb15f-2380-449d-a30a-31b01f76b6de",
         "96471508-fb23-4e12-a775-21c693e5bd57",
-        "801d022e-bfaf-4fe5-845f-add7ae974052"
+        "d631aaf3-3cc1-41bb-b393-05eb06583b4b",
+        "801d022e-bfaf-4fe5-845f-add7ae974052",
+        "8cf7bdac-4f94-43c2-8174-cb8dc4a5ac28",
+        "bbbc4a9d-0abc-4cca-9ea7-74723943f9ff",
+        "7cada878-5a6b-44b3-8d2a-a86b9f26ad47"
     ],
     "filterType": "GMObject",
     "folderName": "Handle",
