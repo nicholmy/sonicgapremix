@@ -1,10 +1,15 @@
-/// @description On destroy, create debris
-piece1 = instance_create(x-8, y, obj_sky_collapse_pieces);
-piece2 = instance_create(x-8, y-16, obj_sky_collapse_pieces);
-piece3 = instance_create(x+8, y, obj_sky_collapse_pieces);
-piece4 = instance_create(x+8, y-16, obj_sky_collapse_pieces);
+/// @description Make sound and create debris
 
-piece1.XSpd = -2;
-piece2.XSpd = -2;
-piece3.XSpd = 2;
-piece4.XSpd = 2;
+// Inherit the parent event
+event_inherited();
+
+piece1 = instance_create(x-8, y-16, breakablePiece);
+piece2 = instance_create(x+8, y-16, breakablePiece);
+piece3 = instance_create(x-8, y, breakablePiece);
+piece4 = instance_create(x+8, y, breakablePiece);
+
+
+piece1.XSpeed = -2;
+piece2.XSpeed = 2;
+piece3.XSpeed = -4;
+piece4.XSpeed = 4;

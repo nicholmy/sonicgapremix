@@ -46,15 +46,15 @@ if(Action = ActionJump && !Ground && ShieldUsable == true && KeyAction_Pressed){
 		GlideAngleDirection = -1;
 		GlideAngle = 45;
 	} else if (Shield == ShieldFlames) {
-		// Set the Shield to Dashing:
-		ShieldChild.Shield_State = "dash";
-		
 		//if (InvTime > 0) {
 			//ShieldChild.image_xscale = 0;
 		//}
                   
 		// Play Shield sound:  
 		PlaySound(snd_shield_use_flame, global.SFXVolume, -1, true);
+		
+		// Set the Shield to Dashing:
+		ShieldChild.Shield_State = "dash";
 		
 		GlideSpeed += 6;
 		GlideAngleDirection = 0;
@@ -76,6 +76,7 @@ if(Action = ActionSquirrelGlide){
 	
 	XSpeed = GlideSpeed * dcos(GlideAngle) * AnimationDirection;
 	
+	// Fall if you're not gliding fast enough
 	if (GlideSpeed <= 1) {
 		if (YSpeed > -dsin(GlideAngle)) YSpeed = dsin(GlideAngle);
 		if (GlideAngle == 0) { 
@@ -98,7 +99,7 @@ if(Action = ActionSquirrelGlide){
 	
 	
 	
-	// Change your gliding direction depending on where you're facing
+	// Change your gliding direction based on whether you pull back or forward
 	if ((XSpeed > 0 && KeyLeft_Pressed) || (XSpeed < 0 && KeyRight_Pressed) ) {
 		// If you're actually heading downwards, get a speed boost
 		if (GlideAngle < -22.5) {

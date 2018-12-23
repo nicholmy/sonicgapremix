@@ -2,7 +2,7 @@
  // This Object handles most Audio related things, make sure to change this for your game!
     
  // Variables (do not edit this if unsure)
-    ZoneBGM     =    "";
+    ZoneBGM     =    0;
     SampleRate  = 41100;
     PitchChange =  true;
     PitchValue  =     0;
@@ -13,6 +13,11 @@
     Test_Theme   = (bgm_intro_zone);
 	Test_Theme2  = (bgm_test_zone2);
 	Test_Theme3  = (bgm_test_zone3);
+	Sky_Station1 = (bgm_skystation_1);
+	Sky_Station2 = (bgm_skystation_2);
+	Star_Station1 = (bgm_starstation_1);
+	Star_Station2 = (bgm_starstation_2);
+	
 	Minor_Boss_Theme = (bgm_minor_boss);
 	Major_Boss_Theme = (bgm_minor_boss);
  

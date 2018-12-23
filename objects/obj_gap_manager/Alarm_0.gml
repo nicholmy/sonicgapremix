@@ -14,7 +14,10 @@ if (currentGapSize == 1) {
 }
 
 // 100%, 75%, 50%, 25%, 10%, 10%, ...
-comboTotal += ceil(baseScore * (1 - min(gapStaleList[currentGapID] * 0.25, 0.9)));
+pointsAwarded += ceil(baseScore * (1 - min(gapStaleList[currentGapID] * 0.25, 0.9)));
+
+// Add points to the total
+alarm[1] = 1;
 
 scoreEffect = instance_create(par_character.x, par_character.y, obj_effect_score);
 scoreEffect.image_index = imgIndex;

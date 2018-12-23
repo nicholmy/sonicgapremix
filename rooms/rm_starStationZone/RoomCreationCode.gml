@@ -1,5 +1,5 @@
 // Set Zone Informations:
-   global.ZoneName = "TUTORIAL";
+   global.ZoneName = "STAR STATION";
    if (global.ZoneAct != 2) global.ZoneAct  = 1;
 
 // Set the Water Height:

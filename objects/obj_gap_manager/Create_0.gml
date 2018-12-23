@@ -1,9 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Set Gaps Here
 gapNameList = [
+	"Hello World Sling",
 	"Hello World Ramp",
 	"Hello World Transfer",
-	"Hello World Sling",
 	"Hello World Batjump",
 	"Hello World Hop"];
 	

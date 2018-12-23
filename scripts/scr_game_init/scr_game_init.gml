@@ -19,7 +19,7 @@
       global.Key_ACTION_HeldTimer = 0;
       
    // Gamepad Input:
-      global.Controller_Input_Found = (gamepad_get_device()) 
+      global.Controller_Input_Found = (gamepad_get_device_count()) 
       global.Controller_Up          = (gp_padu);
       global.Controller_Down        = (gp_padd); 
       global.Controller_Left        = (gp_padl);          

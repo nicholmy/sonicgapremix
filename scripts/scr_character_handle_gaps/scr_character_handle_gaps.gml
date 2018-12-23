@@ -86,7 +86,7 @@ if instance_exists(obj_gap_manager) {
 	// Handle Combos
 	isComboFailAction = Action == ActionNormal || Action == ActionHurt || Action == ActionDie || Action == ActionCrouch || Action == ActionLookup;
 
-	if (obj_gap_manager.chainCount > 0 && isComboFailAction) {
+	if (obj_gap_manager.comboTotal > 0 && isComboFailAction && Invincibility == 0) {
 		//if (obj_gap_manager.chainCount > 1) {
 			PlaySound(snd_scoring_result, global.SFXVolume, 1, 1);
 		//}

@@ -6,7 +6,8 @@
 	if (global.ZoneAct == 1) {
 		ZoneSetTheme(rm_zone, Test_Theme2, 0, -1, -1);
 		ZoneSetTheme(rm_gapZone, Test_Theme2, 0, -1, -1);
-		ZoneSetTheme(rm_TutorialZone, Test_Theme2, 0, -1, -1);
+		ZoneSetTheme(rm_SkyStationZone, Sky_Station1, 0, -1, -1);
+		ZoneSetTheme(rm_StarStationZone, Star_Station1, 0, -1, -1);
 		   
 		ZoneSetTheme(rm_test_zone, Test_Theme2, 0, -1, -1);
 		ZoneSetTheme(rm_test_zone2, Test_Theme2, 0, -1, -1);
@@ -14,8 +15,8 @@
 	} else if (global.ZoneAct == 2) {
 		ZoneSetTheme(rm_zone, Test_Theme2, 0, -1, -1);
 		ZoneSetTheme(rm_gapZone, Test_Theme2, 0, -1, -1);
-		ZoneSetTheme(rm_TutorialZone, Test_Theme3, 0, -1, -1);
-		   
+		ZoneSetTheme(rm_SkyStationZone, Sky_Station2, 0, -1, -1);
+		ZoneSetTheme(rm_StarStationZone, Star_Station2, 0, -1, -1);
 		ZoneSetTheme(rm_test_zone2, Test_Theme3, 0, -1, -1);
 	}
 

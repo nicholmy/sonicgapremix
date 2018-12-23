@@ -1,5 +1,5 @@
 /// @description scr_character_handle_spikes()
-// Handels Spikes:
+// Handles Spikes:
     
    // Find a Spike that hurts you on the top:
       Harmful_Spike_Up = scr_character_collision_bottom_object(x, y, 0, spr_mask_big, obj_spike_up);
@@ -32,7 +32,7 @@
 				HasSpikeTapped = 0;
 				JumpLock = false;
 				
-                PlaySound(snd_character_spikebump, global.SFXVolume, 1, 1);
+                
 				
                 if (Action = ActionHammerDrop && Shield == ShieldFlames) {
 			        // Set the Shield to Dashing:
@@ -44,25 +44,30 @@
 			            PlaySound(snd_shield_use_flame, global.SFXVolume, -1, true); 
                   
 			        // Set the X Speed and Y Speed:
-			            XSpeed = AnimationDirection*10;
+			            XSpeed = AnimationDirection*12;
 			        // Camera Lag:
 			            obj_camera.Cam_Lag = 140;
                      
 			        // Enable the Attack flag:
 			            ShieldAttack = 1;
 	
-				} else if (Action = ActionHammerDrop && Shield == ShieldBubble) {
+				} else if (Action = ActionHammerDrop && (Shield == ShieldBubble || Shield == ShieldElectricity)) {
 					XSpeed = 0;
 					YSpeed = -8;
 				}
 				
 				if (Action = ActionHammerDrop && Shield != ShieldDefault) {
+					// Set the Init. Frame of the Shield if activated:
 					if (Shield == ShieldBubble) {
-						// Set the Init. Frame of the Shield:
 						ShieldChild.Shield_State = "startBounce";
+						PlaySound(snd_shield_use_bubble, global.SFXVolume, -1, true);
+					} else if (Shield == ShieldElectricity) {
+						ShieldChild.Shield_State = "spark";
+						PlaySound(snd_shield_use_electricity, global.SFXVolume, -1, true);
 					}
 					Action = ActionJump;
 				} else {
+					PlaySound(snd_character_spikebump, global.SFXVolume, 1, 1);
 					Action = ActionUncurl;
 				}
             } else if (Action = ActionJump && abs(XSpeed) >= 2 && (HasSpikeTapped || abs(YSpeed) < 0.5)) {

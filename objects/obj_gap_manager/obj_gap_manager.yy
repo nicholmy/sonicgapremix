@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "db537899-0b78-4b23-af77-c569d0d65bca"
+        },
+        {
+            "id": "5311408d-9b9c-43f3-bada-6d30eda24759",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "db537899-0b78-4b23-af77-c569d0d65bca"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -163,6 +173,20 @@
             "value": "0",
             "varName": "debugFlag",
             "varType": 3
+        },
+        {
+            "id": "06909dd5-1b03-4d9e-9d15-fb0c5b79cd66",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "pointsAwarded",
+            "varType": 1
         }
     ],
     "solid": false,

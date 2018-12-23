@@ -207,7 +207,7 @@
     
   // Hurt Animation            
      if(Animation = "HURT"){
-        AnimationSprite      = spr_mighty_hurt;         
+        AnimationSprite      = spr_ray_hurt;         
         AnimationStart       = 0;
         AnimationEnd         = 4;
         AnimationLoop        = 3;

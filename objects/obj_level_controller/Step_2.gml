@@ -1,4 +1,4 @@
-/// @description  (Un)Pause Game.
+/// @description  (Un)Pause Game. & Activate Instances
 /// @param Un
 
     
@@ -86,6 +86,7 @@
        instance_activate_object(par_collision_moving);
 	   instance_activate_object(par_gimmick_extendchain);
 	   instance_activate_object(obj_hanginglift_hook);
+	   instance_activate_object(par_obj_debris);
         
        }
        

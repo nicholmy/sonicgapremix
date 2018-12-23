@@ -42,8 +42,7 @@
         "406a9602-a503-4677-bdd7-65be95fbc9aa",
         "1724d1ce-8938-43cb-a201-1b3bb89bacc9",
         "aa16098e-31da-499b-9100-781c4474fe0a",
-        "5851318e-e1b2-4af3-aac9-ce20dba782bc",
-        "226da431-71b3-4666-b808-228acc17ee70"
+        "c0282254-4147-4670-bfe6-0451e2c12752"
     ],
     "filterType": "GMObject",
     "folderName": "Test Zone",
