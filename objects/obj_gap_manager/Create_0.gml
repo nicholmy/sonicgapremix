@@ -3,8 +3,9 @@ gapNameList = [
 	"Hello World Sling",
 	"Hello World Ramp",
 	"Hello World Transfer",
-	"Hello World Batjump",
-	"Hello World Hop"];
+	"Hello World Mighty",
+	"Hello World Ray",
+	"Over the Loop"];
 	
 gapStaleList = array_create(5);
 

@@ -106,6 +106,20 @@
             "value": "0",
             "varName": "notEnd",
             "varType": 3
+        },
+        {
+            "id": "cab644cc-0fec-4e27-a45e-a715510659b0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "charHighlight",
+            "varType": 1
         }
     ],
     "solid": false,

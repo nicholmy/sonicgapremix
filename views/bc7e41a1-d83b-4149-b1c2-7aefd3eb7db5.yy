@@ -22,7 +22,9 @@
         "3739d282-5888-45f6-9542-0911fe25b667",
         "2eef3339-0f09-4438-8cbf-9e0285806344",
         "ebd6afc4-fe05-40d3-bed0-17dad29c0bd9",
-        "12398d1a-098f-41dc-b637-a9a41d8d6559"
+        "12398d1a-098f-41dc-b637-a9a41d8d6559",
+        "43518cb1-dfcd-42eb-9f27-14883524c952",
+        "444a7295-ff39-47e8-8c60-1fe695695df8"
     ],
     "filterType": "GMSprite",
     "folderName": "Death Egg",

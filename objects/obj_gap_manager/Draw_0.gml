@@ -19,7 +19,28 @@ draw_set_font(global.Font_Letters){
 		draw_set_halign(-1);                
 	}
 	
-	draw_set_color(c_white){
+	var gapColor = c_white;
+	switch (charHighlight) {
+		case 1:
+			gapColor = c_blue;
+			break;
+		case 2:
+			gapColor = c_yellow;
+			break;
+		case 3:
+			gapColor = c_red;
+			break;
+		case 4:
+			gapColor = c_fuchsia;
+			break;
+		case 5:
+			gapColor = c_maroon;
+			break;
+		case 6:
+			gapColor = c_orange;
+			break;
+	}
+	draw_set_color(gapColor) {
 		//A negative gap id (-1) means no trick is being done
 		if (currentGapID >= 0) {
 			draw_set_halign(fa_right);          
@@ -32,7 +53,9 @@ draw_set_font(global.Font_Letters){
 				draw_set_halign(-1);
 			}
 		}
-		
+	}
+	
+	draw_set_color(c_white){		
 		draw_set_halign(fa_right);          
 		draw_text(screenX + screenWidth-14, screenY + screenHeight-36, string_hash_to_newline(chainCount));    
 		draw_set_halign(-1);

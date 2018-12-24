@@ -43,6 +43,26 @@
             "enumb": 1,
             "eventtype": 2,
             "m_owner": "db537899-0b78-4b23-af77-c569d0d65bca"
+        },
+        {
+            "id": "c87c249f-a736-4575-9355-3ec58bdfc421",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "db537899-0b78-4b23-af77-c569d0d65bca"
+        },
+        {
+            "id": "a4025649-1601-4184-af18-b0969e9ed976",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 3,
+            "eventtype": 2,
+            "m_owner": "db537899-0b78-4b23-af77-c569d0d65bca"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -170,7 +190,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "True",
             "varName": "debugFlag",
             "varType": 3
         },
@@ -186,6 +206,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "pointsAwarded",
+            "varType": 1
+        },
+        {
+            "id": "494b7b2b-07e9-47b8-b573-543138fb4707",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "charHighlight",
             "varType": 1
         }
     ],
