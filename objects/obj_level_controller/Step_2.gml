@@ -87,6 +87,11 @@
 	   instance_activate_object(par_gimmick_extendchain);
 	   instance_activate_object(obj_hanginglift_hook);
 	   instance_activate_object(par_obj_debris);
+	   instance_activate_object(obj_polepod_spawner);
+	   instance_activate_object(obj_polepod_outside);
+	   instance_activate_object(obj_polepod_inside);
+	   instance_activate_object(obj_polepod_door);
+	   instance_activate_object(obj_polepod_stopper);
         
        }
        

@@ -1,5 +1,5 @@
 /// @description  Global Timers.
-
+	
     if(global.BonusStage == false && GamePaused == false){
        if(global.DoTime > 0){
           if(global.GameTime < 599999){

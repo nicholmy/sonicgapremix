@@ -22,7 +22,8 @@
         "f41ffcec-2aac-44ee-b67e-6d7f2fee9762",
         "438da191-0e80-4b9a-9de1-6c90eda50c04",
         "56fd14ec-0ee5-4973-9bfc-2b5db5eb327c",
-        "b29bd5ec-606c-4134-9ea8-dbf53d93ace4"
+        "b29bd5ec-606c-4134-9ea8-dbf53d93ace4",
+        "8669426a-0957-41e1-b631-6aa73d4a7eeb"
     ],
     "filterType": "GMScript",
     "folderName": "Actions",

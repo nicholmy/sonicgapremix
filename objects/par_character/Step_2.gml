@@ -1,4 +1,4 @@
-/// @description  Keep character in camera boundaries + Animation
+/// @description  Animation + Keep character in camera boundaries
 
    // Create the Sprite offset:
       var _SOffset = sprite_get_width(spr_mask_main) div 2;

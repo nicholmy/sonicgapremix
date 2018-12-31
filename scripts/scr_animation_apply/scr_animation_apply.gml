@@ -160,6 +160,11 @@
               if(Action = ActionFan && Animation != "FAN"){
                  Animation = "FAN";
               }
+			  
+		   // Spin:
+              if(Action = ActionSpin && Animation != "SPIN"){
+                 Animation = "SPIN";
+              }
            
            // Rotations:
               if(Rotation_Animation != 0){

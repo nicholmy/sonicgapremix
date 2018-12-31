@@ -87,7 +87,7 @@
 			/*draw_set_font(global.Font_Letters){
 				draw_set_color(c_yellow){
 					draw_set_halign(fa_left);          
-					draw_text(screenX + screenWidth-128, screenY + screenHeight-96, "SHIELDU");    
+					draw_text(screenX + screenWidth-128, screenY + screenHeight-96, "DEPTH");    
 					draw_set_halign(-1);
 					
 					draw_set_halign(fa_left);          
@@ -113,7 +113,7 @@
 				
 				draw_set_color(c_white){
 						draw_set_halign(fa_right);          
-						draw_text(screenX + screenWidth-14, screenY + screenHeight-96, string(floor(par_character.ShieldUsable)));    
+						draw_text(screenX + screenWidth-14, screenY + screenHeight-96, string(floor(par_character.depth)));    
 						draw_set_halign(-1);
 					
 						draw_set_halign(fa_right);          

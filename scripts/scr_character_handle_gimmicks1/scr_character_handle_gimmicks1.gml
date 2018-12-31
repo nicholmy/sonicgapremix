@@ -31,3 +31,29 @@ if(instance_exists(obj_insta_shield) != 1 && Elec_Gen != noone && Shield != Shie
     scr_character_action_hit(Elec_Gen, false);
     }
 } 
+
+var Pole_Pod_Door = scr_character_collision_object(x, y, obj_polepod_door);
+
+if (Pole_Pod_Door != noone && XSpeed > 0 && x > Pole_Pod_Door.x) {
+	// Get the corresponding pod from this door
+	var Pole_Pod = Pole_Pod_Door.spawnerID;
+	
+	// Only if the pod is resting at the bottom
+	if (Pole_Pod.MoveState == 0) {
+		// Convert speed into the pod's momentum and kick it off
+		with (Pole_Pod) {
+			CharacterID = other.id;
+			Momentum = abs(CharacterID.XSpeed) * ConvFactor;
+			MoveState = 1;
+			//x += 64;
+			show_debug_message("Initial Momentum:" + string(Momentum))
+		}
+	
+		XSpeed = 0;
+		YSpeed = 0;
+		Ground = 1;
+		Action = ActionSpin;
+		AnimationDirection = 1;
+		PlaySound(snd_object_accelerator, global.SFXVolume, 1, 1);
+	}
+}

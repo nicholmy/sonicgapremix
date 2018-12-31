@@ -496,7 +496,10 @@ with (other) {
   // Ray's Squirrel Glide
 	 if(CharacterID == CharacterRay){
         scr_character_action_squirrel_glide();
-     }   
+     }
+	 
+  // Spinning:
+	 scr_character_action_spin();
 
                  
    // Collapsing tiles have to be handled differently to prevent that the Character gets stuck or gets pushed away.
@@ -538,6 +541,8 @@ with (other) {
 	 
   // Fans:
 	 scr_character_action_fan();
+	 
+
      
      }
   
