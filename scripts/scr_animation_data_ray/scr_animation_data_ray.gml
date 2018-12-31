@@ -392,3 +392,15 @@
         AnimationRepeatTimes = -1;
         AnimationLinkedTo    = "NONE";        
      }      
+
+	  // Standing Spin:
+     if(Animation = "SPIN"){
+        AnimationSprite      = spr_ray_spin;         
+        AnimationStart       = 0;
+        AnimationEnd         = 11;
+        AnimationLoop        = 0;
+        AnimationSpeed       = 0;
+        AnimationRepeat      = 0;
+        AnimationRepeatTimes = 0;
+        AnimationLinkedTo    = "NONE";        
+     }

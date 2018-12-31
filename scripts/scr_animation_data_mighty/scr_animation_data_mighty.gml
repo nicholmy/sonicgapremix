@@ -13,17 +13,18 @@
         AnimationLinkedTo    = "NONE";      
      } 
         
-  // Idle Animation (Foot tapping)      
+  // Idle Animation (Foot tapping)           
      if(Animation = "IDLE_2"){
-        AnimationSprite      = spr_mighty_idle;     
+        AnimationSprite      = spr_mighty_idle2;     
         AnimationStart       = 0;
-        AnimationEnd         = 4;
-        AnimationLoop        = 4;  
-        AnimationSpeed       = 0.10;
-        AnimationRepeat      = 0;
-        AnimationRepeatTimes = 0;
+        AnimationEnd         = 38;
+        AnimationLoop        = 0;  
+        AnimationSpeed       = 0.15;
+        AnimationRepeat      = 1;
+        AnimationRepeatTimes = -1;
         AnimationLinkedTo    = "NONE";       
      }  
+          
         
   // Lookup Animation   
      if(Animation = "LOOK_UP"){
@@ -331,4 +332,16 @@
         AnimationRepeat      = 1;
         AnimationRepeatTimes = -1;
         AnimationLinkedTo    = "NONE";        
-     }    
+     }
+	 
+	 // Standing Spin:
+     if(Animation = "SPIN"){
+        AnimationSprite      = spr_mighty_spin;         
+        AnimationStart       = 0;
+        AnimationEnd         = 11;
+        AnimationLoop        = 0;
+        AnimationSpeed       = 0;
+        AnimationRepeat      = 0;
+        AnimationRepeatTimes = 0;
+        AnimationLinkedTo    = "NONE";        
+     }

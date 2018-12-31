@@ -31,7 +31,8 @@
         "f0e0dfb1-a99e-4729-92e0-a134b186752f",
         "96918259-49d5-4efe-b120-b24d95a6b7f0",
         "393b4c27-e412-44ce-bf57-d68a0918ae80",
-        "b13ecd37-bd97-4658-8615-5d048fd61ecf"
+        "b13ecd37-bd97-4658-8615-5d048fd61ecf",
+        "8a7ea896-4f09-46a4-9d1f-cca3e8f344b7"
     ],
     "filterType": "GMSprite",
     "folderName": "Ray the Flying Squirrel",

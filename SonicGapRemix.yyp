@@ -6975,6 +6975,14 @@
             }
         },
         {
+            "Key": "8a7ea896-4f09-46a4-9d1f-cca3e8f344b7",
+            "Value": {
+                "id": "2898763b-ddda-43e7-b27b-a07dd19e338e",
+                "resourcePath": "sprites\\spr_ray_spin\\spr_ray_spin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8b548151-42b8-4ac7-b966-c44d2884355a",
             "Value": {
                 "id": "75068262-f783-4456-bbe4-94e54c7dd0dd",
@@ -7212,6 +7220,14 @@
                 "id": "60a6adfa-7b81-4822-902e-0e72e5ea818e",
                 "resourcePath": "objects\\par_collision_solid\\par_collision_solid.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "90587774-7f4c-45a7-9bd0-8102aba6e5b5",
+            "Value": {
+                "id": "882bfa20-21fd-445d-8afb-8f9e5c067ad9",
+                "resourcePath": "sprites\\spr_mighty_spin\\spr_mighty_spin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -9820,6 +9836,14 @@
                 "id": "66fe53c8-6a1c-45a5-9b9d-bd6e8fb1bb97",
                 "resourcePath": "objects\\par_collision_platform_no_angle\\par_collision_platform_no_angle.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c0e119fc-2ed4-4480-8fc1-167651d5c9f6",
+            "Value": {
+                "id": "5aedfd84-5d71-4a52-b226-d23ddcfb17e8",
+                "resourcePath": "sprites\\spr_mighty_idle2\\spr_mighty_idle2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
