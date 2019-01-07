@@ -499,9 +499,13 @@
 			  
 		   // Fan:
               if(Action = ActionFan && Animation != "FAN"){
-                 Animation = "Fan";
+                 Animation = "FAN";
               }
-                                                                                       
+                         
+		   // Spin:
+              if(Action = ActionSpin && Animation != "SPIN"){
+                 Animation = "SPIN";
+              }
         }
         
         // Edge Wobbling:
@@ -650,7 +654,11 @@
               if(Action = ActionFan && Animation != "FAN"){
                  Animation = "Fan";
               }
-                                                      
+                                    
+		   // Spin:
+              if(Action = ActionSpin && Animation != "SPIN"){
+                 Animation = "SPIN";
+              }
         }
         
         }else{ // Hammer attacks!

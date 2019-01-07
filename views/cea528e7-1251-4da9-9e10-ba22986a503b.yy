@@ -21,7 +21,8 @@
         "50eed39b-16b3-435f-b088-f1a5c68aff3d",
         "d05b72bb-bc9d-4d43-9d0d-11410fe2f460",
         "2faf8ed9-71d0-4b5c-8117-93e2c792e9e5",
-        "3ab26411-6437-4181-b766-ebb73a8fb82f"
+        "3ab26411-6437-4181-b766-ebb73a8fb82f",
+        "5e3d3a25-4dd9-456a-b7a5-bac4480f725c"
     ],
     "filterType": "GMSprite",
     "folderName": "Amy Rose",

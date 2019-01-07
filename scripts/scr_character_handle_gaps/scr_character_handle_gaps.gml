@@ -79,27 +79,36 @@ if instance_exists(obj_gap_manager) {
 		}
 	}
 
+	//Handle failures
 	triggerFail = (Ramp_Gap_Trigger == noone || (Ramp_Gap_Trigger.notEnd && Ramp_Gap_Trigger.triggerID != obj_gap_manager.currentTriggerID)) && (Transfer_Gap_Trigger == noone || (Transfer_Gap_Trigger.notEnd && Transfer_Gap_Trigger.triggerID != obj_gap_manager.currentTriggerID));
-	isGapFailAction = Action == ActionHurt || Action == ActionDie;
-
-	// If you are doing a gap, you landed, and you're not in a trigger at all (or one that's different and not an end)
-	if (isGapFailAction || (obj_gap_manager.currentGapID != -1 && Landed && triggerFail)) {
+	isGapFailAction = Action == ActionHurt || Action == ActionDie || (obj_gap_manager.currentGapID != -1 && Landed && triggerFail);
+	isComboFailAction =  Invincibility == 0 && (Action == ActionNormal || Action == ActionHurt || Action == ActionDie || Action == ActionCrouch || Action == ActionLookup);
+	
+	// If you are doing a gap, you landed, and you're not in a trigger at all (or one that's different and not an end), FAIL
+	if (isGapFailAction) {
 		obj_gap_manager.alarm[3] = 1;
-		PlaySound(snd_character_hurt, global.SFXVolume, 1, 1); 
+		PlaySound(snd_character_hurt, global.SFXVolume, 1, 1);
+	}
+	
+	// If you do something combo ending, you fail SONIC	
+	if (isComboFailAction && obj_gap_manager.isDoingSONIC && !obj_gap_manager.SONICFinished) {
+		var Combo_Letter = scr_character_collision_object(x, y, par_combo_letter);
+		
+		if (Combo_Letter != noone) {
+			var LetterCount = 0;
+			for (var i = 0; i < 4; i++) {
+				if (obj_gap_manager.SONICList[i] == 1) LetterCount++;
+			}
+		
+			// You're actually fine if this is your first letter and you're inside it, otherwise fail
+			if (LetterCount > 1) obj_gap_manager.alarm[4] = 1;
+		} else {
+			obj_gap_manager.alarm[4] = 1;
+		}
 	}
 
-	// Handle Combos
-	isComboFailAction = Action == ActionNormal || Action == ActionHurt || Action == ActionDie || Action == ActionCrouch || Action == ActionLookup;
-
-	if (obj_gap_manager.comboTotal > 0 && isComboFailAction && Invincibility == 0) {
-		/*if (obj_gap_manager.chainCount > 1) {
-			PlaySound(snd_scoring_result, global.SFXVolume, 1, 1);
-		}
-		global.Score += obj_gap_manager.comboTotal;
-		obj_gap_manager.goalScore = max(obj_gap_manager.goalScore - obj_gap_manager.comboTotal, 0);
-	
-		obj_gap_manager.chainCount = 0;
-		obj_gap_manager.comboTotal = 0; */
+	// End the combo and calculate points when you fail one
+	if (obj_gap_manager.comboTotal > 0 && isComboFailAction) {
 		obj_gap_manager.alarm[2] = 1;
 		PlaySound(snd_scoring_result, global.SFXVolume, 1, 1);
 	}

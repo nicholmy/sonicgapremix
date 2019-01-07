@@ -63,6 +63,26 @@
             "enumb": 3,
             "eventtype": 2,
             "m_owner": "db537899-0b78-4b23-af77-c569d0d65bca"
+        },
+        {
+            "id": "c72ad8d2-3ec4-42a7-b67c-c8ddc4d3d61f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 2,
+            "m_owner": "db537899-0b78-4b23-af77-c569d0d65bca"
+        },
+        {
+            "id": "3221e4c6-b742-44bc-81f4-372eed9fc60b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "db537899-0b78-4b23-af77-c569d0d65bca"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -221,6 +241,34 @@
             "value": "0",
             "varName": "charHighlight",
             "varType": 1
+        },
+        {
+            "id": "e2d39ddc-1ede-4d8b-bf80-c353c4c27c7e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "isDoingSONIC",
+            "varType": 3
+        },
+        {
+            "id": "7722680a-f4bb-4b79-a77b-46eab09cb96d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "SONICFinished",
+            "varType": 3
         }
     ],
     "solid": false,

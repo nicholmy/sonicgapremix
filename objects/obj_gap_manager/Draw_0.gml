@@ -68,4 +68,12 @@ draw_set_font(global.Font_Letters){
 		draw_text(screenX + screenWidth-14, screenY + screenHeight-18, string_hash_to_newline(goalScore));    
 		draw_set_halign(-1);                
 	}
+	
+	draw_set_color(c_white) {
+		if (SONICList[0] == 1) draw_text(screenX + 16, screenY + 57, "S");
+		if (SONICList[1] == 1) draw_text(screenX + 32, screenY + 57, "O");
+		if (SONICList[2] == 1) draw_text(screenX + 48, screenY + 57, "N");
+		if (SONICList[3] == 1) draw_text(screenX + 64, screenY + 57, "I");
+		if (SONICList[4] == 1) draw_text(screenX + 78, screenY + 57, "C");
+	}
 }

@@ -37,8 +37,6 @@ if (chainCount == 10) {
         HasSpeedShoes  = true;
         SpeedShoeTimer = 900;                                       
     } 
-	//par_character.HasSpeedShoes = 900;
-	//par_character.SpeedShoeTimer = 900;
 }
 
 // Reset State
