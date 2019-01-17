@@ -11,6 +11,8 @@
       mask_index   = (spr_mask_lines);
       sprite_index = (spr_mask_lines);
       image_index  = (floor(argument2));
+	  //mask_index   = (spr_mask_sensor_a);
+	  //sprite_index = (spr_mask_sensor_a);
       
    // Test the Collision:
       ColTest      = scr_character_collision(floor(argument0 - cos(degtorad(argument2)) * 8  + sin(degtorad(argument2)) * 11),

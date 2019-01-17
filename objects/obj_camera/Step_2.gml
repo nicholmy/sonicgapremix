@@ -22,7 +22,9 @@
 				 // Shift Left
 				Cam_ShiftX = clamp((abs(Cam_ShiftX) + Cam_ShiftSpeed) * -1, -64, 64);
 			 } else {
+				if (Cam_Subject.FloorMode != 0 || (Cam_ShiftX >= 0 && Cam_Subject.XSpeed < 4) || (Cam_ShiftX <= 0 && Cam_Subject.XSpeed > -4)) {
                 Cam_ShiftX = max(0, abs(Cam_ShiftX)-Cam_ShiftSpeed)*sign(Cam_ShiftX); 
+				}
              }
           
             if (Cam_Subject.Action == ActionHammerDrop && Cam_Subject.Landed == true) {

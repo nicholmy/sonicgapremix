@@ -52,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1.4",
+            "value": "0.75",
             "varName": "accelForce",
             "varType": 0
         },

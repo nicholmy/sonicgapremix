@@ -125,7 +125,7 @@
              if(SpringDiagonal.Direction == 1){
         
                 // Check if we collide with it:
-                   if((scr_character_collision_bottom_object(x, y, Angle, spr_mask_large, SpringDiagonal) && YSpeed >= 0) or (scr_character_collision_right_object(x, y, Angle, spr_mask_big, SpringDiagonal) && XSpeed <= 0)){                                        
+                   if((scr_character_collision_bottom_object(x, y, Angle, spr_mask_large, SpringDiagonal) && YSpeed >= 0) or (scr_character_collision_right_object(x, y, Angle, spr_mask_big, SpringDiagonal) && XSpeed >= 0)){                                        
                       SpringDiagonal.alarm[0] = 5;            
                       scr_character_angle(global.GravityAngle);
                       Ground = false;
@@ -157,7 +157,7 @@
              if(SpringDiagonal.Direction == 3){
         
                 // Check if we collide with it:
-                   if((scr_character_collision_top_object(x, y, Angle, spr_mask_large, SpringDiagonal) && YSpeed >= 0) or (scr_character_collision_right_object(x, y, Angle, spr_mask_big, SpringDiagonal) && XSpeed <= 0)){                                        
+                   if((scr_character_collision_top_object(x, y, Angle, spr_mask_large, SpringDiagonal) && YSpeed >= 0) or (scr_character_collision_right_object(x, y, Angle, spr_mask_big, SpringDiagonal) && XSpeed >= 0)){                                        
                       SpringDiagonal.alarm[0] = 5;            
                       scr_character_angle(global.GravityAngle);
                       Ground = false;

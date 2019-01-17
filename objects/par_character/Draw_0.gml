@@ -56,7 +56,7 @@
       }
 	  
 	  if (debugFlag) {
-		  draw_sprite_ext(spr_mask_big, 0, floor(x), floor(y), 1, 1, 0, -1, 1);
+		  /*draw_sprite_ext(spr_mask_big, 0, floor(x), floor(y), 1, 1, 0, -1, 1);
 		  //Top
 		  draw_sprite_ext(spr_mask_big, 0, floor(x - sin(degtorad(Angle)) * 11), floor(y - cos(degtorad(Angle)) * 11), 1, 1, 0, -1, 1);
 		  // Bottom
@@ -65,6 +65,21 @@
 		  draw_sprite_ext(spr_mask_big, 0, floor(x + cos(degtorad(Angle)) * 11), floor(y - sin(degtorad(Angle)) * 11), 1, 1, 0, -1, 1);
 		  // Left
 		  draw_sprite_ext(spr_mask_big, 0, floor(x - cos(degtorad(Angle)) * 11), floor(y + sin(degtorad(Angle)) * 11), 1, 1, 0, -1, 1);
+		  */
+		  /*if (Action = ActionRolling || Action = ActionJump) {
+			  draw_sprite_ext(spr_mask_sensor_a, 0, floor(x-7), floor(y), 1, 1, Angle, -1, 1);
+			  draw_sprite_ext(spr_mask_sensor_b, 0, floor(x+7), floor(y), 1, 1, Angle, -1, 1);
+			  draw_sprite_ext(spr_mask_sensor_c, 0, floor(x-7), floor(y-20), 1, 1, Angle, -1, 1);
+			  draw_sprite_ext(spr_mask_sensor_d, 0, floor(x+7), floor(y-20), 1, 1, Angle, -1, 1);
+		  } else {
+			  draw_sprite_ext(spr_mask_sensor_a, 0, floor(x-9), floor(y), 1, 1, Angle, -1, 1);
+			  draw_sprite_ext(spr_mask_sensor_b, 0, floor(x+9), floor(y), 1, 1, Angle, -1, 1);
+			  draw_sprite_ext(spr_mask_sensor_c, 0, floor(x-9), floor(y-20), 1, 1, Angle, -1, 1);
+			  draw_sprite_ext(spr_mask_sensor_d, 0, floor(x+9), floor(y-20), 1, 1, Angle, -1, 1);
+		  }
+		  draw_sprite_ext(spr_mask_sensor_e, 0, floor(x-10), floor(y), 1, 1, Angle, -1, 1);
+		  draw_sprite_ext(spr_mask_sensor_f, 0, floor(x+1), floor(y), 1, 1, Angle, -1, 1);
+		  draw_sprite_ext(spr_mask_sensor_bottom, 0, floor(x-5), floor(y+20), 1, 1, Angle, -1, 1);*/
 	  }
 
 

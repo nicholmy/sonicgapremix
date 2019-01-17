@@ -10,5 +10,3 @@
                 FrameTimer  = 0;
        }
     }
-
-

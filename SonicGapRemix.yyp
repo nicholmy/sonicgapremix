@@ -1143,6 +1143,14 @@
             }
         },
         {
+            "Key": "14d796eb-1e74-4d9d-8e03-b8fd5f19333c",
+            "Value": {
+                "id": "740a0fe4-7580-4424-953f-0ca0fb1ce24c",
+                "resourcePath": "sprites\\spr_mask_sensor_c\\spr_mask_sensor_c.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1513165f-9aa8-485c-b41b-7d9a691c79aa",
             "Value": {
                 "id": "ab00a0ad-365a-4a17-b4b0-75e48f44a8fa",
@@ -2695,6 +2703,14 @@
             }
         },
         {
+            "Key": "3553534b-7520-4fa5-ae21-687dbefa06bb",
+            "Value": {
+                "id": "31a38d02-a04c-4c27-943d-c1d59e89faf1",
+                "resourcePath": "sprites\\spr_spring_diagonal_left_red\\spr_spring_diagonal_left_red.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "35b3c4a9-8753-4f16-a968-10523419279f",
             "Value": {
                 "id": "b53e5598-06d1-4358-81a1-7bfbf55073e0",
@@ -3807,6 +3823,14 @@
             }
         },
         {
+            "Key": "4ead9578-2031-4b40-8656-054c79a26f78",
+            "Value": {
+                "id": "f9008325-18c8-4c18-b2c4-3df6804070c8",
+                "resourcePath": "sprites\\spr_mask_sensor_d\\spr_mask_sensor_d.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4f0c063b-e1d6-4ab9-b5a4-10c5e36ca79a",
             "Value": {
                 "id": "ddffc440-6af0-44b5-9353-0d79785aa053",
@@ -4459,6 +4483,14 @@
             "Value": {
                 "id": "9d673373-8bbe-488a-807e-7b565b5f9231",
                 "resourcePath": "objects\\obj_zne_ss_loop2\\obj_zne_ss_loop2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5bbc8468-da97-48a3-b3fd-3decdd1dc10a",
+            "Value": {
+                "id": "84ed6b47-2571-4f7d-ba92-fdbb43424ce3",
+                "resourcePath": "objects\\obj_zne_ss_high5\\obj_zne_ss_high5.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -5991,6 +6023,14 @@
             }
         },
         {
+            "Key": "7842a1ca-f472-4b30-a003-058d58c7bffe",
+            "Value": {
+                "id": "6f8296ec-eaf9-417c-a705-cb47dececbd6",
+                "resourcePath": "sprites\\spr_mask_sensor_e\\spr_mask_sensor_e.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "785568dc-633b-46f1-a296-55e2354870bc",
             "Value": {
                 "id": "6afe6a80-8968-4d65-bd35-fed31dbc98b1",
@@ -6711,6 +6751,14 @@
             }
         },
         {
+            "Key": "8397883f-22d7-4ab6-9b7e-8de7eca061c6",
+            "Value": {
+                "id": "b62f8e95-1755-4af4-8bc6-a06bf63bdc97",
+                "resourcePath": "sprites\\spr_mask_sensor_b\\spr_mask_sensor_b.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "83d4acef-71dc-4578-a0ee-dca8a2d1ba84",
             "Value": {
                 "id": "c9e1c6f5-e95e-46fe-bc58-d3303e083f95",
@@ -6972,6 +7020,14 @@
                 "id": "ff052153-0ec6-4207-ba25-6ccc92f661a0",
                 "resourcePath": "views\\8816a972-e0f3-4b26-9f1b-d94fe8d8331a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "88574a74-f423-49fa-8a0b-819b3a69e5ec",
+            "Value": {
+                "id": "ba36636a-cf46-414d-a381-0a72da7c81c5",
+                "resourcePath": "objects\\obj_zne_ss_low8\\obj_zne_ss_low8.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -7252,6 +7308,14 @@
                 "id": "64a03489-aa97-4376-8c33-5d7054b55870",
                 "resourcePath": "views\\8e364dda-5ee1-4dbb-9408-53ed5d8f212c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8e77249e-2404-4566-9772-611ee3fbf1e1",
+            "Value": {
+                "id": "c27ec2da-aac6-4067-a6fa-2da30d59da2c",
+                "resourcePath": "sprites\\spr_mask_sensor_bottom\\spr_mask_sensor_bottom.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -9455,6 +9519,14 @@
             }
         },
         {
+            "Key": "b7054097-9d15-4cd4-b080-6532ef9209b4",
+            "Value": {
+                "id": "6b5f6485-ee80-4989-ab89-76fb7d3fc697",
+                "resourcePath": "sprites\\spr_mask_sensor_f\\spr_mask_sensor_f.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b708efe8-4f65-4ecb-bcdb-67673a02339c",
             "Value": {
                 "id": "11d09258-c8bc-46aa-8e39-695e0247bf1f",
@@ -10431,6 +10503,14 @@
             }
         },
         {
+            "Key": "c96ea65a-9fa9-47d6-8b5a-f6893bdfb1a3",
+            "Value": {
+                "id": "1efb81ff-fd3a-47f8-8832-2178a0dc0ec5",
+                "resourcePath": "sprites\\spr_spring_diagonal_right_red\\spr_spring_diagonal_right_red.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c9afa838-c468-46dd-8650-3059d042ee5a",
             "Value": {
                 "id": "fce56efe-9c59-4ddb-95d9-30e727a8c12d",
@@ -10956,6 +11036,14 @@
                 "id": "0e43e21e-c11c-4844-9d5a-411ebb975eee",
                 "resourcePath": "sprites\\spr_collision_mask_terrain_platform_tile13\\spr_collision_mask_terrain_platform_tile13.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d1c03237-3938-424b-9831-537533c0c0a6",
+            "Value": {
+                "id": "c6df5c85-c71e-4066-9a6f-13b6ca85ce44",
+                "resourcePath": "objects\\obj_zne_ss_8b\\obj_zne_ss_8b.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -11607,6 +11695,14 @@
             }
         },
         {
+            "Key": "dfc7d7fa-1183-4a92-88fa-b290ab88c13e",
+            "Value": {
+                "id": "058764f2-5ac8-4352-92f2-371a4e53fee0",
+                "resourcePath": "sprites\\spr_ss_8b\\spr_ss_8b.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e008096e-9c79-4680-b70c-1c8249a8c81e",
             "Value": {
                 "id": "524db39e-438f-490a-beaa-964d734f7c95",
@@ -11700,6 +11796,14 @@
                 "id": "235984be-a9db-4ba9-8fb4-654b4a4577eb",
                 "resourcePath": "sprites\\spr_spike_base_rightwall\\spr_spike_base_rightwall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e31f82a3-3cc3-4c94-b98a-bbd840388465",
+            "Value": {
+                "id": "648dd442-d08d-47d7-a89e-f424d9e493fb",
+                "resourcePath": "objects\\obj_spring_diagonal_left_red\\obj_spring_diagonal_left_red.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -11924,6 +12028,14 @@
                 "id": "8126f5ae-d04c-4949-b286-62e3f6075a0d",
                 "resourcePath": "objects\\obj_polepod_door\\obj_polepod_door.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e89eea70-5090-4fb4-90ce-459928c7af59",
+            "Value": {
+                "id": "9f305fe4-cb8d-4824-9507-f06152627ecc",
+                "resourcePath": "sprites\\spr_mask_sensor_a\\spr_mask_sensor_a.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

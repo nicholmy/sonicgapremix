@@ -13,7 +13,14 @@
         "9b3cc652-c150-455a-892b-ed08016fdab7",
         "7d29d836-abe8-4f0d-8e05-5937636d3fbf",
         "e44abd40-79ec-42e1-8c3f-aefaa12c9200",
-        "4d11c21f-7ba4-4fdf-9a23-3285879efde0"
+        "4d11c21f-7ba4-4fdf-9a23-3285879efde0",
+        "e89eea70-5090-4fb4-90ce-459928c7af59",
+        "8397883f-22d7-4ab6-9b7e-8de7eca061c6",
+        "14d796eb-1e74-4d9d-8e03-b8fd5f19333c",
+        "4ead9578-2031-4b40-8656-054c79a26f78",
+        "7842a1ca-f472-4b30-a003-058d58c7bffe",
+        "b7054097-9d15-4cd4-b080-6532ef9209b4",
+        "8e77249e-2404-4566-9772-611ee3fbf1e1"
     ],
     "filterType": "GMSprite",
     "folderName": "Collision Related",

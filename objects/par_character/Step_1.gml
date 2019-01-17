@@ -1,6 +1,6 @@
 /// @description Get the input keys.
 // If you want to modify any of this. Do so in scr_game_init()
-		depth = 0; // Something's changing the depth to 300...
+		if (Action != ActionDie) depth = 0; // Something's changing the depth to 300...
           if(LockControl == 0){
         
              // Keys:
