@@ -13,16 +13,6 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "2d770939-5464-4d62-a3b4-a36004a4e0e5"
-        },
-        {
-            "id": "975f774c-9e6b-41b4-b923-776ccf30de85",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "2d770939-5464-4d62-a3b4-a36004a4e0e5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -69,6 +59,20 @@
             "value": "2",
             "varName": "minPush",
             "varType": 0
+        },
+        {
+            "id": "b2ef806b-716f-48f4-9532-6190fc3176fa",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "isAccelerating",
+            "varType": 3
         }
     ],
     "solid": false,

@@ -13,6 +13,7 @@ if instance_exists(obj_gap_manager) {
 			startTrigger = (Ramp_Gap_Trigger.triggerDirection != -1 && Ramp_Gap_Trigger.triggerDirection != 1) || (Ramp_Gap_Trigger.triggerDirection == 1 && XSpeed > 0) || (Ramp_Gap_Trigger.triggerDirection == -1 && XSpeed < 0);
 		
 			if (startTrigger) {
+				show_debug_message(string(Ramp_Gap_Trigger.gapID));
 				obj_gap_manager.currentGapID = Ramp_Gap_Trigger.gapID;
 				obj_gap_manager.currentTriggerID = Ramp_Gap_Trigger.triggerID;
 				obj_gap_manager.charHighlight = Ramp_Gap_Trigger.charHighlight;

@@ -49,7 +49,7 @@ draw_set_font(global.Font_Letters){
 			
 			if (debugFlag) {
 				draw_set_halign(fa_right);          
-				draw_text(screenX + screenWidth-14, screenY + 18, currentTriggerID);    
+				draw_text(screenX + screenWidth-14, screenY + 18, currentGapID);    
 				draw_set_halign(-1);
 			}
 		}

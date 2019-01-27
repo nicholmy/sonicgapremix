@@ -52,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "6",
             "varName": "strength",
             "varType": 0
         },
@@ -66,7 +66,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "9",
+            "value": "8",
             "varName": "superStrength",
             "varType": 0
         }

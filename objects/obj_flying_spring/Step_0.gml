@@ -3,16 +3,16 @@
 if (startBounce) {
 	time = 360;
 	startBounce = false;
-	bounceStrength = 2;
+	bounceStrength = strength;
 }
 
 if (superBounce) {
 	time = 360;
 	superBounce = false;
-	bounceStrength = 4;
+	bounceStrength = superStrength;
 }
 
 if (time > 0) {
-	y = y - dsin(time) * bounceStrength;
+	y = y - dcos(time) * bounceStrength/2;
 	time -= 24;
 }

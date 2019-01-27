@@ -5,7 +5,12 @@ if (place_meeting(x, y, par_character)) {
 		PlaySound(snd_object_accelerator, global.SFXVolume, 1, 1);
 		isAccelerating = true;
 	}
-	par_character.XSpeed = min(max(par_character.XSpeed + accelForce, minPush), par_character.XSpeed_Max);
+	if (minPush > 0) {
+		par_character.XSpeed = min(max(par_character.XSpeed + accelForce, minPush), par_character.XSpeed_Max);
+	} else {
+		par_character.XSpeed = max(min(par_character.XSpeed + accelForce, minPush), -1 * par_character.XSpeed_Max);;
+	}
+	
 } else {
 	isAccelerating = false;
 }
