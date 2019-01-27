@@ -24,6 +24,7 @@
           PlaySound(snd_object_switch, global.SFXVolume, 1, 1);
           SwitchTriggered[SwitchID]  = true;
           image_index                = 1;
+		  obj_shutter.alarm[0] = 1;
        }       
     }else   
     if(place_meeting(x, y, par_collision_pushable)){
