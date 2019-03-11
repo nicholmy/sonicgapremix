@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_zne_ss_loop_small1",
     "eventList": [
-        
+        {
+            "id": "6538b7fb-1404-44ad-9f3c-fa25f201039c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "30020d20-3522-4e09-8f49-6e1b5992f319"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

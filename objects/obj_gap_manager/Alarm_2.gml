@@ -9,10 +9,21 @@ alarm[3] = 1;
 
 if (goalScore <= 0 && global.ZoneAct == 1) {
 	global.ZoneAct++;
+	// Update the Act Music
 	obj_audio_manager.alarm[1] = 1;
 	
 	// Open all act doors (for this Act)
-	with (obj_act_door) {
+	with (obj_act_door_act2) {
+		alarm[0] = 1;
+	}
+	
+	// This should be a variable
+	goalScore = 1500;
+} else if (goalScore <= 0 && global.ZoneAct == 2) {
+	global.ZoneAct++;
+	
+	// Open all act doors (for this Act)
+	with (obj_act_door_act3) {
 		alarm[0] = 1;
 	}
 }

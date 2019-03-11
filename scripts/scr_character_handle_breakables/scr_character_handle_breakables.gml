@@ -39,3 +39,12 @@ if ((CharacterID == CharacterKnuckles || (CharacterID == CharacterMighty && Shie
 	// Destroy the object:
 	instance_destroy(_ObjectHandle);
 }
+
+var _Breakable_Spawner = scr_character_collision_object(x, y, obj_rock_spawner_refresh);
+
+if (_Breakable_Spawner != noone) {
+	//show_debug_message("Collided with spawner...");
+	//obj_rock_spawner_big.alarm[0] = 1;
+	
+	
+}

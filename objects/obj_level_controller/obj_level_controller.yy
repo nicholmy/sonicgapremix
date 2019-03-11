@@ -73,6 +73,16 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "1ed63be0-4f68-4fe6-a72d-ef8492f663df"
+        },
+        {
+            "id": "d90c3515-25f0-49aa-b53f-079a854cc495",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "1ed63be0-4f68-4fe6-a72d-ef8492f663df"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -134,6 +144,20 @@
             "resourceFilter": 1023,
             "value": "False",
             "varName": "Act2StartFlag",
+            "varType": 3
+        },
+        {
+            "id": "e4bc8784-9d3f-4afb-85a9-398eee525ae0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "ContinueAfterFinishFlag",
             "varType": 3
         }
     ],

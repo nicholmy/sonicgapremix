@@ -45,6 +45,20 @@
             "value": "obj_rock_piece",
             "varName": "breakablePiece",
             "varType": 5
+        },
+        {
+            "id": "7fe94f4a-9004-42dc-a52a-e1062665eb6d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "spawnerRef",
+            "varType": 5
         }
     ],
     "solid": false,

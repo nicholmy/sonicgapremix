@@ -1,14 +1,14 @@
 {
-    "id": "3e5aef82-ba7a-44f8-ad2a-95634c748336",
+    "id": "73ba1e62-dec9-45d1-b4b9-40504dd9a119",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_act_door",
+    "name": "obj_rock_spawner_refresh_v",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "479869c4-a976-442b-84c6-93953258a111",
+    "parentObjectId": "5cd775ab-6707-4cc8-9846-7f1f201a2acb",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -23,22 +23,9 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "c64bfb6e-84c2-42f4-8e0d-45862e04df5b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "2",
-            "varName": "actTrigger",
-            "varType": 1
-        }
+        
     ],
     "solid": false,
-    "spriteId": "92ecc648-c785-453b-8692-6298aad10192",
+    "spriteId": "669ab5b0-9413-4ca9-b47c-078505acd051",
     "visible": true
 }

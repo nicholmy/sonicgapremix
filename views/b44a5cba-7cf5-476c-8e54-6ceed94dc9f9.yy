@@ -11,7 +11,8 @@
         "651db843-7558-476d-bd1d-b0d15f7f6398",
         "7a472283-8312-48d1-845f-396c1370762d",
         "9a797d70-0215-4631-b8c7-4f59355520d0",
-        "88574a74-f423-49fa-8a0b-819b3a69e5ec"
+        "88574a74-f423-49fa-8a0b-819b3a69e5ec",
+        "e442fee3-9a6b-4029-83d8-04a616ff50aa"
     ],
     "filterType": "GMObject",
     "folderName": "Low Tiles",

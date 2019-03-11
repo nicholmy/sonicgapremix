@@ -113,4 +113,11 @@ if instance_exists(obj_gap_manager) {
 		obj_gap_manager.alarm[2] = 1;
 		PlaySound(snd_scoring_result, global.SFXVolume, 1, 1);
 	}
+	
+	var Fail_Gap_Trigger = scr_character_collision_object(x, y, obj_gap_fail);
+	
+	if (Fail_Gap_Trigger != noone) {
+		// Fail whatever current gap this is
+		obj_gap_manager.alarm[3] = 1;
+	}
 }

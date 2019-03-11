@@ -7,7 +7,7 @@ if (isMoving) {
 	}
 	moveDistance += abs(moveSpeed);
 		
-	if (moveDistance >= 64) {
+	if (moveDistance >= totalMove) {
 		isMoving = false;
 	}
 }

@@ -6,7 +6,8 @@
     "children": [
         "06c71a88-17e7-4963-bd59-fb5bcfe0d1c1",
         "677d0604-5391-427d-bf9e-21aa74d2199a",
-        "66458e87-7b94-4708-8e5e-64e6950fa43c"
+        "66458e87-7b94-4708-8e5e-64e6950fa43c",
+        "c9a84222-9dd6-4863-bc22-a3a697f4bd19"
     ],
     "filterType": "GMObject",
     "folderName": "Goal",

@@ -1,14 +1,14 @@
 {
-    "id": "e9400d3f-d28a-432f-93ce-4d32142bf596",
+    "id": "1f770561-06f1-4014-8587-926c40e28824",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_sensor_layer_switch",
+    "name": "obj_gap_fail",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "41696b9d-2bca-4329-9f13-b0b3e6eea59f",
+    "parentObjectId": "1c79ddc7-6457-42c3-a69b-d431a9e1f520",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -19,13 +19,11 @@
     "physicsObject": false,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
-    "physicsShape": 0,
-    "physicsShapePoints": [
-        
-    ],
+    "physicsShape": 1,
+    "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c06903c8-38f3-4671-bcca-e03b9f7849bf",
-    "visible": false
+    "spriteId": "08904f34-afdc-46d0-a261-be9b63effeaf",
+    "visible": true
 }

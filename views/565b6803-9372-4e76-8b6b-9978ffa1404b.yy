@@ -6,7 +6,8 @@
     "children": [
         "92ecc648-c785-453b-8692-6298aad10192",
         "79f0895a-5bc2-49fe-a32e-7936a5d4df3d",
-        "a8ef4ddc-6462-4f4e-a94f-92b09e72ad1b"
+        "a8ef4ddc-6462-4f4e-a94f-92b09e72ad1b",
+        "6bc324e8-ada4-458b-903f-724b1fbf6474"
     ],
     "filterType": "GMSprite",
     "folderName": "Doors",

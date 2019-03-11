@@ -131,6 +131,20 @@
             "value": "8",
             "varName": "moveSpeed",
             "varType": 1
+        },
+        {
+            "id": "9e3e1016-bf46-488d-87ec-49e170a2e1cf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "64",
+            "varName": "totalMove",
+            "varType": 0
         }
     ],
     "solid": false,

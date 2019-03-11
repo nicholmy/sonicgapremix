@@ -3,6 +3,7 @@
 
     // Camera:
        instance_create(0, 0, obj_camera);       
+	   depth = -500;
 	   
 	   // Flag to start in Act 2 if needed
 	   if (Act2StartFlag) { 

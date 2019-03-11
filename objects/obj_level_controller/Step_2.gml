@@ -92,6 +92,8 @@
 	   instance_activate_object(obj_polepod_inside);
 	   instance_activate_object(obj_polepod_door);
 	   instance_activate_object(obj_polepod_stopper);
+	   instance_activate_object(par_door);
+	   instance_activate_object(obj_rock_spawner_big);
         
        }
        
