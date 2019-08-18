@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "021bd65d-fac0-456c-9f87-3fdfc5085322",
+            "Value": {
+                "id": "02e7d890-aad0-4fc4-81e1-45d27fea011a",
+                "resourcePath": "sprites\\spr_swingclaw_claw\\spr_swingclaw_claw.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "02279594-93e4-4743-95e7-af9347ecc36c",
             "Value": {
                 "id": "99d287db-8204-4f9e-9699-d87b6a8e96b2",
@@ -3703,6 +3711,14 @@
             }
         },
         {
+            "Key": "48616f86-1f2f-4d10-a045-54110d507bf8",
+            "Value": {
+                "id": "21dabdcd-d55a-4e3b-bc5c-35028f45e9bd",
+                "resourcePath": "sprites\\spr_swingclaw_editor\\spr_swingclaw_editor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "487aa1f5-98aa-4701-bb93-9232695a9097",
             "Value": {
                 "id": "893b5ee9-c09e-46cd-a8de-3ab1f4dced9d",
@@ -5388,6 +5404,14 @@
                 "id": "09f29594-6866-402e-9e88-99dfc08c35d0",
                 "resourcePath": "objects\\obj_flicky_plane\\obj_flicky_plane.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69ebc2d0-8b03-415b-9abd-6267233b0cd2",
+            "Value": {
+                "id": "343acd9e-b966-41e7-89ad-952d53fc320d",
+                "resourcePath": "views\\69ebc2d0-8b03-415b-9abd-6267233b0cd2.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -7927,6 +7951,14 @@
             }
         },
         {
+            "Key": "93ed0c82-bb5c-44a5-8cc3-af01e726c208",
+            "Value": {
+                "id": "a612ea3b-10a3-4775-ae32-2bffc9f51e12",
+                "resourcePath": "sprites\\spr_swingclaw_chain\\spr_swingclaw_chain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9400cc6e-49a3-48ab-b7c6-0896a252ef97",
             "Value": {
                 "id": "053f2a84-7743-4d02-90bc-724f9e8db307",
@@ -8012,6 +8044,14 @@
                 "id": "11ab0b84-719b-4625-a04d-4879e0f481f4",
                 "resourcePath": "views\\9478f4f6-87b2-432c-a91d-d657e26002a4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "951fdc3f-4b45-4992-943e-8fc7290556b1",
+            "Value": {
+                "id": "5467d55c-a73b-41ed-9947-153fb2df292d",
+                "resourcePath": "objects\\obj_swingingclaw_base\\obj_swingingclaw_base.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -10735,6 +10775,14 @@
             }
         },
         {
+            "Key": "c6c4fc6a-f676-492f-9292-c7414fe08cfb",
+            "Value": {
+                "id": "fce95a39-b711-438c-ba9c-fe7acd721878",
+                "resourcePath": "sprites\\spr_swingclaw_base\\spr_swingclaw_base.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c74728d9-4d9e-486a-9c24-db74e8d1556d",
             "Value": {
                 "id": "3f591c91-9b54-4d30-a68a-b226d50c9b90",
@@ -10788,6 +10836,14 @@
                 "id": "7d93cc9f-bfe0-4cd7-93c7-84520f6077ed",
                 "resourcePath": "sprites\\spr_collision_mask_terrain_tile20\\spr_collision_mask_terrain_tile20.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c866e083-23cd-40a0-a5bd-a6804141f815",
+            "Value": {
+                "id": "990ef698-77eb-4926-8720-8d143c119b8f",
+                "resourcePath": "objects\\obj_swingingclaw_spawner\\obj_swingingclaw_spawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -12199,6 +12255,14 @@
             }
         },
         {
+            "Key": "e3be214f-2918-449b-8509-10bb5640ab16",
+            "Value": {
+                "id": "d22ba991-8aee-49a5-b3e4-ad70d6b56d36",
+                "resourcePath": "rooms\\rm_StarStationCourse\\rm_StarStationCourse.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e3c4ffaf-b8fc-4082-84b2-91553ce3dd75",
             "Value": {
                 "id": "77f5be07-bc4d-4daa-8f38-293d787efe56",
@@ -12244,6 +12308,14 @@
                 "id": "135738d3-b7ae-42b2-ad1d-a80f458bedf5",
                 "resourcePath": "objects\\obj_SkySanctuary_BGTall\\obj_SkySanctuary_BGTall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e47dfe0b-9dad-4060-8ccb-d5b5e18462eb",
+            "Value": {
+                "id": "cbb53b4e-182a-4d2e-a81b-530ba2ea19e9",
+                "resourcePath": "views\\e47dfe0b-9dad-4060-8ccb-d5b5e18462eb.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -13268,6 +13340,14 @@
                 "id": "2a7bd80f-3b27-4601-a471-a8f3d885bcf4",
                 "resourcePath": "sprites\\spr_collision_mask_terrain_layer1_tile23\\spr_collision_mask_terrain_layer1_tile23.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f7becc86-d2cc-4fee-864a-d6a91b0ff87a",
+            "Value": {
+                "id": "6d96abf8-2759-4331-aeec-6f6277061ce4",
+                "resourcePath": "objects\\obj_swingingclaw_claw\\obj_swingingclaw_claw.yy",
+                "resourceType": "GMObject"
             }
         },
         {
