@@ -8,10 +8,14 @@ chainArr = array_create(chainNum);
 // It's best if the chain object has its x/y in the dead middle
 for (var i = 0; i < chainNum; i++) {
 	chainArr[i] = instance_create(x, y, obj_swingingclaw_chain);
-	chainArr[i].depth = depth - 1;
+	chainArr[i].depth = depth + 1;
 }
 
 endX = x + endXOffset
 endY = y + endYOffset
 endObj = instance_create(endX, endY, obj_swingingclaw_claw);
-endObj.depth = chainArr[chainNum - 1] - 1;
+
+// Claw specific params
+endObj.baseX = x
+endObj.baseY = y
+endObj.chainLength = endYOffset

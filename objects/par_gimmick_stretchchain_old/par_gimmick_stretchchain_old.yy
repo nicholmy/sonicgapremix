@@ -1,28 +1,38 @@
 {
-    "id": "3ee9040c-7f35-41ff-9afb-16e9c3e6ce38",
+    "id": "c2317b6d-1329-496f-a046-2b750c9acc20",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "par_gimmick_stretchchain",
+    "name": "par_gimmick_stretchchain_old",
     "eventList": [
         {
-            "id": "e0e545bd-65aa-421c-82c3-f174123326e1",
+            "id": "b062e162-9e6d-4083-9665-656f179b406e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "3ee9040c-7f35-41ff-9afb-16e9c3e6ce38"
+            "m_owner": "c2317b6d-1329-496f-a046-2b750c9acc20"
         },
         {
-            "id": "dc13abe7-2181-46ee-97ea-5fdbeecd3ec8",
+            "id": "8d864b3b-86ba-45b3-8661-299a9b6a862f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "3ee9040c-7f35-41ff-9afb-16e9c3e6ce38"
+            "m_owner": "c2317b6d-1329-496f-a046-2b750c9acc20"
+        },
+        {
+            "id": "250b67d4-27f6-4e7c-9985-f8b344dc5739",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "c2317b6d-1329-496f-a046-2b750c9acc20"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "8910b080-a67e-4dbe-92af-909e5822f8a4",
+            "id": "beabbae7-30f9-463c-b87d-5e4c077bc8c2",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +62,12 @@
             "rangeMax": 32,
             "rangeMin": 1,
             "resourceFilter": 1023,
-            "value": "4",
+            "value": "8",
             "varName": "chainNum",
             "varType": 1
         },
         {
-            "id": "3fd8e854-c3b8-4eaa-997a-42e6472c35bb",
+            "id": "a9f035fe-1ff4-48dd-9240-cd22cdc65bed",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -66,12 +76,26 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
+            "value": "obj_hanginglift_base",
+            "varName": "beginResource",
+            "varType": 5
+        },
+        {
+            "id": "db712959-40dc-4115-8569-809146b8bf8d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "12",
             "varName": "beginRadius",
             "varType": 1
         },
         {
-            "id": "b28902c1-1035-4aea-bb67-440b616b71cb",
+            "id": "f027f285-d75a-4115-926b-30073b955200",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -80,37 +104,65 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "8",
+            "value": "obj_hanginglift_ball",
+            "varName": "chainObj",
+            "varType": 5
+        },
+        {
+            "id": "7bd076eb-426e-4118-809e-69af99ab475d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "obj_hanginglift_hook",
+            "varName": "endResource",
+            "varType": 5
+        },
+        {
+            "id": "ab582e08-86b7-4178-898f-c0f538d64432",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "x",
+            "varName": "endX",
+            "varType": 0
+        },
+        {
+            "id": "aa588237-a905-401a-88a1-455c93dafa17",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "y  + 128",
+            "varName": "endY",
+            "varType": 0
+        },
+        {
+            "id": "7266e696-50da-4947-99eb-0eed7ad43a2f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "12",
             "varName": "endRadius",
             "varType": 1
-        },
-        {
-            "id": "931b3217-5457-44ad-84e1-565fb3af8217",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "endXOffset",
-            "varType": 0
-        },
-        {
-            "id": "b6139f64-ad3d-4abc-85b3-b7c2ca50a293",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "32",
-            "varName": "endYOffset",
-            "varType": 0
         }
     ],
     "solid": false,

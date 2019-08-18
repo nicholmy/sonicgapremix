@@ -2,7 +2,7 @@
     "id": "3ee9040c-7f35-41ff-9afb-16e9c3e6ce38",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "par_gimmick_stretchchain",
+    "name": "par_gimmick_stretchchain1",
     "eventList": [
         {
             "id": "e0e545bd-65aa-421c-82c3-f174123326e1",

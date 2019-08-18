@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "f7becc86-d2cc-4fee-864a-d6a91b0ff87a"
+        },
+        {
+            "id": "dade6a62-376b-4965-a409-7d08f55b7a03",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f7becc86-d2cc-4fee-864a-d6a91b0ff87a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -42,6 +52,20 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
+        {
+            "id": "7e1a7e1e-53f6-4f68-98fd-4f82dcdf58ca",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "swingMode",
+            "varType": 0
+        },
         {
             "id": "f38d2fc8-09a3-4069-9625-69985761e231",
             "modelName": "GMObjectProperty",
@@ -109,7 +133,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "offsetX",
+            "varName": "playerOffsetX",
             "varType": 0
         },
         {
@@ -123,21 +147,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "24",
-            "varName": "offsetY",
-            "varType": 0
-        },
-        {
-            "id": "7e1a7e1e-53f6-4f68-98fd-4f82dcdf58ca",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "swingMode",
+            "varName": "playerOffsetY",
             "varType": 0
         }
     ],

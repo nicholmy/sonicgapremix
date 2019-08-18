@@ -14,4 +14,9 @@ for (var i = 0; i < chainNum; i++) {
 endX = x + endXOffset
 endY = y + endYOffset
 endObj = instance_create(endX, endY, obj_swingingclaw_claw);
-endObj.depth = chainArr[chainNum - 1] - 1;
+
+// Claw specific params
+endObj.baseX = x
+endObj.baseY = y
+endObj.chainLength = endYOffset
+endObj.depth = chainNum - 1;

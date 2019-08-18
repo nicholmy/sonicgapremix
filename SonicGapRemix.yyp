@@ -3303,6 +3303,14 @@
             }
         },
         {
+            "Key": "3ee9040c-7f35-41ff-9afb-16e9c3e6ce38",
+            "Value": {
+                "id": "dd5d97b3-90ee-4085-8ca2-41918ec8d2bd",
+                "resourcePath": "objects\\par_gimmick_stretchchain\\par_gimmick_stretchchain.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3ef5dbc2-64f8-452c-bed4-c7df7ae14305",
             "Value": {
                 "id": "bb556df7-148c-419a-beea-2d82be32b2de",
@@ -9055,6 +9063,14 @@
             }
         },
         {
+            "Key": "a8944849-46c1-4618-bcfd-2cab44058737",
+            "Value": {
+                "id": "ed0c6445-c2bb-424e-a956-016d96e0dd46",
+                "resourcePath": "objects\\obj_swingingclaw_chain\\obj_swingingclaw_chain.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a8c8bf9c-f131-48cb-a1bf-31ed39ea1447",
             "Value": {
                 "id": "16a81f03-2d53-439f-843d-8c23fcb2eb92",
@@ -9879,6 +9895,14 @@
             }
         },
         {
+            "Key": "b6cc9d61-cbb3-4d2d-b51b-15a1b7c115d9",
+            "Value": {
+                "id": "6ea88e96-edd7-40c2-8846-1e576666039e",
+                "resourcePath": "objects\\obj_swingingclaw_short\\obj_swingingclaw_short.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b702055a-8654-42d4-959f-778fd4ed0b19",
             "Value": {
                 "id": "ea8c8d49-15bc-40e4-9b50-3496806df25d",
@@ -10522,7 +10546,7 @@
             "Key": "c2317b6d-1329-496f-a046-2b750c9acc20",
             "Value": {
                 "id": "7beb4ed9-b7ff-490f-9e3e-7981d83cae8f",
-                "resourcePath": "objects\\par_gimmick_stretchchain\\par_gimmick_stretchchain.yy",
+                "resourcePath": "objects\\par_gimmick_stretchchain_old\\par_gimmick_stretchchain_old.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -10842,7 +10866,7 @@
             "Key": "c866e083-23cd-40a0-a5bd-a6804141f815",
             "Value": {
                 "id": "990ef698-77eb-4926-8720-8d143c119b8f",
-                "resourcePath": "objects\\obj_swingingclaw_spawner\\obj_swingingclaw_spawner.yy",
+                "resourcePath": "objects\\obj_swingingclaw_long\\obj_swingingclaw_long.yy",
                 "resourceType": "GMObject"
             }
         },
