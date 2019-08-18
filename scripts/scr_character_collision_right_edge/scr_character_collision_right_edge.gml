@@ -16,7 +16,7 @@
       ColTest      = scr_character_collision(floor(argument0 + cos(degtorad(argument2)) * 8  + sin(degtorad(argument2)) * 11),
                                              floor(argument1 - sin(degtorad(argument2)) * 11 + cos(degtorad(argument2)) * 11),
                                              Layer);
-      
+   
    // Return to the old mask:
       mask_index   = TempMask;
       sprite_index = TempSpr;

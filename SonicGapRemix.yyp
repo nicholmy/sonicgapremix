@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0142e480-648d-4215-8237-98ee0475fc14",
+            "Value": {
+                "id": "1f8c67ff-e3ae-4dfb-84a8-f2c5ce553571",
+                "resourcePath": "objects\\par_collision_onewaydown\\par_collision_onewaydown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "01650aa6-c723-4177-a63c-d56eb336b69a",
             "Value": {
                 "id": "79e1004d-66f8-405c-8036-d2f7854370af",
@@ -799,6 +807,14 @@
             }
         },
         {
+            "Key": "0ccabbc5-03c2-4f83-8d82-f52348bf7762",
+            "Value": {
+                "id": "47a9080d-789c-492d-869d-6ad83cc56995",
+                "resourcePath": "sprites\\spr_onewaydoor_down_big\\spr_onewaydoor_down_big.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0d19ff2e-0557-4ac2-9292-1e772f912742",
             "Value": {
                 "id": "a1f94d79-6506-474a-9db7-a0e9d0cb8a5b",
@@ -1011,6 +1027,14 @@
             "Value": {
                 "id": "6a1cb76a-f691-424e-a822-70a8f4ec7102",
                 "resourcePath": "sprites\\spr_storm_14\\spr_storm_14.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "11ef4fe1-c528-4235-ae6d-c9b4fc4cb97f",
+            "Value": {
+                "id": "0c553f0d-75bf-4a66-af10-dcc72e02fc2b",
+                "resourcePath": "sprites\\spr_onewaydoor_left_big\\spr_onewaydoor_left_big.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2843,6 +2867,14 @@
             "Value": {
                 "id": "b105f102-bff2-43c5-9c72-e59f37745d58",
                 "resourcePath": "objects\\obj_collision_terrain01\\obj_collision_terrain01.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "36ec802d-e77e-49c2-bb78-b0107ec7c4b3",
+            "Value": {
+                "id": "65d41011-fe08-42f3-bb47-8941790f19f5",
+                "resourcePath": "objects\\par_collision_onewayleft\\par_collision_onewayleft.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -5391,6 +5423,14 @@
             }
         },
         {
+            "Key": "697eecaa-0ec3-4b8f-a638-60a62a1d7fa5",
+            "Value": {
+                "id": "03bde5b2-d9da-41af-813b-25c33f7877c1",
+                "resourcePath": "objects\\obj_oneway_down\\obj_oneway_down.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6985ba48-b52d-450e-972d-79498aea0f26",
             "Value": {
                 "id": "81ffe2f4-a625-4b2b-9a37-0ec624655186",
@@ -6619,6 +6659,14 @@
             "Value": {
                 "id": "f81df6da-b8cc-454f-886c-bb69d31b247e",
                 "resourcePath": "objects\\obj_zne_test_14\\obj_zne_test_14.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7de9cafd-bcc8-4232-b2a7-28ea0e2151d5",
+            "Value": {
+                "id": "e283e277-5cc6-4b0d-9b61-0ab7852aabd4",
+                "resourcePath": "objects\\obj_oneway_up\\obj_oneway_up.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -10359,6 +10407,22 @@
             }
         },
         {
+            "Key": "c0013777-a709-477e-8d73-87240339a195",
+            "Value": {
+                "id": "868a100f-2b9a-4ff8-8d4a-253895d28f48",
+                "resourcePath": "sprites\\spr_onewaydoor_up_big\\spr_onewaydoor_up_big.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c00f6263-cbdc-41e5-acbb-6cc97a3ddc17",
+            "Value": {
+                "id": "d145607f-e368-4201-a91f-fd0c10d33f68",
+                "resourcePath": "views\\c00f6263-cbdc-41e5-acbb-6cc97a3ddc17.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c01ad357-bf84-4943-b5af-148ec7f2cd73",
             "Value": {
                 "id": "4e25816a-12ba-4bc0-a987-80f9f56734bc",
@@ -10540,14 +10604,6 @@
                 "id": "7c4454d5-4dcb-4c57-8093-744850aaad1e",
                 "resourcePath": "sprites\\spr_sonic_die\\spr_sonic_die.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c2317b6d-1329-496f-a046-2b750c9acc20",
-            "Value": {
-                "id": "7beb4ed9-b7ff-490f-9e3e-7981d83cae8f",
-                "resourcePath": "objects\\par_gimmick_stretchchain_old\\par_gimmick_stretchchain_old.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -11823,6 +11879,14 @@
             }
         },
         {
+            "Key": "d8c7b90b-05d9-41a6-8683-390b547e7e92",
+            "Value": {
+                "id": "0ebf11a3-7995-4d35-b192-fc0bc3c41b3a",
+                "resourcePath": "objects\\obj_oneway_left\\obj_oneway_left.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d8d9ce57-00d3-4862-b24d-c75ecc4150bb",
             "Value": {
                 "id": "d1dcc4ce-586a-454b-a315-709340b3b4d5",
@@ -11907,6 +11971,14 @@
             "Value": {
                 "id": "7a585b10-c58b-4646-a512-31aa085676cd",
                 "resourcePath": "sprites\\spr_collision_mask_terrain_tile12\\spr_collision_mask_terrain_tile12.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "daa46740-7015-49aa-9a08-598c5166fb4b",
+            "Value": {
+                "id": "c6902e1b-880e-4f14-9da8-af61cfeec833",
+                "resourcePath": "sprites\\spr_onewaydoor_right_big\\spr_onewaydoor_right_big.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -12020,6 +12092,14 @@
                 "id": "19e7298a-3284-4b0d-96f2-4c0e55c431de",
                 "resourcePath": "sprites\\bg_ghz_parallax_water_4\\bg_ghz_parallax_water_4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dc0f6c38-15a6-4e8e-a2bf-7ba93c24011d",
+            "Value": {
+                "id": "1a2e1afd-892b-43fe-9a96-b53454880542",
+                "resourcePath": "objects\\par_collision_onewayright\\par_collision_onewayright.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -12507,6 +12587,14 @@
             "Value": {
                 "id": "55e0e232-707b-4422-af34-462316fa9800",
                 "resourcePath": "views\\e80801ca-2279-4c86-8fe6-034c5aa57234.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e83fd161-d3af-4681-925d-85818774a490",
+            "Value": {
+                "id": "387f7823-04cb-4596-97d3-466e467a08dd",
+                "resourcePath": "views\\e83fd161-d3af-4681-925d-85818774a490.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -13436,6 +13524,14 @@
                 "id": "e5f0d214-fd75-4cec-9e09-93f5c80156aa",
                 "resourcePath": "sprites\\spr_collision_mask_terrain_platform_tile12\\spr_collision_mask_terrain_platform_tile12.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f988c376-4147-4a75-a600-c78fe3405de8",
+            "Value": {
+                "id": "5c00e76f-5deb-4047-918f-23ee0113a6c7",
+                "resourcePath": "objects\\obj_oneway_right\\obj_oneway_right.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -39,4 +39,3 @@
    if (argument2 == 1){
         return place_meeting(argument0, argument1, par_collision_layer_high);
    }
-   

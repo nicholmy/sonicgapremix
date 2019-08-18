@@ -19,7 +19,7 @@
       ColTest    = instance_place(floor(argument0 - Cosine * 11), 
                                   floor(argument1 + Sine * 11), 
                                   argument4);
-      
+
    // Return to the old mask:
       mask_index = TempMask;
    

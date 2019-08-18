@@ -1,16 +1,16 @@
 /// @description Update the beginning, chain link, and ending positions
 
-chainDirection = point_direction(x, y, endObj.x, endObj.y);
+var chainDirection = point_direction(x, y, endObj.x, endObj.y);
 
-chainBeginX = x + beginRadius * dcos(chainDirection);
-chainBeginY = y + beginRadius * -dsin(chainDirection);
+var chainBeginX = x + beginRadius * dcos(chainDirection);
+var chainBeginY = y + beginRadius * -dsin(chainDirection);
 
-chainDirectionToStart = point_direction(endObj.x, endObj.y, x, y);
+var chainDirectionToStart = point_direction(endObj.x, endObj.y, x, y);
 
-chainEndX = endObj.x + endRadius * dcos(chainDirectionToStart);
-chainEndY = endObj.y + endRadius * -dsin(chainDirectionToStart);
+var chainEndX = endObj.x + endRadius * dcos(chainDirectionToStart);
+var chainEndY = endObj.y + endRadius * -dsin(chainDirectionToStart);
 
-totalRadius = point_distance(chainBeginX, chainBeginY, chainEndX, chainEndY);
+var totalRadius = point_distance(chainBeginX, chainBeginY, chainEndX, chainEndY);
 
 // Update the position of the chain links
 // You don't draw the chain link at the first and last points, that's where the other objects are
