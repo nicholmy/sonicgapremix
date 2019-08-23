@@ -1,4 +1,6 @@
-/// @description If in Act 2, use the Act 2 bg
+/// @description Start with Act 2 or Forced Night BG
 if (global.ZoneAct == 2) {
 	PalettePosition = 5;
 }
+
+if (forceNight) PalettePosition = 2

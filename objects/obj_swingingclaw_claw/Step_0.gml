@@ -94,7 +94,8 @@ if (isGrabbing) {
 	// Getting out of the grab state
 	if (par_character.KeyAction_Pressed) {
 		par_character.XSpeed = XSpeed;
-		par_character.YSpeed = min(YSpeed + par_character.JumpStrength, par_character.JumpStrength);
+		par_character.YSpeed = clamp(YSpeed + par_character.JumpStrength, -par_character.YSpeed_Max, par_character.JumpStrength);
+		//par_character.YSpeed = min(YSpeed + par_character.JumpStrength, par_character.JumpStrength);
 		show_debug_message("Jump XSpeed: " + string(par_character.XSpeed))
 		show_debug_message("Jump YSpeed: " + string(par_character.YSpeed))
 		par_character.ShieldUsable = true;
