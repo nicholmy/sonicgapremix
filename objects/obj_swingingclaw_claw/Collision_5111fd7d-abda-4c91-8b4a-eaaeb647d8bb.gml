@@ -1,5 +1,5 @@
 /// @description  Grab trigger
-if(!isGrabbing && lockTimer == 0){
+if(!isGrabbing && lockTimer == 0 && other.Action != ActionHurt && other.Action != ActionDie){
 	isGrabbing = true;	
 	swingMode = 0;
 	XSpeed = other.XSpeed;

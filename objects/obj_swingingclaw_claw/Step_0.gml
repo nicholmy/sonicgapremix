@@ -81,6 +81,10 @@ if (swingMode == 1) {
 	YSpeed = -1 * rotSpeed * dcos(rotAngle)
 }
 
+if (par_character.Action == ActionDie || par_character.Action == ActionHurt) {
+	isGrabbing = false;
+}
+
 if (isGrabbing) {
 	image_index = 1;
 
@@ -96,8 +100,8 @@ if (isGrabbing) {
 		par_character.XSpeed = XSpeed;
 		par_character.YSpeed = clamp(YSpeed + par_character.JumpStrength, -par_character.YSpeed_Max, par_character.JumpStrength);
 		//par_character.YSpeed = min(YSpeed + par_character.JumpStrength, par_character.JumpStrength);
-		show_debug_message("Jump XSpeed: " + string(par_character.XSpeed))
-		show_debug_message("Jump YSpeed: " + string(par_character.YSpeed))
+		//show_debug_message("Jump XSpeed: " + string(par_character.XSpeed))
+		//show_debug_message("Jump YSpeed: " + string(par_character.YSpeed))
 		par_character.ShieldUsable = true;
 		
 		isGrabbing = false;

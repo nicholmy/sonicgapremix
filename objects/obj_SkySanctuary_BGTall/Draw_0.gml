@@ -4,9 +4,9 @@
 event_inherited();
 
 // Palette: (Only if we allow Shaders)
-      if(global.Shaders != 0){
-            pal_swap_set(spr_skystation_palette, floor(PalettePosition), false);
-	  }
+if(global.Shaders != 0){
+    pal_swap_set(spr_skystation_palette, floor(PalettePosition), false);
+}
 
  // Draw the Top Clouds (A speed variable is used to help it move separately from the others.)
 scr_draw_background_tiled_area(bg_skysanct_clouds1, 0,  0, __view_get( e__VW.XView, view_current ) + (cl_speed * 0.40), __view_get( e__VW.YView, view_current ) * globalYScroll + 0 , __view_get( e__VW.WView, 0 ) - (cl_speed * 0.40), 112);
