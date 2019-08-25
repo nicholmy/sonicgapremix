@@ -14,9 +14,7 @@
         "7f1c829b-2557-470a-8d92-446ab104c805",
         "73f4ec1d-3df0-4c93-a76b-195e86d30876",
         "2f8785d5-5989-4fd6-b43e-51dc4b2cf20a",
-        "c23f4bc4-b341-4626-b23a-8bde53479b03",
-        "b73ef8ca-16fc-4077-a753-0e4e72540101",
-        "d4e08c42-918b-4dba-82ec-977b3e1cfeee"
+        "c23f4bc4-b341-4626-b23a-8bde53479b03"
     ],
     "filterType": "GMObject",
     "folderName": "Tilesets",
