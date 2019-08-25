@@ -96,7 +96,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "9",
+            "value": "10",
             "varName": "launchXSpd",
             "varType": 0
         },

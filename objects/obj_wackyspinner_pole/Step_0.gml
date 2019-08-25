@@ -15,9 +15,9 @@ if (isSpinning) {
 	}
 	
 	// Move the character
-	// par_character.x = x + dsin(rotAngle * cycleSpd * 3) * 16
+	par_character.x = x + spinDirection * dsin(rotAngle * cycleSpd * 3) * 16
 	// Derivative of the above function
-	par_character.XSpeed = spinDirection * dcos(rotAngle * cycleSpd * 3) / (3 * cycleSpd) * 16
+	var xspeed = spinDirection * dcos(rotAngle * cycleSpd * 3) / (3 * cycleSpd) * 16
 	
 	if (isGoingUp) par_character.YSpeed = -verticalSpd
 	else par_character.YSpeed = verticalSpd
@@ -27,12 +27,17 @@ if (isSpinning) {
 	par_character.Action = ActionJump;
 	par_character.Ground = false;
 	
-	if (par_character.XSpeed > 0) depth = spinDirection * -1;
-	else if (par_character.XSpeed < 0) depth = spinDirection * 1;
+	if (xspeed > 0) depth = spinDirection * -1;
+	else if (xspeed < 0) depth = spinDirection * 1;
+	
+	// For camera purposes!
+	if (par_character.KeyRight) par_character.XSpeed = launchXSpd;
+	else if (par_character.KeyLeft) par_character.XSpeed = -launchXSpd;
+	else par_character.XSpeed = 0;
 	
 	// Getting out of the grab state
 	if (par_character.KeyAction_Pressed) {
-		par_character.XSpeed = launchXSpd * sign(par_character.XSpeed);
+		par_character.XSpeed = launchXSpd * sign(xspeed);
 		par_character.YSpeed = 0;
 		par_character.ShieldUsable = true;
 		

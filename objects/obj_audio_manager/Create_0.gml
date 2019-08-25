@@ -15,6 +15,7 @@
 	Test_Theme3  = (bgm_test_zone3);
 	Sky_Station1 = (bgm_skystation_1);
 	Sky_Station2 = (bgm_skystation_2);
+	Sky_Station3 = (bgm_skystation_3);
 	Star_Station1 = (bgm_starstation_1);
 	Star_Station2 = (bgm_starstation_2);
 	

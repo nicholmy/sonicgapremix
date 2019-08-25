@@ -15,6 +15,7 @@ if (!isSpinning && lockTimer == 0 && other.Action != ActionHurt && other.Action 
 		else rotAngle = 90
 	}
 	
+	PlaySound(snd_character_roll, global.SFXVolume, 1, 1);
 	// Put the character in position
 	other.x = x + spinDirection * dsin(rotAngle * cycleSpd * 3) * 16
 }

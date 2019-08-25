@@ -11,7 +11,8 @@
         "1d9f009b-21dc-4bcf-8a88-e241adc873a7",
         "c14923db-586e-4a31-baac-b1666d290dc1",
         "c5b8a284-1243-4738-9caf-9fe3c86b1308",
-        "1c459eea-dfba-4d2c-93df-a1a95737b0ce"
+        "1c459eea-dfba-4d2c-93df-a1a95737b0ce",
+        "0950a8ec-88fb-4216-b5a4-040e25988fa4"
     ],
     "filterType": "GMSprite",
     "folderName": "Parallax Backgrounds",
