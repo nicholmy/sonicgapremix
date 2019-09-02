@@ -26,11 +26,11 @@ for (i = 0; i < array_length_1d(gapNameList); i++) {
 SONICList = [0, 0, 0, 0, 0];
 
 if (debugFlag) {
-	with (obj_gap) {
+	with (obj_gap || obj_rock_spawner_refresh) {
 		visible = true;
 	}
 } else {
-	with (obj_gap) {
+	with (obj_gap || obj_rock_spawner_refresh) {
 		visible = false;
 	}
 }

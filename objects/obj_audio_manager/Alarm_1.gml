@@ -7,8 +7,9 @@
 		ZoneSetTheme(rm_zone, Test_Theme2, 0, -1, -1);
 		ZoneSetTheme(rm_gapZone, Test_Theme2, 0, -1, -1);
 		ZoneSetTheme(rm_SkyStationZone, Sky_Station1, 0, -1, -1);
-		ZoneSetTheme(rm_StarStationZone, Star_Station1, 0, -1, -1);
-		ZoneSetTheme(rm_TechTreeCourse, Test_Theme, 0, -1, -1);
+		ZoneSetTheme(rm_StarStationZone, Sky_Station3, 0, -1, -1);
+		ZoneSetTheme(rm_TechTreeZone, Tech_Tree1, 0, -1, -1);
+		ZoneSetTheme(rm_TechTreeCourse, Tech_Tree1, 0, -1, -1);
 		   
 		ZoneSetTheme(rm_test_zone, Test_Theme2, 0, -1, -1);
 		ZoneSetTheme(rm_test_zone2, Test_Theme2, 0, -1, -1);
@@ -18,6 +19,7 @@
 		ZoneSetTheme(rm_gapZone, Test_Theme2, 0, -1, -1);
 		ZoneSetTheme(rm_SkyStationZone, Sky_Station2, 0, -1, -1);
 		ZoneSetTheme(rm_StarStationZone, Star_Station2, 0, -1, -1);
+		ZoneSetTheme(rm_TechTreeZone, Tech_Tree1, 0, -1, -1);
 		ZoneSetTheme(rm_test_zone2, Test_Theme3, 0, -1, -1);
 	}
 

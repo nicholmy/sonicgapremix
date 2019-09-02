@@ -4,11 +4,14 @@
  Wall_Treadmill = scr_character_collision_right_object(x, y, Angle, spr_mask_big, obj_wall_treadmill);
  
  if(Wall_Treadmill != noone){
+	if (KeyRight_Pressed) PlaySound(snd_character_roll, global.SFXVolume, 1, 1);
 	// When in the air and holding left/right, spin and accelerate up
 	// If you jump, you can jump off
 	if (!Ground && KeyRight) {
 		Action = ActionJump;
-		YSpeed -= 0.5;
+		// Increase vertical speed, up to a cap
+		XSpeed = 0;
+		YSpeed = max(YSpeed - 2, -12)
 		ShieldUsable = false;
 		
 		if (KeyAction_Pressed) {
@@ -21,14 +24,15 @@
  Wall_Treadmill_Left = scr_character_collision_left_object(x, y, Angle, spr_mask_big, obj_wall_treadmill);
  
  if(Wall_Treadmill_Left != noone){
-	// When on the ground running up a wall, speed up
-	// When on the ground running down a wall, speed down
+	if (KeyLeft_Pressed) PlaySound(snd_character_roll, global.SFXVolume, 1, 1);
  
 	// When in the air and holding left/right, spin and accelerate up
 	// If you jump, you can jump off
 	if (!Ground && KeyLeft) {
 		Action = ActionJump;
-		YSpeed -= 0.5;
+		// Increase vertical speed, up to a cap
+		XSpeed = 0;
+		YSpeed = max(YSpeed - 2, -12)
 		ShieldUsable = false;
 		
 		if (KeyAction_Pressed) {

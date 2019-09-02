@@ -1,5 +1,11 @@
 /// @description Update the beginning, chain link, and ending positions
 
+// Update the base positions of everything in case this object moves
+beginObj.x = x;
+beginObj.y = y;
+endObj.baseX = x;
+endObj.baseY = y;
+
 var chainDirection = point_direction(x, y, endObj.x, endObj.y);
 
 var chainBeginX = x + beginRadius * dcos(chainDirection);

@@ -9,7 +9,8 @@
         "c866e083-23cd-40a0-a5bd-a6804141f815",
         "f7becc86-d2cc-4fee-864a-d6a91b0ff87a",
         "951fdc3f-4b45-4992-943e-8fc7290556b1",
-        "a8944849-46c1-4618-bcfd-2cab44058737"
+        "a8944849-46c1-4618-bcfd-2cab44058737",
+        "2ae1735e-6e76-46b8-9301-b1bcd350d283"
     ],
     "filterType": "GMObject",
     "folderName": "Swinging Claw",
