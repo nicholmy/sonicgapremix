@@ -8,7 +8,7 @@
           var EnemyHandle = scr_character_collision_object(x, y, par_enemy);
 		  var RightSpikyEnemy = scr_character_collision_right_object(x, y, Angle, spr_mask_big, par_enemy);
 		  
-		  if (RightSpikyEnemy && CharacterID == CharacterMighty && (Action == ActionJump || Action == ActionRolling)) {
+		  if (RightSpikyEnemy && RightSpikyEnemy.isLeftSpiky && CharacterID == CharacterMighty && (Action == ActionJump || Action == ActionRolling)) {
 			  XSpeed = -4;
 			  PlaySound(snd_character_spiketap, global.SFXVolume, 1, 1)
 		  }

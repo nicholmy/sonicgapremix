@@ -30,4 +30,16 @@ if (OnSpinPlat != noone) {
 	}
 }
 
+var OnBalancePlat = scr_character_collision_bottom_object(x, y, Angle, spr_mask_big, obj_balanceplat);
 
+if (OnBalancePlat != noone) {
+	
+	if (x > OnBalancePlat.x) {
+		OnBalancePlat.image_angle -= 0.5
+		if (OnBalancePlat.image_angle < -46) OnBalancePlat.image_angle = -46
+	}
+	else if (x < OnBalancePlat.x) {
+		OnBalancePlat.image_angle += 0.5
+		if (OnBalancePlat.image_angle > 46) OnBalancePlat.image_angle = 46
+	}
+}

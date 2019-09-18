@@ -19,8 +19,8 @@
     image_xscale = XSpd;
     
  // Bounce:
-    if(place_meeting(x, y + YSpd, par_collision_solid)){
-       while(!place_meeting(x, y + sign(YSpd), par_collision_solid)){
+    if(place_meeting(x, y + YSpd, par_collision_terrain)){
+       while(!place_meeting(x, y + sign(YSpd), par_collision_terrain)){
              y += sign(YSpd);
        }
        YSpd = -choose(3, 3.25, 3.50);

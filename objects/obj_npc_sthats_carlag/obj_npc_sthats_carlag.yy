@@ -4,21 +4,12 @@
     "mvc": "1.0",
     "name": "obj_npc_sthats_carlag",
     "eventList": [
-        {
-            "id": "a1fe1b93-2b87-46c6-a600-e30c921a5206",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "729eff5b-cd6a-4773-9e9c-0a2f9da3b3a2"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "43015d8c-4273-44a6-8fc8-38cd834eb06a",
+            "id": "51fc55e3-377c-48de-9fbf-5ee9c93c7f1f",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "cf1115a8-72e8-487c-8cdb-c7605e91d2be",
@@ -26,7 +17,7 @@
             "value": "True"
         }
     ],
-    "parentObjectId": "cf1115a8-72e8-487c-8cdb-c7605e91d2be",
+    "parentObjectId": "3250de34-188b-48b7-87e9-f4a103c09c00",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -41,34 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "d4ec8fc0-bde2-4b36-a8be-9aa3bce99b1c",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "XSpeed",
-            "varType": 0
-        },
-        {
-            "id": "80c24ce4-82f3-4376-966f-b795c52ab800",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "YSpeed",
-            "varType": 0
-        }
+        
     ],
     "solid": false,
     "spriteId": "6c2fe57c-70f9-4429-b702-78c45fc28931",
