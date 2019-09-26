@@ -18,13 +18,13 @@
       Harmful_Main = scr_character_collision_object(x, y, par_harmful);
    
    // Get Hit or deflect a projectile:
-      if(Harmful_Main != noone){
+      if(Harmful_Main != noone && Harmful_Main.moveState != 2){
         // Mighty can deflect whenever he's crouched or in ball form
          if (CharacterID == CharacterMighty && (Action == ActionCrouch || Action == ActionJump || Action == ActionRolling)) {
-            var NewSpeed =         sqrt(sqr(Harmful_Main.hspeed) + sqr(Harmful_Main.vspeed));
+            Harmful_Main.moveState = 2;
             var NewAngle =         point_direction(id.x, id.y, Harmful_Main.x, Harmful_Main.y);
-            Harmful_Main.hspeed =  dcos(NewAngle) * NewSpeed * 2;
-            Harmful_Main.vspeed = -dsin(NewAngle) * NewSpeed * 2;
+			Harmful_Main.deflectAngle = NewAngle;
+			
             
             PlaySound(snd_character_spiketap, global.SFXVolume, 1, 1);
          }

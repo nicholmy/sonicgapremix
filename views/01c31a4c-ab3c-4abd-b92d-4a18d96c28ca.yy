@@ -36,7 +36,8 @@
         "502c32c7-3c28-4163-b931-7a9761b890cf",
         "0b3b6c18-2519-4386-a8ba-a868cba77992",
         "39e01e5d-44bc-4cf2-b41f-77e56ff961f8",
-        "59bbd7a6-e797-406c-8616-91ef5d832f82"
+        "59bbd7a6-e797-406c-8616-91ef5d832f82",
+        "305f78bf-2eb0-46a7-b68a-2fde54924a76"
     ],
     "filterType": "GMObject",
     "folderName": "Gimmicks",
