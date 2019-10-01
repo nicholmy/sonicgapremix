@@ -15,24 +15,25 @@ if(place_meeting(x + XSpeed, y, par_collision_solid)){
 		x += sign(XSpeed); 
 	}
 	
-	//image_xscale *= -1;
-	//XSpd         *= -1;
+	if (bounceWalls) {
+		image_xscale *= -1;
+		XSpeed         *= -1;
+	}
 } else if(place_meeting(x + XSpeed, y, obj_badnik_wall)){ 
     while(!place_meeting(x + sign(XSpeed), y, obj_badnik_wall)){ 
             x += sign(XSpeed); 
     } 
-    //image_xscale *= -1;
-    //XSpd         *= -1;
-}  else {
-	x += XSpeed
-}
-
+	if (bounceWalls) {
+		image_xscale *= -1;
+		XSpeed         *= -1;
+	}
+} 
+x += XSpeed
 
 if(place_meeting(x, y + YSpeed, par_collision_terrain)){
 	while(!place_meeting(x, y + sign(YSpeed), par_collision_terrain)){
 	        y += sign(YSpeed);
 	}
 	if (YSpeed > 0) isGround = true;
-} else {
-	y += YSpeed
-}
+} 
+y += YSpeed

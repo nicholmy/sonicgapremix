@@ -216,6 +216,10 @@
 			  if(Action = ActionSquirrelGlide && Animation != "SGLIDE") {
 				  Animation = "SGLIDE";
 			  }
+			  
+			  if(Action = ActionPoleSwing && Animation != "SGLIDE") {
+				  Animation = "SWING";
+			  }
                                                                          
         }
         

@@ -57,3 +57,10 @@ if (Pole_Pod_Door != noone && XSpeed > 0 && x > Pole_Pod_Door.x) {
 		PlaySound(snd_object_accelerator, global.SFXVolume, 1, 1);
 	}
 }
+
+Scrap_Split = scr_character_collision_right_object(x, y, Angle, spr_mask_main, obj_scrapsplitter);
+
+if (Scrap_Split != noone && !Scrap_Split.isGrabbing && (Scrap_Split.image_angle >= 90 && Scrap_Split.image_angle <= 90) && Scrap_Split.lockTimer == 0) {
+	PlaySound(snd_character_roll, global.SFXVolume, 1, 1);
+	Scrap_Split.isGrabbing = true;
+}

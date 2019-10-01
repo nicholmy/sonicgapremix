@@ -13,8 +13,8 @@ if (swingMode == 0) {
 		x = baseX + dcos(curClawAng) * chainLength
 		y = baseY - dsin(curClawAng) * chainLength
 		
-		show_debug_message("Dist: " + string(nextClawDist))
-		show_debug_message("Angle: " + string(curClawAng))
+		//show_debug_message("Dist: " + string(nextClawDist))
+		//show_debug_message("Angle: " + string(curClawAng))
 		
 		if (curClawAng > 0 && curClawAng < 180) {
 			YSpeed += 0.25
@@ -25,9 +25,9 @@ if (swingMode == 0) {
 			swingMode = 1
 			rotAngle = curClawAng
 			var rotBonus = rotSpeed + XSpeed * dcos(rotAngle) - YSpeed * dsin(rotAngle)
-			show_debug_message("XSpeed: "  + string(XSpeed))
-			show_debug_message("YSpeed: "  + string(YSpeed))
-			show_debug_message("Rotation Speed: " + string(rotBonus))
+			//show_debug_message("XSpeed: "  + string(XSpeed))
+			//show_debug_message("YSpeed: "  + string(YSpeed))
+			//show_debug_message("Rotation Speed: " + string(rotBonus))
 			rotSpeed = rotBonus
 			
 		}

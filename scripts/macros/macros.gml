@@ -26,6 +26,7 @@
 #macro ActionSquirrelGlide 24
 #macro ActionFan 25
 #macro ActionSpin 26
+#macro ActionPoleSwing 27
 #macro ShieldDefault 0
 #macro ShieldFlames 1
 #macro ShieldElectricity 2

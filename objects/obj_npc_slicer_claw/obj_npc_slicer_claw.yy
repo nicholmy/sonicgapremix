@@ -5,16 +5,6 @@
     "name": "obj_npc_slicer_claw",
     "eventList": [
         {
-            "id": "9ebd2265-1a9e-4bed-b252-9f6403cab420",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "36bbff80-3625-4bbf-b0ea-e3e76ab1d08d"
-        },
-        {
             "id": "83a974d4-85fd-40ea-b139-90d9fe02589c",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -34,6 +24,14 @@
             "objectId": "4b7dd69c-e1bb-4b42-b35b-441b132593e9",
             "propertyId": "cfbc52da-e744-48d5-afd7-6ebba34f7a12",
             "value": "160"
+        },
+        {
+            "id": "d468828e-af6c-40ba-ae18-5e55ee99429e",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "4b7dd69c-e1bb-4b42-b35b-441b132593e9",
+            "propertyId": "9435e039-96f8-4cec-9126-f682ba0a25ef",
+            "value": "False"
         }
     ],
     "parentObjectId": "4b7dd69c-e1bb-4b42-b35b-441b132593e9",
@@ -106,6 +104,20 @@
             "value": "3",
             "varName": "rotSpeed",
             "varType": 0
+        },
+        {
+            "id": "afd9270c-ff91-467b-8d81-e863fb464a30",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 1,
+            "rangeMin": -1,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "flyDirection",
+            "varType": 1
         }
     ],
     "solid": false,

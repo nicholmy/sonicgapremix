@@ -6,7 +6,8 @@
     "children": [
         "729eff5b-cd6a-4773-9e9c-0a2f9da3b3a2",
         "fc1fe1f3-0c6f-494c-a5c6-9a5029c05b02",
-        "77d6c3f1-880a-4d86-9969-5011f448c389"
+        "77d6c3f1-880a-4d86-9969-5011f448c389",
+        "42834b1c-701d-4fcf-a7d5-4bbea28014ce"
     ],
     "filterType": "GMObject",
     "folderName": "STHATS",

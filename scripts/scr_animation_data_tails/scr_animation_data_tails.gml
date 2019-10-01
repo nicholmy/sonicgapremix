@@ -344,3 +344,15 @@
         AnimationRepeatTimes = 0;
         AnimationLinkedTo    = "NONE";        
      }
+	 
+	 // Pole Swing:
+     if(Animation = "SWING"){
+        AnimationSprite      = spr_mighty_swing;         
+        AnimationStart       = 0;
+        AnimationEnd         = 11;
+        AnimationLoop        = 0;
+        AnimationSpeed       = 0;
+        AnimationRepeat      = 0;
+        AnimationRepeatTimes = 0;
+        AnimationLinkedTo    = "NONE";        
+     }

@@ -25,7 +25,10 @@
         "f852bf22-dd15-41c5-b929-6e8647085324",
         "f3167e5d-3776-4d5f-be6b-ff85cec7858f",
         "5818948c-279c-4cde-9e54-935600983ce9",
-        "d0c71bf2-25a3-4702-9b74-5cbe2f8db382"
+        "d0c71bf2-25a3-4702-9b74-5cbe2f8db382",
+        "4762b4b2-bd53-4e7c-b051-40c9f466a6e0",
+        "d3fa950e-4061-4fc5-a3e7-981fbd2de53b",
+        "485c0a5b-5a8d-4556-a3de-95ef16b00b7f"
     ],
     "filterType": "GMSprite",
     "folderName": "Technology Tree",

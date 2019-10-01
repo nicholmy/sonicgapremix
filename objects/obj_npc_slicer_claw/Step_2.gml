@@ -3,7 +3,7 @@
 // MoveState 1 = Moving
 // MoveState 2 = Reflected
 if (moveState == 1) {
-	x = centerX + 48 * dcos(rotAngle)
+	x = centerX + flyDirection * 48 * dcos(rotAngle)
 	y = centerY - 48 * dsin(rotAngle)
 	rotAngle = (rotAngle + rotSpeed) % 360
 	image_speed = 1

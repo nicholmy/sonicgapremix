@@ -30,7 +30,8 @@
         "8be67d78-ccad-49c6-966c-c260cce168ba",
         "1c6e7ab4-22a8-420b-a084-21d955b2282d",
         "ce3a8cb2-a4dc-4a42-8527-2534eccda08f",
-        "90587774-7f4c-45a7-9bd0-8102aba6e5b5"
+        "90587774-7f4c-45a7-9bd0-8102aba6e5b5",
+        "5a8bb37a-4ec6-4b3b-9e9f-3ab8e105f932"
     ],
     "filterType": "GMSprite",
     "folderName": "Mighty the Armadillo",

@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 1,
             "m_owner": "cf1115a8-72e8-487c-8cdb-c7605e91d2be"
+        },
+        {
+            "id": "9bdf2596-2697-46ee-9f21-010fac2267c9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "cf1115a8-72e8-487c-8cdb-c7605e91d2be"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -89,6 +99,20 @@
             "value": "0",
             "varName": "isBottomSpiky",
             "varType": 3
+        },
+        {
+            "id": "60974993-5b11-4503-828d-c5e9e9ef12f8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "SpikeTimer",
+            "varType": 0
         }
     ],
     "solid": false,

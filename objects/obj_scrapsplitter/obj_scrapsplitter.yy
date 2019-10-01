@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "95c06b12-0d72-4368-a105-e7e1b16faec2"
+        },
+        {
+            "id": "6de46729-f493-40e4-9164-73b3bbd51b8d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "95c06b12-0d72-4368-a105-e7e1b16faec2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -69,6 +79,20 @@
             "value": "0",
             "varName": "isGrabbing",
             "varType": 3
+        },
+        {
+            "id": "ad1aac41-7007-4c7c-a0c2-7ba50d97b181",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "lockTimer",
+            "varType": 0
         }
     ],
     "solid": false,
