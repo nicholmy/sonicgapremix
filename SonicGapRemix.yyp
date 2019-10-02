@@ -5743,6 +5743,14 @@
             }
         },
         {
+            "Key": "6713192d-20a0-4a5b-9974-c3609de4cfa9",
+            "Value": {
+                "id": "80a76167-7a93-47f8-83b8-79bab93bb77d",
+                "resourcePath": "objects\\obj_swingpole_horizontal\\obj_swingpole_horizontal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "674dc157-919b-46f2-b62e-7dd90e08774f",
             "Value": {
                 "id": "6882677c-6988-4e34-b216-dc2c92deecfa",
@@ -5899,6 +5907,14 @@
             "Value": {
                 "id": "91602441-eda4-4493-80e6-e287cc7d56db",
                 "resourcePath": "objects\\obj_zne_tt_pollen_yellow\\obj_zne_tt_pollen_yellow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69e3f83f-7031-4c04-b8e9-16fbc622c3fd",
+            "Value": {
+                "id": "b0dc5377-ee0f-46ed-a79b-9c97b4bd34e7",
+                "resourcePath": "objects\\par_swingpole\\par_swingpole.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -8335,6 +8351,14 @@
             }
         },
         {
+            "Key": "8e14fd90-99c8-4a43-8221-c2d9fadebb9f",
+            "Value": {
+                "id": "6bf390b4-f704-467f-9525-2ba59738fe9e",
+                "resourcePath": "objects\\par_swingpole_horizontal\\par_swingpole_horizontal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8e364dda-5ee1-4dbb-9408-53ed5d8f212c",
             "Value": {
                 "id": "64a03489-aa97-4376-8c33-5d7054b55870",
@@ -9243,6 +9267,14 @@
             "Value": {
                 "id": "94ac2a6c-6c4a-407b-9d57-d6c2f5a4fc8b",
                 "resourcePath": "sprites\\spr_ss_29\\spr_ss_29.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9dc99a1a-1b14-4f30-b3c4-a322e62b1def",
+            "Value": {
+                "id": "e00b1ead-7199-4f17-8b7e-0b2d1ca3c35b",
+                "resourcePath": "sprites\\spr_ray_swing\\spr_ray_swing.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -14691,6 +14723,14 @@
             "Value": {
                 "id": "2c1d498f-6adc-4ea3-bb24-0ace384dfa88",
                 "resourcePath": "sprites\\spr_sensor_layer_highhigh\\spr_sensor_layer_highhigh.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f8368aa5-1fda-4290-a911-043d50017d6a",
+            "Value": {
+                "id": "5764746a-04d6-4ae8-a66c-fd95cfe342ca",
+                "resourcePath": "sprites\\spr_swingpole_horizontal\\spr_swingpole_horizontal.yy",
                 "resourceType": "GMSprite"
             }
         },

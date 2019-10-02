@@ -173,9 +173,9 @@
      if(Animation = "SPRING"){
         AnimationSprite      = spr_ray_spring;         
         AnimationStart       = 0;
-        AnimationEnd         = 1;
+        AnimationEnd         = 10;
         AnimationLoop        = 0;
-        AnimationSpeed       = 0.5;
+        AnimationSpeed       = 1;
         AnimationRepeat      = 1;
         AnimationRepeatTimes = -1;
         AnimationLinkedTo    = "NONE";
@@ -183,9 +183,9 @@
            
   // Edge wobble 1 Animation            
      if(Animation = "EDGEWOBBLE_1"){
-        AnimationSprite      = spr_mighty_edge_balance;         
+        AnimationSprite      = spr_ray_edge_balance;         
         AnimationStart       = 0;
-        AnimationEnd         = 4;
+        AnimationEnd         = 7;
         AnimationLoop        = 0;
         AnimationSpeed       = 0.15;
         AnimationRepeat      = 1;
@@ -242,11 +242,11 @@
      }       
   // Breath Animation            
      if(Animation = "BREATH"){
-        AnimationSprite      = spr_mighty_breath ;         
+        AnimationSprite      = spr_ray_breath ;         
         AnimationStart       = 0;
-        AnimationEnd         = 7;
+        AnimationEnd         = 6;
         AnimationLoop        = 0;
-        AnimationSpeed       = 0;
+        AnimationSpeed       = 0.5;
         AnimationRepeat      = 0;
         AnimationRepeatTimes = 0;
         AnimationLinkedTo    = "NONE";
@@ -407,7 +407,7 @@
 	 
 	 // Pole Swing:
      if(Animation = "SWING"){
-        AnimationSprite      = spr_mighty_swing;         
+        AnimationSprite      = spr_ray_swing;         
         AnimationStart       = 0;
         AnimationEnd         = 11;
         AnimationLoop        = 0;

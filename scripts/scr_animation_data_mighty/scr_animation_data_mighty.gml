@@ -174,11 +174,11 @@
      if(Animation = "SPRING"){
         AnimationSprite      = spr_mighty_spring;         
         AnimationStart       = 0;
-        AnimationEnd         = 0;
+        AnimationEnd         = 10;
         AnimationLoop        = 0;
-        AnimationSpeed       = 0;
-        AnimationRepeat      = 0;
-        AnimationRepeatTimes = 0;
+        AnimationSpeed       = 1;
+        AnimationRepeat      = 1;
+        AnimationRepeatTimes = -1;
         AnimationLinkedTo    = "NONE";
      }
            
