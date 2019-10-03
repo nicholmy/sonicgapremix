@@ -27,7 +27,9 @@
         "7f47db17-3074-4598-a85c-8b925d73a96e",
         "b708efe8-4f65-4ecb-bcdb-67673a02339c",
         "2a5127ef-d542-47ed-896e-c5de98b18ddb",
-        "00ef492d-2442-4ed2-bcd9-ca7e21e2f982"
+        "00ef492d-2442-4ed2-bcd9-ca7e21e2f982",
+        "83af3044-b8ce-451c-ac45-fd3bb3614a60",
+        "5a1c057f-3cad-4fff-b126-b39bd59ac7b1"
     ],
     "filterType": "GMSound",
     "folderName": "Objects",

@@ -37,7 +37,7 @@ if (isSwinging) {
 		swingChar.AnimationAngle = 0;
 		swingChar.AnimationDirection = 1;
 		
-		swingChar.InputLock_L = 1;
+		swingChar.InputLock_L = 0;
 		swingChar.InputLock_R = 0;
 		swingChar.InputAlarm = 0;
 		// Lock the pole for a bit so you can't immediately hit it again

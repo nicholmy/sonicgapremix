@@ -5,7 +5,10 @@ if (isSwinging) {
 	swingChar.y = y;
 	swingChar.XSpeed = 0;
 	swingChar.YSpeed = 0;
-	
+	//Set a control lock (the way you face changes the way the swing looks)
+	swingChar.InputLock_L = 1;
+	swingChar.InputLock_R = 1;
+	swingChar.InputAlarm = 10;
 	// Set the angle of the swing
 	var adjustedSwing = (swingProgress + 720) % 360
 	swingChar.AnimationFrame = floor(12 * (adjustedSwing / 360.0))
@@ -20,9 +23,10 @@ if (isSwinging) {
 		swingChar.Ground = 1;
 		swingChar.Action = swingChar.KeyDown ? ActionRolling : ActionNormal
 		swingChar.XSpeed = 10
-		// Lock the player like any other spring
-		swingChar.InputLock_S = 1;
-        swingChar.LockTimer = 16;
+		// Release the control lock
+		swingChar.InputLock_L = 0;
+		swingChar.InputLock_R = 0;
+		swingChar.InputAlarm = 0;
 		
 		// Lock the pole for a bit so you can't immediately hit it again
 		LockTimer = 5

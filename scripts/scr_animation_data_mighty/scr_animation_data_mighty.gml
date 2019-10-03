@@ -162,9 +162,9 @@
      if(Animation = "ROTATION_1"){
         AnimationSprite      = spr_mighty_rotation_1;         
         AnimationStart       = 0;
-        AnimationEnd         = 11;
+        AnimationEnd         = 23;
         AnimationLoop        = 0;
-        AnimationSpeed       = 0.50;
+        AnimationSpeed       = 1;
         AnimationRepeat      = 1;
         AnimationRepeatTimes = -1;
         AnimationLinkedTo    = "NONE";        
