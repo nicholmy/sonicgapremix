@@ -416,3 +416,15 @@
         AnimationRepeatTimes = 0;
         AnimationLinkedTo    = "NONE";        
      }
+	 
+	 // Free Rotation:
+     if(Animation = "ROTATION_2"){
+        AnimationSprite      = spr_mighty_rotation_1;         
+        AnimationStart       = 0;
+        AnimationEnd         = 23;
+        AnimationLoop        = 0;
+        AnimationSpeed       = 0;
+        AnimationRepeat      = 0;
+        AnimationRepeatTimes = 0;
+        AnimationLinkedTo    = "NONE";        
+     }

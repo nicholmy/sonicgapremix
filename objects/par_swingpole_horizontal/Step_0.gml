@@ -22,7 +22,7 @@ if (isSwinging) {
 	if (swingProgress >= 720) {
 		isSwinging = false;
 
-		swingChar.YSpeed = sign(swingSpeed) * clamp(abs(swingSpeed) + 2, 7, 16);
+		swingChar.YSpeed = sign(swingSpeed) * clamp(abs(swingSpeed) + 3, 7, 16);
 
 		if (swingChar.YSpeed < 0) {
 			// Force the player into the vulnerable spring anim afterwards

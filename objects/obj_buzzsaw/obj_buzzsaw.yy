@@ -1,5 +1,5 @@
 {
-    "id": "98834956-883e-4894-b908-1d534ae4f929",
+    "id": "f3470446-7794-4af8-8dc0-e7ca67933e27",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_buzzsaw",

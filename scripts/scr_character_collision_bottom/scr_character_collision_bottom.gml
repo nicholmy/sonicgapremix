@@ -17,12 +17,18 @@
                                            Layer);
 
    // Special case: if the normal collision test failed, check for collision within platforms:
+   // There's a weird collision bug with platforms when you're inside one and fall out the bottom in the air
       if(!ColTest && !Ground && YSpeed >= 0){
           ColTest = place_meeting(floor(argument0 + sin(degtorad(argument2)) * 11),
                                   floor(argument1 + cos(degtorad(argument2)) * 11),
                                   par_collision_platform) && 
                    !place_meeting(floor(argument0), floor(argument1), 
                                   par_collision_platform);
+			/*ColTest = place_meeting(floor(argument0 + sin(degtorad(argument2)) * 11),
+                                  floor(argument1 + cos(degtorad(argument2)) * 11),
+                                  par_collision_platform) && 
+                   !scr_character_collision_top_object(floor(argument0), floor(argument1), 0, spr_mask_big,
+                                  par_collision_platform);*/
       }
 
    /***** NEW COLLISION ******/

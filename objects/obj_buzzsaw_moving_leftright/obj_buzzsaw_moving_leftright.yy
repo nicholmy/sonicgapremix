@@ -1,0 +1,91 @@
+{
+    "id": "9744df9e-f647-4452-a21b-7a0ab19d6a29",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_buzzsaw_moving_leftright",
+    "eventList": [
+        {
+            "id": "c7043a11-2336-4bc0-a67b-1e0effcc02e6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "9744df9e-f647-4452-a21b-7a0ab19d6a29"
+        },
+        {
+            "id": "1b4ad47b-3e19-4735-9a0e-d78495e77c50",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "9744df9e-f647-4452-a21b-7a0ab19d6a29"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "f3470446-7794-4af8-8dc0-e7ca67933e27",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "69c853d1-4b23-41e6-bd75-509a3e833918",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "256",
+            "varName": "radius",
+            "varType": 0
+        },
+        {
+            "id": "efc2d1d7-0247-4f6e-a830-959d173451e6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "rotAngle",
+            "varType": 0
+        },
+        {
+            "id": "04f640b5-e03b-406f-a55c-95a7a67c18c2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1.5",
+            "varName": "rotSpeed",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "5c51c02e-69bf-413d-ad2f-f63da9facd72",
+    "visible": true
+}

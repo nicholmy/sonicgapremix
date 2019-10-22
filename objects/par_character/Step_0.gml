@@ -7,7 +7,7 @@
              YSpeed        = -7;
           }          
           DeathTimer    = 120;
-          depth         = -999995;  
+          //depth         = -999995;  
           if(instance_exists(obj_audio_manager)){
              with(obj_audio_manager){
                   DeadFade = true;

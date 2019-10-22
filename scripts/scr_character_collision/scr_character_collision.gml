@@ -7,7 +7,7 @@
    }
       
    // Check for Platforms:
-   if (Ground == true){      
+   /*if (Ground == true){      
         if(place_meeting(argument0, argument1, par_collision_platform)){
             if(PlatformCheck == false){
                if(Angle = 0){ 
@@ -18,7 +18,7 @@
                return true;        
             }
         }  
-   }
+   }*/
    
    // Check for Collapsing tiles:
    if (Ground == true){      

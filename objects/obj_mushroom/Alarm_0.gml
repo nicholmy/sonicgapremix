@@ -11,7 +11,6 @@ else {
 }
 
 
-
 isBouncing = false;
 
 bounceChar.InputLock_S = 1;

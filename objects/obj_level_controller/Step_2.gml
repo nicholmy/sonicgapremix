@@ -95,7 +95,9 @@
 	   instance_activate_object(par_door);
 	   instance_activate_object(obj_rock_spawner_big);
 	   instance_activate_object(obj_wackyspinner_pole);
-        
+	   instance_activate_object(obj_buzzsaw_trap);
+	   instance_activate_object(obj_buzzsaw_trigger);
+       instance_activate_object(obj_buzzsaw_end);
        }
        
 
