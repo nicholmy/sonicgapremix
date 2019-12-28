@@ -61,6 +61,23 @@
           SetupCanEnter += 0.25;
        }
     
+	if(keyboard_check_pressed(global.Key_SPECIAL) && SetupCanEnter && SetupProcess > 1){
+		if (SetupProcess == 2 or SetupProcess == 3 or SetupProcess == 5) SetupProcess--;
+		else SetupProcess = 1;
+		
+		SetupMID     = 1;
+		SetupCanEnter   = 0;
+		
+		if (SetupProcess == 1) {
+			SetupMDirection = 1;
+			SetupMID_Max = 2;
+		}
+		if (SetupProcess == 2 or SetupProcess == 3) SetupMID_Max = 3;
+		if (SetupProcess == 4) SetupMID_Max = 6;
+		if (SetupProcess == 5) SetupMID_Max = 5;
+	}
+	
+	// Choose setup
     if(SetupProcess == 1){
        if(keyboard_check_pressed(global.Key_ENTER) && SetupCanEnter){
           switch(SetupMID){
@@ -84,6 +101,7 @@
        }
     }
     
+	// Controller Setup
     if(SetupProcess == 2){
        if(keyboard_check_pressed(global.Key_ENTER) && SetupCanEnter){
           switch(SetupMID){
@@ -115,6 +133,7 @@
        }
     }   
         
+	// Sound Options
     if(SetupProcess == 3 && SetupCanEnter){
        if(SetupMID == 1 && keyboard_check(global.Key_LEFT)){
           if(global.MaxBGMV > 0.00){
@@ -166,42 +185,77 @@
        }                         
     }
     
+	// Character Select
     if(SetupProcess == 4){
        if(keyboard_check_pressed(global.Key_ENTER) && SetupCanEnter){
           switch(SetupMID){
                  case 1:{
                  global.Character_1 = CharacterSonic;
-                 room_goto_next(); 
+                 //room_goto_next(); 
                  break;    
                  }
                  case 2:{
                  global.Character_1 = CharacterTails;
-                 room_goto_next();             
+                 //room_goto_next();             
                  break;
                  }
                  case 3:{                 
                  global.Character_1 = CharacterKnuckles;
-                 room_goto_next();                                 
+                 //room_goto_next();                                 
                  break;
                  }   
                  case 4:{
                  global.Character_1 = CharacterAmy;
-                 room_goto_next();                                 
+                 ///room_goto_next();                                 
                  break;
                  }
                  case 5:{
                  global.Character_1 = CharacterMighty;
-                 room_goto_next();                                 
+                 //room_goto_next();                                 
                  break;
                  }
 				 case 6:{
                  global.Character_1 = CharacterRay;
-                 room_goto_next();                                 
+                 //room_goto_next();                                 
                  break;
                  }   
           }
+		  //room_goto(rm_flicky_select);
+		  SetupProcess    = 5;
+          SetupMDirection = 2;
+          SetupMID_Max    = 5;
+          SetupMID        = 1;
+          SetupCanEnter   = 0;
        }
-    }  
+    }
+	
+	// Level Select
+	if (SetupProcess == 5) {
+		if (keyboard_check_pressed(global.Key_ENTER) && SetupCanEnter) {
+			switch(SetupMID){
+                 case 1:{
+                 room_goto(rm_SkyStationZone); 
+                 break;    
+                 }
+                 case 2:{
+                 room_goto(rm_StarStationZone);            
+                 break;
+                 }
+                 case 3:{                 
+                 room_goto(rm_TechTreeZone);                                
+                 break;
+                 }   
+                 case 4:{
+                 room_goto(rm_test_zone2);                            
+                 break;
+                 }
+                 case 5:{
+                 room_goto(rm_test_zone3);                                
+                 break;
+                 }
+			}
+		}
+	}
 
     
 

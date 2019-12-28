@@ -7,8 +7,9 @@
        }
     }else{
        if(SpecialFlag == false){
-          if(instance_exists(obj_fade_next) == false){
-             instance_create(x, y, obj_fade_next);
+          if(instance_exists(obj_fade_level_select) == false){
+             //instance_create(x, y, obj_fade_level_select);
+			 instance_create_layer(x, y, layer_get_id("Manager_Layer"), obj_fade_level_select)
           }
        }else{
           if(instance_exists(par_character)){

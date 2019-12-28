@@ -98,6 +98,7 @@
 	   instance_activate_object(obj_buzzsaw_trap);
 	   instance_activate_object(obj_buzzsaw_trigger);
        instance_activate_object(obj_buzzsaw_end);
+	   instance_activate_object(spr_npc_sth3_bloominator_spike);
        }
        
 

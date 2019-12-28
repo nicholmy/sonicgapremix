@@ -13,6 +13,7 @@
 		   
 		ZoneSetTheme(rm_test_zone, Test_Theme2, 0, -1, -1);
 		ZoneSetTheme(rm_test_zone2, Test_Theme2, 0, -1, -1);
+		ZoneSetTheme(rm_test_zone3, Test_Theme3, 0, -1, -1);
 		ZoneSetTheme(rm_test_gapZone, Test_Theme, 0, -1, -1);
 	} else if (global.ZoneAct == 2) {
 		ZoneSetTheme(rm_zone, Test_Theme2, 0, -1, -1);

@@ -11,11 +11,11 @@
              alarm[0]    = 1;
              PlaySound(snd_object_projectile, global.SFXVolume, 1, 1);
              Spike = instance_create(x, y-10, obj_npc_sth3_bloominator_spike){
-                  if(CharNear.x < x) with(Spike) { hspeed = -1;             vspeed = -6; gravity = 0.3}
+                  if(CharNear.x < x) with(Spike) { hspeed = -other.hshoot;             vspeed = other.vshoot; gravity = 0.3}
                   else
-                  if(CharNear.x > x) with(Spike) { hspeed =  1;             vspeed = -6; gravity = 0.3}   
+                  if(CharNear.x > x) with(Spike) { hspeed =  other.hshoot;             vspeed = other.vshoot; gravity = 0.3}   
                   else   
-                  if(CharNear.x = x) with(Spike) { hspeed = choose(1, -1);  vspeed = -6; gravity = 0.3}                                 
+                  if(CharNear.x = x) with(Spike) { hspeed = choose(other.hshoot, -other.hshoot);  vspeed = other.vshoot; gravity = 0.3}                                 
              }
           }
        }

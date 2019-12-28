@@ -89,6 +89,48 @@
             "value": "1",
             "varName": "pathSpeed",
             "varType": 0
+        },
+        {
+            "id": "40753f97-eed2-45a8-b07b-4435f6edebcb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "6",
+            "varName": "platCount",
+            "varType": 0
+        },
+        {
+            "id": "b7cf22bd-0b16-48f3-9b72-7a1f837d7ce4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1000",
+            "varName": "maxPathLength",
+            "varType": 0
+        },
+        {
+            "id": "dae650ba-c7cb-4b79-a5c3-214b6ad1f76c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 1,
+            "rangeMin": -1,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "Direction",
+            "varType": 1
         }
     ],
     "solid": false,

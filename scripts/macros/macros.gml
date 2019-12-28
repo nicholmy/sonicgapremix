@@ -1,4 +1,4 @@
-#macro GameTitle "Flicky Engine"
+#macro GameTitle "Sonic Gap Remix"
 #macro ActionNormal 0
 #macro ActionJump 1
 #macro ActionCrouch 2

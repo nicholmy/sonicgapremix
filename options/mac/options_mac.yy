@@ -8,6 +8,7 @@
     "option_mac_allow_outgoing_network": false,
     "option_mac_app_category": "Games",
     "option_mac_app_id": "",
+    "option_mac_apple_sign_in": false,
     "option_mac_build_app_store": true,
     "option_mac_copyright": "(c)2016 CompanyName Ltd...",
     "option_mac_disable_sandbox": false,
