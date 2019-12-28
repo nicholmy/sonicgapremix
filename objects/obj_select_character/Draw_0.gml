@@ -24,7 +24,7 @@ if(SelectID == 1) {
 	name = "RAY THE FLYING SQUIRREL"
 }
 
-if (!HasSelected or (HasSelected && alarm[1] % 4 == 0))
+if (!isBlinking or (isBlinking && alarm[1] % 4 == 0))
 	draw_text(x, y, string_hash_to_newline(name))
                 
 draw_set_color(c_white) 

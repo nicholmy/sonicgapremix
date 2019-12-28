@@ -4343,6 +4343,14 @@
             }
         },
         {
+            "Key": "4a76d5fe-0413-4a00-82c6-ff736ff26370",
+            "Value": {
+                "id": "fdb776ee-096d-4b1a-b72c-3e54348d638a",
+                "resourcePath": "views\\4a76d5fe-0413-4a00-82c6-ff736ff26370.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4aa51cb6-2eee-4d6c-bf38-d5dec5963803",
             "Value": {
                 "id": "4ef98fc7-b0ce-44bf-8665-fd716541428b",
@@ -11807,6 +11815,14 @@
             }
         },
         {
+            "Key": "bfd81389-588a-4e40-b21f-8f99d26a6aea",
+            "Value": {
+                "id": "321f26de-135b-470b-bcc1-3ef5d8fdcf01",
+                "resourcePath": "objects\\obj_charicon\\obj_charicon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c0013777-a709-477e-8d73-87240339a195",
             "Value": {
                 "id": "868a100f-2b9a-4ff8-8d4a-253895d28f48",
@@ -12871,6 +12887,14 @@
             }
         },
         {
+            "Key": "cf6b651b-d582-45e8-b6f6-87659d022629",
+            "Value": {
+                "id": "191d169d-cc0a-43fc-b7b7-e379837f9ff5",
+                "resourcePath": "rooms\\rm_flicky_select_level\\rm_flicky_select_level.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cf771a56-0990-4dda-984a-3c37d26a86d1",
             "Value": {
                 "id": "7052a199-ad58-45b5-9006-ac73bfd59df2",
@@ -13751,6 +13775,14 @@
             }
         },
         {
+            "Key": "dca3cedb-b024-4a51-811c-f882cc98fc87",
+            "Value": {
+                "id": "e9f5b458-a3fe-488a-a604-360bf1bc54b1",
+                "resourcePath": "objects\\obj_select_level\\obj_select_level.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dcf3880a-1ea0-4b67-b897-a3b4d960680c",
             "Value": {
                 "id": "fa4845f0-e165-45a9-8793-1e59b6a9d966",
@@ -13882,7 +13914,7 @@
             "Key": "dff47c46-af68-4682-949c-52a142e240f4",
             "Value": {
                 "id": "28a0e177-c0aa-40f6-9e08-bd04d90d0bcf",
-                "resourcePath": "rooms\\rm_flicky_select\\rm_flicky_select.yy",
+                "resourcePath": "rooms\\rm_flicky_select_char\\rm_flicky_select_char.yy",
                 "resourceType": "GMRoom"
             }
         },

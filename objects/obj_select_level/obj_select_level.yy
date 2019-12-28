@@ -1,18 +1,38 @@
 {
-    "id": "fc06126e-a85b-461b-8780-0ef675755358",
+    "id": "dca3cedb-b024-4a51-811c-f882cc98fc87",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_menu_title",
+    "name": "obj_select_level",
     "eventList": [
         {
-            "id": "be1f33dd-1afa-4555-b2b6-b688280eeb74",
+            "id": "ef7813de-72f3-466d-8dae-3a5ce263fde7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "dca3cedb-b024-4a51-811c-f882cc98fc87"
+        },
+        {
+            "id": "e1f25eae-94a0-47c6-9a1c-7cc5febed739",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "fc06126e-a85b-461b-8780-0ef675755358"
+            "m_owner": "dca3cedb-b024-4a51-811c-f882cc98fc87"
+        },
+        {
+            "id": "7a30b9ad-106f-423b-a29b-b60ae2c9e820",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "dca3cedb-b024-4a51-811c-f882cc98fc87"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,22 +51,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "74f70cdd-1432-4e39-9b49-1425991e639a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "CHARACTER SELECT",
-            "varName": "title",
-            "varType": 2
-        }
-    ],
+    "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true

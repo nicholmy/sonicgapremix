@@ -58,7 +58,7 @@
       global.Cheats       =  1; // Do we allow cheats?
       
    // Rendering Variables:
-      global.Character_1  = noone; // Who's the main character?
+      global.Character_1  = 1; // Who's the main character?
       global.Character_2  = noone; // Who's the ai player?
       global.ScreenSize   = 2;     // Sets the Screen size.
       global.ScreenWidth  = 320;   // The Screen's width.

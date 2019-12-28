@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_flicky_select",
+    "name": "rm_flicky_select_char",
     "id": "dff47c46-af68-4682-949c-52a142e240f4",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
