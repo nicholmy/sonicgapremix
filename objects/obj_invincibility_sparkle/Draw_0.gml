@@ -4,7 +4,7 @@
     if(instance_exists(par_character)){
        var (MyAlpha) = par_character.Alpha;
     }else{
-           (MyAlpha) = 0;
+           var (MyAlpha) = 0;
     }
 
  // Draw the Sparkle.   

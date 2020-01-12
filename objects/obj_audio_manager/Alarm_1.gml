@@ -20,7 +20,7 @@
 		ZoneSetTheme(rm_gapZone, Test_Theme2, 0, -1, -1);
 		ZoneSetTheme(rm_SkyStationZone, Sky_Station2, 0, -1, -1);
 		ZoneSetTheme(rm_StarStationZone, Star_Station2, 0, -1, -1);
-		ZoneSetTheme(rm_TechTreeZone, Tech_Tree1, 0, -1, -1);
+		ZoneSetTheme(rm_TechTreeZone, Tech_Tree2, 0, -1, -1);
 		ZoneSetTheme(rm_test_zone2, Test_Theme3, 0, -1, -1);
 	}
 

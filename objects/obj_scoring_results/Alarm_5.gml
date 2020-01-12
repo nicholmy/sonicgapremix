@@ -17,7 +17,7 @@
                   GoalState   = 2;
                   LockControl = 0;
              }
-             //global.GameTime = 0;
+             global.GameTime = 0;
              global.DoTime   = 1;
 			 
           }

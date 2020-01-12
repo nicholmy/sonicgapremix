@@ -19,6 +19,7 @@
 	Star_Station1 = (bgm_starstation_1);
 	Star_Station2 = (bgm_starstation_2);
 	Tech_Tree1 = (bgm_techtree_1);
+	Tech_Tree2 = (bgm_techtree_2);
 	
 	Minor_Boss_Theme = (bgm_minor_boss);
 	Major_Boss_Theme = (bgm_minor_boss);

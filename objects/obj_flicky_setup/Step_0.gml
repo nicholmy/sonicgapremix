@@ -94,7 +94,8 @@
                  SetupMDirection = 2;
                  SetupMID_Max    = 6;
                  SetupMID        = 1;
-                 SetupCanEnter   = 0;                                
+                 SetupCanEnter   = 0;
+				 room_goto(rm_flicky_select_char)
                  break;
                  }
           }
@@ -181,7 +182,8 @@
           SetupMDirection = 2;
           SetupMID_Max    = 6;
           SetupMID        = 1;
-          SetupCanEnter   = 0;            
+          SetupCanEnter   = 0;
+		  room_goto(rm_flicky_select_char)
        }                         
     }
     

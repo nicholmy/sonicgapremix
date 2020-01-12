@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if (state == 0 && distance_to_object(par_character) < 128) {
+if (state == 0 && distance_to_object(par_character) < 128 && par_character.x < x) {
 	state = 1;
 	alarm[0] = 20;
 }

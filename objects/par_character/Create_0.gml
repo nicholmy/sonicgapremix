@@ -275,13 +275,20 @@ with (other) {
 			   y = par_character_rayspawn.y;
 		   }
 	   } else if (global.ZoneAct == 2) {
+		   if (instance_exists(par_character_act2spawn)) {
+			   x = par_character_act2spawn.x;
+			   y = par_character_act2spawn.y;
+		   }
 		   if (instance_exists(par_character_rayspawn2) && CharacterID == CharacterRay) {
 			   x = par_character_rayspawn2.x;
 			   y = par_character_rayspawn2.y;
-			   
-			   
 		   }
 	   }
+	   // Update Camera position:
+	    obj_camera.x      = x;
+	    obj_camera.y      = y;     
+	    obj_camera.Cam_XX = x;
+	    obj_camera.Cam_XX = y;
     }
 
 
