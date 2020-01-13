@@ -1,8 +1,8 @@
 {
-    "id": "2c88b0d0-8839-4ae3-957a-1a457bb19545",
+    "id": "5267ffa2-4b94-4588-a207-1737e1c7c560",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_zne_tech_full2",
+    "name": "obj_zne_tech_low1",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "dd19a023-a6b8-41a5-84ad-cb90e61f6042",
+    "spriteId": "6b10019d-31f5-4224-953a-93d878541047",
     "visible": true
 }
