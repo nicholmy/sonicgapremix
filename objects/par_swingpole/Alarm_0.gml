@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Debugging
 // You can write your code in this editor
 
 show_debug_message("Image index: " + string(swingChar.image_index));

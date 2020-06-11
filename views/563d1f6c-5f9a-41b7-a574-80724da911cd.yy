@@ -26,7 +26,8 @@
         "4f91f0dd-e414-4926-88a5-edfed7a8ac30",
         "80d13027-6d8e-407e-9675-dbdada9a93ce",
         "043607f5-b86b-49db-9933-bd26e373bd9d",
-        "f29f85a9-983b-4d45-a5bf-484d0e78e040"
+        "f29f85a9-983b-4d45-a5bf-484d0e78e040",
+        "0e52e27a-3183-45b6-8efd-f8d4a379e8f8"
     ],
     "filterType": "GMSprite",
     "folderName": "Terrain (Platforms)",

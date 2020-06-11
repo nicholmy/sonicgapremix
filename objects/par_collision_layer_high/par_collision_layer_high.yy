@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "par_collision_layer_high",
     "eventList": [
-        
+        {
+            "id": "13445797-c62a-46df-ba54-5e0cb87d5835",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "57d96a06-6e8b-41a9-a8e7-f36e14efaf67"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

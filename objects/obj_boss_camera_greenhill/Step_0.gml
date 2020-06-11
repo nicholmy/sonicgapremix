@@ -11,7 +11,7 @@ if (!hasBossSpawned) {
 	    }
 		  
 		  
-		obj_audio_manager.MajorBossFade = true;
+		obj_audio_manager.alarm[3] = 1;
 		
 		instance_create(x, y, bossToSpawn);
 		bossToSpawn.isSpawnFrame = 1;

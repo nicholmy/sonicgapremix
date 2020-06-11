@@ -8,7 +8,7 @@
       if(rectangle_in_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, __view_get( e__VW.XView, 0 ), __view_get( e__VW.YView, 0 ), __view_get( e__VW.XView, 0 ) + __view_get( e__VW.WView, 0 ), __view_get( e__VW.YView, 0 ) + __view_get( e__VW.HView, 0 ))){
          obj_camera.Cam_Subject = Camera;
          obj_camera.Cam_LeftLimit  = __view_get( e__VW.XView, 0 ); 
-         obj_camera.Cam_RightLimit = x+__view_get( e__VW.WView, 0 )/2;  
+         obj_camera.Cam_RightLimit = Camera.x+__view_get( e__VW.WView, 0 )/2;  
       }       
       
     // Spin:
@@ -67,7 +67,7 @@
           event_user(0);
        }
        if(Drop == true){
-          YSpeed += 0.21875 
+          YSpeed += fallGrav 
           if(YSpeed > 4){
              YSpeed = 4;
           }
@@ -79,17 +79,31 @@
        
     // Bounce:
        if(instance_exists(par_character) && Drop == true){
-          if(place_meeting(x, y-1, par_character)){
+          if(place_meeting(x, y-1, par_character) and YSpeed > 0 and par_character.YSpeed < 0){
              if(par_character.Action == ActionJump){
-                YSpeed  = -6;
+                YSpeed  = par_character.YSpeed;
+                XSpeed  = (x - par_character.x)/6;
+                /*if(CheckSound(snd_object_signpost) == false){
+                   PlaySound(snd_object_signpost, global.SFXVolume, 1, 1);
+                }*/
+				
+				PlaySound(snd_object_bumper, global.SFXVolume, 1, 1);          
+				var scoreEffect = instance_create(x, y-1, obj_effect_score);
+				scoreEffect.image_index = 0;
+                global.Score += 10;
+             }
+          }
+		  /*if(par_character.y > y and YSpeed > 0 and par_character.YSpeed < 0){
+             if(par_character.Action == ActionJump){
+                YSpeed  = par_character.YSpeed;
                 XSpeed  = (x - par_character.x)/6;
                 if(CheckSound(snd_object_signpost) == false){
                    PlaySound(snd_object_signpost, global.SFXVolume, 1, 1);
                 }
              }
-          }       
+          }*/
        }
-       if(SpecialFlag != 0 && Drop != false){
+       if(Drop == true){
           if(x < __view_get( e__VW.XView, 0 )+sprite_width/2){
              XSpeed = 2;
           }  
@@ -101,6 +115,6 @@
 
     // Update Camera position (for dropping)
        if(SpecialFlag != 0){    
-          Camera.y = y-80;
+          //Camera.y = y-80;
        }          
 

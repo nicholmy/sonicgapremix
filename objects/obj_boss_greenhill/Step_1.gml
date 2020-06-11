@@ -22,6 +22,7 @@ if (MoveState == "StartLeft") {
 if (MoveState == "StartLeft" && x == CameraFocus.x) {
 	XSpeed = 0;
 	YSpeed = 0;
+	
 	chainBall.x = x;
 	chainBall.y = y;
 	chainBall.visible = true;

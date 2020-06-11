@@ -40,7 +40,8 @@
         "8b56d767-0e28-4998-b57b-aee1c5457016",
         "bc27498a-c0c8-4bad-b195-3fdcdee7f362",
         "efe61cca-825b-4a49-a13d-62a0cc4d70cf",
-        "89860876-b0b6-4fb8-81d8-f88765208bbe"
+        "89860876-b0b6-4fb8-81d8-f88765208bbe",
+        "f09fd868-3100-4e51-9ddf-6168f269f698"
     ],
     "filterType": "GMSprite",
     "folderName": "Gimmicks",

@@ -349,7 +349,7 @@
 	 // Pole Swing:
      if(Animation = "SWING"){
         AnimationSprite      = spr_mighty_swing;         
-        AnimationStart       = 0;
+        AnimationStart       = 10;
         AnimationEnd         = 11;
         AnimationLoop        = 0;
         AnimationSpeed       = 0;

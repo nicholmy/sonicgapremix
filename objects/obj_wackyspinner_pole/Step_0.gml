@@ -27,8 +27,11 @@ if (isSpinning) {
 	par_character.Action = ActionJump;
 	par_character.Ground = false;
 	
-	if (xspeed > 0) depth = spinDirection * -1;
-	else if (xspeed < 0) depth = spinDirection * 1;
+	//if (xspeed > 0) depth = spinDirection * -1;
+	//else if (xspeed < 0) depth = spinDirection * 1;
+	
+	if (xspeed > 0) par_character.layer = layer_get_id("Front_Instances");
+	else if (xspeed < 0) par_character.layer = layer_get_id("Back_Instances");
 	
 	// For camera purposes!
 	if (par_character.KeyRight) par_character.XSpeed = launchXSpd;
@@ -40,6 +43,7 @@ if (isSpinning) {
 		par_character.XSpeed = launchXSpd * sign(xspeed);
 		par_character.YSpeed = 0;
 		par_character.ShieldUsable = true;
+		par_character.layer = layer_get_id("Instances");
 		
 		isSpinning = false;
 		lockTimer = 30;

@@ -8,3 +8,4 @@ for(i=0; i<chainLength; i++){
 instance_destroy(chainBall);
 
 instance_destroy(eggMobileFire);
+obj_audio_manager.alarm[1] = 1;

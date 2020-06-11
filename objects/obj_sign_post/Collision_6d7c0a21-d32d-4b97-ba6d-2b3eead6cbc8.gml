@@ -1,6 +1,8 @@
 /// @description  Trigger.
     if(SpinActivated == false && Drop == false){
        SpinActivated = true;
+	   Drop = true;
+	   YSpeed = max(-abs(other.XSpeed) / 1.5, -8);
        PlaySound(snd_object_signpost, global.SFXVolume, 1, 1);
        if(obj_camera.Cam_Subject == par_character){
           obj_camera.Cam_Subject = Camera;

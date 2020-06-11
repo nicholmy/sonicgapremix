@@ -1,5 +1,5 @@
 {
-    "id": "6cd97183-99ba-4279-b1c9-eb8a38a662e4",
+    "id": "66ae804c-7937-4125-9324-d7113f0944c1",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_zne_tech_low2",
@@ -8,7 +8,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "8fe0039a-0e28-46cb-941c-b5b8377c7631",
+    "parentObjectId": "a29db989-1483-4449-b56b-3ba82d011abc",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "485b8cb7-27cc-457a-a0c1-202a2330c020",
+    "spriteId": "ba4842b0-6630-4a92-a4d9-d0c33aa45abf",
     "visible": true
 }

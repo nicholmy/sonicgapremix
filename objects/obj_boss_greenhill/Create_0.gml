@@ -29,9 +29,10 @@ for(i=0; i<chainLength; i++){
 	chainLinkArr[i].depth = 2;
 }
 
-chainBall = instance_create(x, y, obj_boss_greenhill_chain_ball);
+chainBall = instance_create(x, y-200, obj_boss_greenhill_chain_ball);
 chainBall.visible = false;
 chainBall.depth = 1;
+
 //chainBall.y = chainBase.y + chainLinkArr[0].sprite_height * (chainLength-1) + chainBall.sprite_height;
 
 

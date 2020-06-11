@@ -77,6 +77,20 @@
             "value": "0",
             "varName": "isNextActPost",
             "varType": 3
+        },
+        {
+            "id": "103fb25f-ac67-4818-9153-c28a214637ce",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.109375",
+            "varName": "fallGrav",
+            "varType": 0
         }
     ],
     "solid": false,
