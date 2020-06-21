@@ -25,7 +25,8 @@
         "7cada878-5a6b-44b3-8d2a-a86b9f26ad47",
         "36ec802d-e77e-49c2-bb78-b0107ec7c4b3",
         "dc0f6c38-15a6-4e8e-a2bf-7ba93c24011d",
-        "0142e480-648d-4215-8237-98ee0475fc14"
+        "0142e480-648d-4215-8237-98ee0475fc14",
+        "4f848c75-0fbb-4d0c-a732-cacfbdc04d09"
     ],
     "filterType": "GMObject",
     "folderName": "Handle",

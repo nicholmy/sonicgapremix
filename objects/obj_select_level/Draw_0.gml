@@ -27,15 +27,22 @@ if (levelMode == 0) {
 		draw_set_color(c_yellow)
     }else{
 		draw_set_color(c_white)
-    }
-	draw_text(lvlListX, lvlListY+48, string_hash_to_newline("BOSS ZONE"))
+    } 
+	draw_text(lvlListX, lvlListY+48, string_hash_to_newline("AQUATIC RUIN"))
 	
 	if(SelectID == 4){
 		draw_set_color(c_yellow)
     }else{
 		draw_set_color(c_white)
     }
-	draw_text(lvlListX, lvlListY+64, string_hash_to_newline("TEST ZONE"))
+	draw_text(lvlListX, lvlListY+64, string_hash_to_newline("BOSS ZONE"))
+	
+	if(SelectID == 5){
+		draw_set_color(c_yellow)
+    }else{
+		draw_set_color(c_white)
+    }
+	draw_text(lvlListX, lvlListY+80, string_hash_to_newline("TEST ZONE"))
 }
 else {
 	draw_text(x, y, string_hash_to_newline("COURSE SELECT"))

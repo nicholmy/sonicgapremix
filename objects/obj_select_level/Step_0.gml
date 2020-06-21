@@ -48,20 +48,19 @@ if (keyboard_check_pressed(global.Key_ENTER)) {
 	            break;    
 	            }
 	            case 2:{
-					//PlaySound(snd_object_checkpoint, global.MaxSFXV, 1, 1)
 					room_goto(rm_TechTreeZone);
 					break;
 	            }   
 	            case 3:{
-					//PlaySound(snd_object_checkpoint, global.MaxSFXV, 1, 1)
-					room_goto(rm_test_zone2); 
-					
+					room_goto(rm_AquaticRuinZone); 
 					break;
 	            }
 	            case 4:{
-					//PlaySound(snd_object_checkpoint, global.MaxSFXV, 1, 1)
 					room_goto(rm_test_zone3);
-				
+					break;
+	            }
+				case 5:{
+					room_goto(rm_test_zone3);
 					break;
 	            }
 		}

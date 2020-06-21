@@ -1,0 +1,72 @@
+{
+    "id": "98f38e23-0c07-4dfe-8eac-732b71551371",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_collapse_aquaticruin_pieces",
+    "eventList": [
+        
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "aa16098e-31da-499b-9100-781c4474fe0a",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "84412397-1bd4-4442-9dd9-a0a0a802ee88",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "state",
+            "varType": 0
+        },
+        {
+            "id": "bc968bb4-5147-40f6-a073-35e8fe4ed67d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "x",
+            "varName": "resetX",
+            "varType": 0
+        },
+        {
+            "id": "7c63f536-d957-4973-8c5e-8f852a3a3183",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "y",
+            "varName": "resetY",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "f10c849d-4cdf-4422-a5b8-8abc241a6c53",
+    "visible": true
+}
