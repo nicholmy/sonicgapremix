@@ -56,11 +56,11 @@
                                      
                 // Check if we're in the air but collided with the ceiling:
                    if(YSpeed < 0 && scr_character_collision_top(x, y, Angle, spr_mask_big) == true){
-                      ShieldUsable = true;
+                      //ShieldUsable = true;
                       YSpeed       = 0;
-                      if(Action = ActionNormal && XSpeed = 0 && YSpeed = 0){
+                      /*if(Action = ActionNormal && XSpeed = 0 && YSpeed = 0){
                          Action = ActionRolling;
-                      }       
+                      } */      
                    }              
       }
       

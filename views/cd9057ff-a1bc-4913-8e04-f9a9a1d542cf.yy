@@ -27,7 +27,8 @@
         "8ed9a304-05c0-4025-840c-267c2b5dd1ad",
         "ef9f2bbf-8ee9-4961-8179-7f573316f58e",
         "3d8949fd-8643-4fdf-85da-ba599b433d75",
-        "0251cb02-92f7-4a9d-a50f-827c5085331c"
+        "0251cb02-92f7-4a9d-a50f-827c5085331c",
+        "d312ca88-e28f-47e3-b0e4-345f6ef28e23"
     ],
     "filterType": "GMSound",
     "folderName": "Characters",

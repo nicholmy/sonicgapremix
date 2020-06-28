@@ -27,7 +27,7 @@
          if(Action == ActionJump && JumpHeightMod == true && YSpeed < JSCheck && KeyAction == false){
             YSpeed = JumpRelease;
          }            
-         if(Ground == true && !scr_character_collision_top(x, y-6, Angle, spr_mask_big) && KeyAction_Pressed &&
+         if(Ground && !scr_character_collision_top(x, y-6, Angle, spr_mask_big) && KeyAction_Pressed &&
             Action != ActionCrouch && Action != ActionSpindash && Action != ActionLookup && Action != ActionPeelout && LockTunnel == 0){
                                                        
              // Set X and Y Speed:

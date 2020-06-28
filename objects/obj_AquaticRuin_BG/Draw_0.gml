@@ -24,15 +24,15 @@ event_inherited();
 	
 /*******WATER BG*******/
 	//scr_draw_sprite_tiled_horizontal(sprWaterBG, 0,  __view_get( e__VW.XView, 0 ), global.WaterSurfacePosition);
-    var MaxScaleY   = 0.2;
-	var waterYOffset = -8;
-	var Height = 0;
+    //var MaxScaleY   = 0.2;
+	//var waterYOffset = -8;
+	//var Height = 0;
 	
 	//floor(__view_get( e__VW.YView, view_current )*RatioY)+Height;
 	
     // Calculate scale and limit it over the MaxScaleY
-    var _Scale = min(max((par_character.y - global.WaterSurfacePosition - Height)/sprite_get_height(sprWaterBG), -MaxScaleY), MaxScaleY);
+    //var _Scale = min(max((par_character.y - global.WaterSurfacePosition - Height)/sprite_get_height(sprWaterBG), -MaxScaleY), MaxScaleY);
 
-	scr_draw_background_tiled_area(bg_labyrinth_all, 0,  0, __view_get( e__VW.XView, view_current ) * 0.65, global.WaterSurfacePosition + waterYOffset + _Scale * sprite_get_height(sprWaterBG) , __view_get( e__VW.XView, view_current ) * 0.35 + __view_get( e__VW.WView, 0 ), 1024);
-	scr_draw_background_tiled_area_ext(sprWaterBG, 0,  0, __view_get( e__VW.XView, view_current ) * 0.65 + (cl_speed * 0.90), global.WaterSurfacePosition + waterYOffset , __view_get( e__VW.XView, view_current ) * 0.35 + __view_get( e__VW.WView, 0 ) - (cl_speed * 0.90), 256, _Scale);
+	//scr_draw_background_tiled_area(bg_labyrinth_all, 0,  0, __view_get( e__VW.XView, view_current ) * 0.65, global.WaterSurfacePosition + waterYOffset + _Scale * sprite_get_height(sprWaterBG) , __view_get( e__VW.XView, view_current ) * 0.35 + __view_get( e__VW.WView, 0 ), 1024);
+	//scr_draw_background_tiled_area_ext(sprWaterBG, 0,  0, __view_get( e__VW.XView, view_current ) * 0.65 + (cl_speed * 0.90), global.WaterSurfacePosition + waterYOffset , __view_get( e__VW.XView, view_current ) * 0.35 + __view_get( e__VW.WView, 0 ) - (cl_speed * 0.90), 256, _Scale);
 	

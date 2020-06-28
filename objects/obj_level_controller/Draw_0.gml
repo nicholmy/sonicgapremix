@@ -103,12 +103,16 @@
 					draw_set_halign(-1);
 					
 					draw_set_halign(fa_left);          
-					draw_text(screenX + screenWidth-128, screenY + screenHeight-56, "XSPEED");    
+					draw_text(screenX + screenWidth-128, screenY + screenHeight-56, "GROUND");    
+					draw_set_halign(-1);
+					
+					draw_set_halign(fa_left);          
+					draw_text(screenX + screenWidth-128, screenY + screenHeight-46, "XSPEED");    
 					draw_set_halign(-1);
 		
 					draw_set_halign(fa_left);          
-					draw_text(screenX + screenWidth-128, screenY + screenHeight-46, "YSPEED");    
-					draw_set_halign(-1);           
+					draw_text(screenX + screenWidth-128, screenY + screenHeight-36, "YSPEED");    
+					draw_set_halign(-1);
 				}
 				
 				draw_set_color(c_white){
@@ -129,11 +133,15 @@
 						draw_set_halign(-1);
 					
 						draw_set_halign(fa_right);          
-						draw_text(screenX + screenWidth-14, screenY + screenHeight-56, string(floor(par_character.XSpeed)));    
+						draw_text(screenX + screenWidth-14, screenY + screenHeight-56, string(floor(par_character.Ground)));    
+						draw_set_halign(-1);
+						
+						draw_set_halign(fa_right);          
+						draw_text(screenX + screenWidth-14, screenY + screenHeight-46, string(floor(par_character.XSpeed)));    
 						draw_set_halign(-1);
 					
 						draw_set_halign(fa_right);          
-						draw_text(screenX + screenWidth-14, screenY + screenHeight-46, string(floor(par_character.YSpeed)));    
+						draw_text(screenX + screenWidth-14, screenY + screenHeight-36, string(floor(par_character.YSpeed)));    
 						draw_set_halign(-1);
 				}
 			} 

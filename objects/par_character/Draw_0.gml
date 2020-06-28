@@ -52,8 +52,12 @@
    
    // Draw the Spindash Dust:
       if(Action = ActionSpindash or (Action = ActionPeelout && Animation = "PEELOUT")){
-         draw_sprite_ext(spr_spindash_dust, current_time div 40, floor(x-AnimationDirection*7), floor(y+13), AnimationDirection, 1, 0, c_white, 1);         
+         draw_sprite_ext(spr_spindash_dust, current_time div 40, floor(x-AnimationDirection*7), floor(y+13), AnimationDirection, 1, 0, c_white, Alpha);         
       }
+	  
+	  if (OnWater) {
+		  draw_sprite_ext(spr_water_run, current_time div 40, floor(x-sign(XSpeed)*5), floor(y+13), sign(XSpeed), 1, AnimationAngle, c_white, Alpha); 
+	  }
 	  
 	  if (debugFlag) {
 		  /*draw_sprite_ext(spr_mask_big, 0, floor(x), floor(y), 1, 1, 0, -1, 1);

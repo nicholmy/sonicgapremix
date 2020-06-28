@@ -51,6 +51,9 @@ with (other) {
       AngleHold           = 0;        // Used for smoothing angle values.
       AnimationAngle      = 0;        // Used to rotate the characters sprite.
       Layer               = 0;        // Characters collision layer. Used for loops and special paths.
+	  OnWater			  = 0;		  // If true, the player is running on water
+	  MinWaterSpeed		  = 6;
+	  WaterRunYWindow	  = 32;
 
    // Control Flags: 
       InputAlarm     = 0;        // Used for locking input temporarly when loosing speed on step slopes.
