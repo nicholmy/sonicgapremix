@@ -54,10 +54,14 @@
 		}
 		
 		// Water run exit conditions
-		if (KeyAction_Pressed or (abs(XSpeed) < MinWaterSpeed) or distanceToWater > WaterRunYWindow) {
+		if (KeyAction_Pressed or (abs(XSpeed) < MinWaterSpeed) or y > global.WaterSurfacePosition or distanceToWater > WaterRunYWindow) {
 			OnWater = false;
 			StopSound(snd_character_waterrun);
 		}
 	}
 	
+	if (Action = ActionHurt or Action = ActionDie) {
+		OnWater = false;
+		StopSound(snd_character_waterrun);
+	}
 	

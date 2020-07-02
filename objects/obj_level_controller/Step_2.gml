@@ -101,6 +101,7 @@
 	   instance_activate_object(spr_npc_sth3_bloominator_spike);
 	   instance_activate_object(obj_swingingclaw_short);
 	   instance_activate_object(obj_swingingclaw_claw);
+	   //instance_activate_object(obj_chandelier_manager);
        }
        
 

@@ -8,7 +8,7 @@
         "4d58ec8b-38f2-45db-add1-a7b906d5ca0c"
     ],
     "filterType": "GMObject",
-    "folderName": "Column Piece",
+    "folderName": "Falling Column Piece",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

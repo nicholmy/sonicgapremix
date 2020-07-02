@@ -108,11 +108,11 @@ if Cam_Subject = par_character
             if abs(Cam_Subject.y-Cam_Subject.yprevious) > 6
             {
                 if (Cam_Subject.y > Cam_YY && Cam_Subject.y < Cam_BottomLimit-VH)
-                Cam_YY += min(abs(Cam_Subject.y-Cam_YY),16);
+                Cam_YY += min(abs(Cam_Subject.y-Cam_YY),18);
                 
                 
                 if (Cam_Subject.y < Cam_YY && Cam_Subject.y > Cam_TopLimit+VH)
-                Cam_YY -= min(abs(Cam_YY-Cam_Subject.y),16);
+                Cam_YY -= min(abs(Cam_YY-Cam_Subject.y),18);
             }
         }
     }

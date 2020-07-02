@@ -127,7 +127,7 @@
      }
      
   // If the character is running, on the ground and presses down, roll!
-     if(Action = ActionNormal && Ground && abs(XSpeed) >= 1.03125 && KeyDown && !KeyLeft && !KeyRight){
+     if(Action = ActionNormal && Ground && abs(XSpeed) >= 1.03125 && KeyDown && !KeyLeft && !KeyRight && !InputLock_D){
      
         // Change the action:
            Action = ActionRolling;

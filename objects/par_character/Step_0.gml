@@ -232,8 +232,8 @@ if (Allow_YMovement) {
 
                  if(abs(XSpeed) <= abs(YSpeed) && RelativeAngle >= 22.5 && RelativeAngle <= 337.5){
                     XSpeed = -YSpeed*sign(sin(degtorad(RelativeAngle)));
-					// No speed penalty in this game!
-                    //if(RelativeAngle < 45 || RelativeAngle > 315) { XSpeed *= 0.5 }
+					// Reduced speed penalty instead of half
+                    if(RelativeAngle < 45 || RelativeAngle > 315) { XSpeed *= 0.75 }
                  }
   
                  //XSpeed -= sin(degtorad(Angle))*(YSpeed+ConversionFact);

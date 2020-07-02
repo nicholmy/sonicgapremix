@@ -60,6 +60,7 @@ with (other) {
       AlarmDirection = 0;        // For the above variable, this one locks either the right or left key.
       InputLock_L    = 0;        // Is the left input locked?
       InputLock_R    = 0;        // Is the right input locked?
+	  InputLock_D    = 0;        // Is the down input locked?
       InputLock_S    = 0;        // Is the input locked after using a spring?      
       LockTimer      = 0;        // Keep track how long the input is locked.
       LockControl    = 1;        // Looks the control.

@@ -1,4 +1,6 @@
 /// @description Move
-YSpeed += YGrv;
-x	 += XSpeed;
-y    += YSpeed;
+if (isActive) {
+	YSpeed += YGrv;
+	x	 += XSpeed;
+	y    += YSpeed;
+}

@@ -2,7 +2,7 @@
 // Script to perform the characters crouching.
 
     // Crouch down when the character is quiet on the ground and pressing down:
-    if((Ground && AmyHammerAttack = 0 && XSpeed == 0 && YSpeed == 0 && (Action == ActionNormal || Action = ActionGlidedrop) && AllowLookDown && KeyDown)){
+    if((Ground && AmyHammerAttack = 0 && XSpeed == 0 && YSpeed == 0 && (Action == ActionNormal || Action = ActionGlidedrop) && AllowLookDown && KeyDown && !InputLock_D)){
         FramesCount = 0;  
         TimerDown   = 0;    
         Action      = ActionCrouch;
