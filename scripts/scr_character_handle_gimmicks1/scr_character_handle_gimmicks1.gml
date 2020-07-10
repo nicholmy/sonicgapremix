@@ -71,3 +71,59 @@ if (Swing_Pole != noone && !Swing_Pole.isGrabbing) {
 	PlaySound(snd_character_hang, global.SFXVolume, 1, 1);
 	
 }*/
+
+var Springboard = scr_character_collision_bottom_object(x, y, Angle, spr_mask_main, obj_springboard);
+
+if (Springboard != noone and Springboard.state == 0) {
+	Springboard.state = 1;
+	Springboard.alarm[0] = 5;
+}
+
+if (Springboard != noone and Springboard.state == 1 and Springboard.alarm[0] = 1) {
+	//var rightX = Springboard.x + Springboard.sprite_width;
+	var boardCovered = (x - Springboard.x) / Springboard.sprite_width;
+	
+	if (boardCovered > 0.5) {
+		YSpeed = -8;
+	} else {
+		YSpeed = -4;
+	}
+	
+	scr_character_angle(global.GravityAngle);
+    Ground = false;
+    if(HomingUsed == true){
+        HomingUsed  = false;
+        XSpeed      = 0;
+    }                       
+    
+    Action = ActionSpring;
+    PlaySound(snd_object_spring, global.SFXVolume, 1, 1);
+}
+
+var Springboard_Left = scr_character_collision_bottom_object(x, y, Angle, spr_mask_main, obj_springboard_left);
+
+if (Springboard_Left != noone and Springboard_Left.state == 0) {
+	Springboard_Left.state = 1;
+	Springboard_Left.alarm[0] = 5;
+}
+
+if (Springboard_Left != noone and Springboard_Left.state == 1 and Springboard_Left.alarm[0] = 1) {
+	//var rightX = Springboard.x + Springboard.sprite_width;
+	var boardCovered = (x - Springboard_Left.x) / Springboard_Left.sprite_width;
+	
+	if (boardCovered < 0.5) {
+		YSpeed = -8;
+	} else {
+		YSpeed = -4;
+	}
+	
+	scr_character_angle(global.GravityAngle);
+    Ground = false;
+    if(HomingUsed == true){
+        HomingUsed  = false;
+        XSpeed      = 0;
+    }                       
+    
+    Action = ActionSpring;
+    PlaySound(snd_object_spring, global.SFXVolume, 1, 1);
+}

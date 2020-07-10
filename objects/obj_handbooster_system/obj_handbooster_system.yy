@@ -113,6 +113,20 @@
             "value": "12",
             "varName": "releaseSpeed",
             "varType": 0
+        },
+        {
+            "id": "bb72efc9-406d-41c7-87f0-47d99e11d584",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "launchDirection",
+            "varType": 1
         }
     ],
     "solid": false,

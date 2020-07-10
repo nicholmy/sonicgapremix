@@ -21,10 +21,14 @@ if (grabbedPlayer) {
 	grabbedPlayer.LockTimer = 0;
 	grabbedPlayer.InputLock_D = 0;
 	
-	grabbedPlayer.XSpeed = releaseSpeed;
+	grabbedPlayer.XSpeed = sign(launchDirection) * releaseSpeed;
 	grabbedPlayer.YSpeed = 0;
 	
-	grabbedPlayer.Action = ActionNormal;
+	if (grabbedPlayer.KeyDown) {
+		grabbedPlayer.Action = ActionRolling;
+	} else {
+		grabbedPlayer.Action = ActionNormal;
+	}
 	
 	grabbedPlayer = 0;
 	PlaySound(snd_character_spindash_release, global.SFXVolume, 1, 1);

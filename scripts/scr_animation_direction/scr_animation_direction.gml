@@ -61,4 +61,11 @@
             if(KeyLeft)  { AnimationDirection = -1 }      
              
      }
+	 
+	 if (Action = ActionWaterSlide) {
+			// The direction is only based on speed:
+            if(XSpeed > 0) { AnimationDirection =  1 }
+			
+			if(XSpeed < 0) { AnimationDirection =  -1 }
+	 }
 

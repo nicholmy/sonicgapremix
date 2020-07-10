@@ -53,7 +53,7 @@ if (state == 4 or state == 5) {
 	grabbedPlayer.LockTimer = 1;
 	grabbedPlayer.InputLock_D = 1;
 	
-	grabbedPlayer.XSpeed = 16;
+	grabbedPlayer.XSpeed = sign(launchDirection) * releaseSpeed;
 	grabbedPlayer.OnWater = 0;
 	
 	grabbedPlayer.Action = ActionNormal;
@@ -92,6 +92,7 @@ if (grabbedPlayer and grabbedPlayer.KeyAction_Pressed) {
 		grabbedPlayer.XSpeed = 5;
 		grabbedPlayer.YSpeed = -5;
 	}
+	grabbedPlayer.XSpeed *= sign(launchDirection);
 	grabbedPlayer.Action = ActionNormal;
 	
 	grabbedPlayer = 0;

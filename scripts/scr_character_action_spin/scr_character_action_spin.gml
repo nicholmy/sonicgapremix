@@ -6,7 +6,7 @@ if (Action == ActionSpin) {
 	Ground = 1;
 }
 
-/*if (Action == ActionSpin && KeyAction_Pressed) {
-	Action = ActionJump;
-	LockControl = 0;
-}*/
+if (Action == ActionWaterSlide && !Ground) {
+	Action = ActionNormal;
+	Animation = "HURT";
+}

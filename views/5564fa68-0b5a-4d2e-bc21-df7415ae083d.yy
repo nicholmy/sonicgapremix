@@ -9,7 +9,9 @@
         "1d2f13f1-edba-4f7f-9af2-afe644507eda",
         "b3b58fb5-5396-4796-9bd4-99052b3c1936",
         "f2b0c9d7-da61-4ddf-b51b-eb66c6f85af4",
-        "c3629300-1881-4d32-9e86-894badd5f54a"
+        "c3629300-1881-4d32-9e86-894badd5f54a",
+        "46881bdf-f027-4b70-a54c-b759b2b0d894",
+        "9f8d0d72-480e-451e-9e35-edf52eca37ad"
     ],
     "filterType": "GMSprite",
     "folderName": "STH2",

@@ -12,7 +12,9 @@
         "c3f4e592-972d-4d9e-b097-e16e6f92fe7e",
         "f3d67491-5fd4-40ac-b041-80a831b0b7b0",
         "4e550caf-8870-4e06-937f-dbeb8a71c678",
-        "836d4eac-d478-4605-9a30-68110007527a"
+        "836d4eac-d478-4605-9a30-68110007527a",
+        "da3ffc72-96c9-429c-b1a8-d688f5288020",
+        "7a3f184a-2086-4de2-81c1-17ea5441f371"
     ],
     "filterType": "GMSprite",
     "folderName": "STH 1",

@@ -220,6 +220,11 @@
 			  if(Action = ActionPoleSwing && Animation != "SGLIDE") {
 				  Animation = "SWING";
 			  }
+			  
+			  // Sliding Animation:
+              if(Action = ActionWaterSlide && Animation != "HURT"){
+                 Animation = "HURT";
+              }   
                                                                          
         }
         
@@ -345,6 +350,11 @@
               if(Action = ActionFan && Animation != "FAN"){
                  Animation = "Fan";
               }
+			  
+			  // Sliding Animation:
+              if(Action = ActionWaterSlide && Animation != "HURT"){
+                 Animation = "HURT";
+              } 
                                              
         }
         
@@ -510,6 +520,11 @@
               if(Action = ActionSpin && Animation != "SPIN"){
                  Animation = "SPIN";
               }
+			  
+			  // Sliding Animation:
+              if(Action = ActionWaterSlide && Animation != "HURT"){
+                 Animation = "HURT";
+              } 
         }
         
         // Edge Wobbling:
@@ -663,6 +678,11 @@
               if(Action = ActionSpin && Animation != "SPIN"){
                  Animation = "SPIN";
               }
+			  
+			  // Sliding Animation:
+              if(Action = ActionWaterSlide && Animation != "HURT"){
+                 Animation = "HURT";
+              } 
         }
         
         }else{ // Hammer attacks!

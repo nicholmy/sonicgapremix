@@ -18,7 +18,11 @@
         "47e33ab9-06ff-4139-bc4b-66f6e08abd71",
         "0f81364c-ea30-44a3-a354-94353da9f2ce",
         "2388b4bc-724d-4397-b0b2-ef18f480e7ae",
-        "1ba010f7-768f-4bb2-9fe7-da91f55531d9"
+        "1ba010f7-768f-4bb2-9fe7-da91f55531d9",
+        "38d839e3-b268-46f5-9491-cbaa3043878a",
+        "84bef9d9-335f-479c-908f-d8f73fcbb162",
+        "04b33d01-420d-4607-af41-7bca3ec00348",
+        "3f6c7094-8004-4a27-a96d-8f9b1c4cbd6c"
     ],
     "filterType": "GMSprite",
     "folderName": "Aquatic Ruin Zone",
