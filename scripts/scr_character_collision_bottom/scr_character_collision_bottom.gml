@@ -18,7 +18,7 @@
 
    // Special case: if the normal collision test failed, check for collision within platforms:
    // There's a weird collision bug with platforms when you're inside one and fall out the bottom in the air
-      if(!ColTest && !Ground && YSpeed >= 0){
+      if(!ColTest && YSpeed >= 0){
           ColTest = place_meeting(floor(argument0 + sin(degtorad(argument2)) * 11),
                                   floor(argument1 + cos(degtorad(argument2)) * 11),
                                   par_collision_platform) && 

@@ -36,7 +36,7 @@ with (other) {
       XSample        = 13;       // Pixel limit to divide horizontal movement; ignored if 0 or less
       YSample        = 13;       // Pixel limit to divide vertical movement; ignored if 0 or less
 
-   // Terain interaction:
+   // Terrain interaction:
       Ground              = false;    // Checks if the character has/is grounded.
       Landed              = false;    // Checks if the character just landed this frame.
       PlatformCheck       = false;    // Checks if the character has landed on a platform.

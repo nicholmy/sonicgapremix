@@ -511,8 +511,7 @@ with (other) {
        Ground = true;   
     }         
                      
-  // Jump:
-     scr_character_action_jump();  
+
      
   // Look up:     
      scr_character_action_lookup();    
@@ -524,7 +523,10 @@ with (other) {
      scr_character_action_spindash();   
            
   // Push:
-     scr_character_action_push();  
+     scr_character_action_push(); 
+	 
+	   // Jump:
+     scr_character_action_jump();  
      
   // Peelout:
      if(CharacterID == CharacterSonic){

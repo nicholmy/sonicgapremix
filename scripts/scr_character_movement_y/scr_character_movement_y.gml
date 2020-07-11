@@ -38,7 +38,6 @@
            
           // Check if for some reason we landed:     
              if(YSpeed >= 0 && scr_character_collision_bottom(x, y, Angle, spr_mask_big) == true){
-             
                 // We grounded:
                    Ground = true;
                    
@@ -51,7 +50,7 @@
                          Action = ActionNormal;
                       }
                       //Juuust to make sure...
-                      if (KeyDown) Action = ActionRolling;            
+                      //if (KeyDown) Action = ActionRolling;            
              }   
                                      
                 // Check if we're in the air but collided with the ceiling:

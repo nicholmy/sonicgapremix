@@ -99,7 +99,7 @@
 					draw_set_halign(-1);
 					
 					draw_set_halign(fa_left);          
-					draw_text(screenX + screenWidth-128, screenY + screenHeight-66, "LOOKDOWN");    
+					draw_text(screenX + screenWidth-128, screenY + screenHeight-66, "LOOKUP");    
 					draw_set_halign(-1);
 					
 					draw_set_halign(fa_left);          
@@ -129,7 +129,7 @@
 						draw_set_halign(-1);
 						
 						draw_set_halign(fa_right);          
-						draw_text(screenX + screenWidth-14, screenY + screenHeight-66, string(floor(par_character.InputLock_D)));    
+						draw_text(screenX + screenWidth-14, screenY + screenHeight-66, string(floor(par_character.AllowLookUp)));    
 						draw_set_halign(-1);
 					
 						draw_set_halign(fa_right);          
