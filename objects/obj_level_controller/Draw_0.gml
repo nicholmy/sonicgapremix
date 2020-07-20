@@ -149,14 +149,14 @@
 
 		
       }else{ // Draw the Ring counter in Bonus Stages.
-          draw_sprite(spr_main_hud, 2, __view_get( e__VW.XView, view_current )+floor(16), __view_get( e__VW.YView, view_current )+floor(9)); 
+          /*draw_sprite(spr_main_hud, 2, __view_get( e__VW.XView, view_current )+floor(16), __view_get( e__VW.YView, view_current )+floor(9)); 
           draw_set_font(global.Font_HUD){
              draw_set_color(c_white){
                 draw_set_halign(fa_right);          
                 draw_text(__view_get( e__VW.XView, view_current )+88, __view_get( e__VW.YView, view_current )+9, string_hash_to_newline(global.Rings));    
                 draw_set_halign(-1);                
              }
-          }
+          }*/
       }
 
 

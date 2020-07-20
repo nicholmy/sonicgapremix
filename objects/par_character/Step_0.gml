@@ -1,13 +1,14 @@
 /// @description  Death, Movement, Actions, Underwater
     if(Action = ActionDie){
-    
        if(DeathTimer == "NO"){
+		  Underwater = false;
           Angle = 0;
-          if(global.BonusStage == false){            
+          /*if(global.BonusStage == false){            
              YSpeed        = -7;
-          }          
+          } */
+		  YSpeed        = -7;
           DeathTimer    = 120;
-          //depth         = -999995;  
+          depth         = -999995;  
           if(instance_exists(obj_audio_manager)){
              with(obj_audio_manager){
                   DeadFade = true;
@@ -16,8 +17,8 @@
           if(global.BonusStage == false){          
              global.Lives -= 1;
              global.DoTime = 0;
-             PlaySound(snd_character_die, global.SFXVolume, 1, 0);
           }
+		  PlaySound(snd_character_die, global.SFXVolume, 1, 0);
           
           // Destroy Shields:
              if(ShieldChild != 0){

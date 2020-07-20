@@ -203,6 +203,20 @@
             "value": "True",
             "varName": "isActive",
             "varType": 3
+        },
+        {
+            "id": "cc008a90-9066-4443-8337-1c45b82b7855",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "hasStarted",
+            "varType": 3
         }
     ],
     "solid": false,

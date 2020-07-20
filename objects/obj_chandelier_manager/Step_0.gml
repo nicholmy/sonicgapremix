@@ -2,6 +2,11 @@
 // If within the screen
 isActive = rectangle_in_rectangle(bbox_left - 128, bbox_top - 128, bbox_right + 128, bbox_bottom + 256, __view_get( e__VW.XView, 0 ), __view_get( e__VW.YView, 0 ), __view_get( e__VW.XView, 0 ) + __view_get( e__VW.WView, 0 ), __view_get( e__VW.YView, 0 ) + __view_get( e__VW.HView, 0 ));   
 
+inView = point_in_rectangle(par_character.x, par_character.y, bbox_left - 128, bbox_top - 128, bbox_right + 128, bbox_bottom + 256)
+if (!hasStarted and inView) {
+	hasStarted = true;
+	alarm[0] = 1;
+}
 
 if (state == 0) {
 	chainLength = 0;

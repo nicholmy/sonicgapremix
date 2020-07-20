@@ -9,7 +9,7 @@ if (state == 0 && point_distance(x, y, par_character.x, par_character.y) < trigg
 }
 
 // Begin firing when moving out of range, start timer to reset
-if (state == 1 && point_distance(x, y, par_character.x, par_character.y) >= triggerDistance && par_character.Action != ActionDie) {
+if (state == 1 && abs(x - par_character.x) >= triggerDistance && par_character.Action != ActionDie) {
 	state = 2
 	currentImage = 0
 	

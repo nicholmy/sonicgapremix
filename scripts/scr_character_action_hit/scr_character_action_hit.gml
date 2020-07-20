@@ -11,7 +11,8 @@
           HurtHandler = argument0;
           
    // If we have rings, get hurt and create a ring drop:
-      if(global.Rings > 0 || Shield != ShieldDefault){
+   // You die instantly if you get hit in a bonus stage
+      if(!global.BonusStage && global.Rings > 0 || Shield != ShieldDefault){
          
           // Set the state to Hurt:
              Action        = ActionHurt;

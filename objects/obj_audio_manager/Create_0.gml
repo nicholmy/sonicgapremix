@@ -26,6 +26,7 @@
  
  // Bonus Stages:
     Gumball_Theme = (bgm_bonus_gumball);
+	Bonus_Theme = (bgm_3dsaturntitle);
  
  // Invincibility Themes:
     Invincibility_Normal    = (bgm_invincibility); // Default Invincibility Music.

@@ -86,7 +86,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "96",
+            "value": "128",
             "varName": "triggerDistance",
             "varType": 0
         },

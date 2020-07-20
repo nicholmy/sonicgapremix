@@ -22,6 +22,6 @@ if (moveState == 1) {
     vspeed = -dsin(deflectAngle) * NewSpeed * 2;
 }
 
-currentAge++
+if (canDie) currentAge++
 
 if (currentAge >= endAge) instance_destroy()

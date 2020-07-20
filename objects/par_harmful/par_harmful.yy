@@ -197,6 +197,20 @@
             "value": "0",
             "varName": "deflectAngle",
             "varType": 0
+        },
+        {
+            "id": "fa31d1a2-cb0a-448d-8015-c3707f47e330",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "canDie",
+            "varType": 3
         }
     ],
     "solid": false,

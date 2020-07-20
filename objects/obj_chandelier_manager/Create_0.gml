@@ -12,7 +12,6 @@ if (startLowered) {
 	alarm[1] = 60;
 } else {
 	state = 0;
-	alarm[0] = 5;
 }
 
 

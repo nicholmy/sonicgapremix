@@ -10,7 +10,7 @@
 		ZoneSetTheme(rm_StarStationZone, Sky_Station3, 0, -1, -1);
 		ZoneSetTheme(rm_TechTreeZone, Tech_Tree1, 0, -1, -1);
 		ZoneSetTheme(rm_TechTreeCourse, Tech_Tree1, 0, -1, -1);
-		ZoneSetTheme(rm_AquaticRuinZone, Test_Theme3, 0, -1, -1);
+		ZoneSetTheme(rm_AquaticRuinZone, Test_Theme, 0, -1, -1);
 		   
 		ZoneSetTheme(rm_test_zone, Test_Theme2, 0, -1, -1);
 		ZoneSetTheme(rm_test_zone2, Test_Theme2, 0, -1, -1);
@@ -29,6 +29,8 @@
 // Bonus Stages:
 	// Gumball:
 	    ZoneSetTheme(rm_bonus_gumball, Gumball_Theme, 0, -1, -1);
+	// Bonus Stages:
+		ZoneSetTheme(rm_bonus_aquaticruin1, Bonus_Theme, 0, -1, -1);
 
 /// Start Credits Theme.
     ZoneSetTheme(rm_flicky_credits, Credits_Theme, 0, -1, -1);

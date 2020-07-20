@@ -6,7 +6,7 @@ if (Action == ActionSpin) {
 	Ground = 1;
 }
 
-if (Action == ActionWaterSlide && !Ground) {
+if (Action == ActionWaterSlide && (!Ground || place_meeting(x, y, par_slide)) ) {
 	Action = ActionNormal;
 	Animation = "HURT";
 }
